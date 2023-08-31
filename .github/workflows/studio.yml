@@ -1,82 +1,77 @@
-
 name: studio-nuxt-build
 run-name: studio nuxt build
 
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches:
       - 'main'
-
-  # Allows you to run this workflow manually from the Actions tab
+  pull_request:
   workflow_dispatch:
 
-# Add write workflow permissions
 permissions:
   contents: write
 
-# Allow one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: true
 
 jobs:
-  # Build job
-  build-and-deploy:
-    runs-on: ${{ matrix.os }}
-    defaults:
-      run:
-        working-directory: .
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3.5.3
+      - name: Setup Node.js ${{ vars.NODE_VERSION }}
+        uses: actions/setup-node@v3.6.0
+        with:
+          node-version: ${{ vars.NODE_VERSION }}
+          cache: npm
 
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        node: [18]
+      - name: Install Dependencies
+        run: npm ci
 
+      - name: Lint
+        run: npm run lint
+
+  build:
+    runs-on: ubuntu-latest
+    name: Build
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Identify package manager
-        id: pkgman
-        run: |
-          cache=`[ -f "./pnpm-lock.yaml" ] && echo "pnpm" || ([ -f "./package-lock.json" ] && echo "npm" || ([ -f "./yarn.lock" ] && echo "yarn" || echo ""))`
-          package_manager=`[ ! -z "$cache" ] && echo "$cache" || echo "pnpm"`
-          echo "cache=$cache" >> $GITHUB_OUTPUT
-          echo "package_manager=$package_manager" >> $GITHUB_OUTPUT
-
-      - uses: pnpm/action-setup@v2.2.4
-        if: ${{ steps.pkgman.outputs.package_manager == 'pnpm' }}
-        name: Install pnpm
-        id: pnpm-install
+        uses: actions/checkout@v3.5.3
+      - name: Setup Node.js ${{ vars.NODE_VERSION }}
+        uses: actions/setup-node@v3.6.0
         with:
-          version: 7
-
-      - uses: actions/setup-node@v3
-        with:
-          version: ${{ matrix.node }}
-          cache: ${{ steps.pkgman.outputs.cache }}
+          node-version: ${{ vars.NODE_VERSION }}
+          cache: npm
 
       - name: Install dependencies
-        run: ${{ steps.pkgman.outputs.package_manager }} install
-
-      - name: Install @nuxthq/studio
-        run: ${{ steps.pkgman.outputs.package_manager }} add -D @nuxthq/studio
-
-      - name: Create .nuxtrc
-        run: echo 'modules[]=@nuxthq/studio' > .nuxtrc
+        run: npm ci
 
       - name: Generate
-        run: npx nuxi generate
+        run: npm run build
         env:
           NUXT_PUBLIC_STUDIO_API_URL: https://api.nuxt.studio
           NUXT_PUBLIC_STUDIO_TOKENS: a7a4a8150e674aaa18ba1f61a2b85a48e3bebd340e423fe906a484341d5d0876
 
-      - name: Add .nojekyll file
-        run: touch .output/public/.nojekyll
-
-        # Deployment job
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Upload Production Artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v1.0.9
         with:
-          folder: ./.output/public
+          path: .output/public
+
+    deploy:
+      name: Deploy
+      needs: [build]
+      if: github.event_name != 'pull_request'
+      runs-on: ubuntu-latest
+      permissions:
+        pages: write
+        id-token: write
+      environment:
+        name: github-pages
+        url: ${{ steps.deployment.outputs.page_url }}
+      steps:
+        - name: Deploy to GitHub Pages
+          id: deployment
+          uses: actions/deploy-pages@v2.0.2

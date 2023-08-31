@@ -1,0 +1,29 @@
+{
+  "name": "Node.js 18 + Vue.js + Markdown",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "DavidAnson.vscode-markdownlint",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "EditorConfig.EditorConfig",
+        "Nuxt.mdc",
+        "yzhang.markdown-all-in-one",
+        "Vue.volar"
+      ]
+    }
+  },
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "Nuxt Development Server",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "otherPortsAttributes": {
+    "onAutoForward": "ignore"
+  },
+  "postCreateCommand": "npm install",
+  "remoteUser": "node"
+}
