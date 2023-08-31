@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "nuxi dev",
-    "build": "nuxi generate",
+    "build": "nuxi build",
     "preview": "nuxi preview",
     "lint": "eslint ."
   },
