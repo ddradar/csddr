@@ -48,8 +48,8 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          NUXT_PUBLIC_STUDIO_API_URL: https://api.nuxt.studio
-          NUXT_PUBLIC_STUDIO_TOKENS: a7a4a8150e674aaa18ba1f61a2b85a48e3bebd340e423fe906a484341d5d0876
+          NUXT_PUBLIC_STUDIO_API_URL: ${{ vars.NUXT_PUBLIC_STUDIO_API_URL }}
+          NUXT_PUBLIC_STUDIO_TOKENS: ${{ vars.NUXT_PUBLIC_STUDIO_TOKENS }}
 
       - name: Upload Production Artifact
         if: github.event_name != 'pull_request'

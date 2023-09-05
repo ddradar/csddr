@@ -7,8 +7,10 @@
     "dev": "nuxi dev",
     "build": "nuxi build",
     "preview": "nuxi preview",
-    "format": "prettier --ignore-path .gitignore -l \"**/*.{js,ts,vue,json,yaml,yml,scss}\"",
-    "lint": "eslint --ext .js,.ts,.vue --ignore-path .gitignore ."
+    "fix": "run-p \"lint:eslint -- --fix\" \"lint:prettier -- --write\"",
+    "lint": "run-p lint:*",
+    "lint:eslint": "eslint --ext .js,.ts,.vue --ignore-path .gitignore .",
+    "lint:prettier": "prettier --ignore-path .gitignore -l \"**/*.{js,ts,vue,json,yaml,yml,scss}\""
   },
   "devDependencies": {
     "@nuxt-themes/docus": "^1.14.6",
@@ -19,6 +21,7 @@
     "@types/node": "^18.17.12",
     "eslint": "^8.48.0",
     "eslint-config-prettier": "^9.0.0",
+    "npm-run-all2": "^6.0.6",
     "nuxt": "^3.7.0",
     "prettier": "^3.0.3"
   }
