@@ -2,16 +2,16 @@
   <Badge
     v-for="(level, i) in levels"
     :key="i"
-    :title="chartTypes[charts[i]].name"
-    :type="chartTypes[charts[i]].type"
+    :title="types[charts[i]].name"
+    :type="types[charts[i]].type"
   >
     {{ level }}
   </Badge>
 </template>
 
 <script lang="ts" setup>
-interface Props {
-  chartTypes?: Record<number, { name: string; type: string }>
+interface ChartProps {
+  types?: Record<number, { name: string; type: string }>
   levels: (number | '?' | '10+')[]
   charts?: number[]
 }
@@ -23,9 +23,9 @@ const _defaultTypes = {
   4: { name: 'CHALLENGE', type: 'primary' },
 }
 
-withDefaults(defineProps<Props>(), {
-  chartTypes: () => _defaultTypes,
+withDefaults(defineProps<ChartProps>(), {
+  types: () => _defaultTypes,
   charts: p =>
-    Object.keys(p.chartTypes ?? _defaultTypes).map(s => parseInt(s, 10)),
+    Object.keys(p.types ?? _defaultTypes).map(s => parseInt(s, 10)),
 })
 </script>
