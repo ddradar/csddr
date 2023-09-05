@@ -15,16 +15,18 @@ interface ChartProps {
   levels: (number | '?' | '10+')[]
   charts?: number[]
 }
-const _defaultTypes = {
-  0: { name: 'BEGINNER', type: 'info' },
-  1: { name: 'BASIC', type: 'warning' },
-  2: { name: 'DIFFICULT', type: 'danger' },
-  3: { name: 'EXPERT', type: 'success' },
-  4: { name: 'CHALLENGE', type: 'primary' },
-}
 
 withDefaults(defineProps<ChartProps>(), {
-  types: () => _defaultTypes,
-  charts: p => Object.keys(p.types ?? _defaultTypes).map(s => parseInt(s, 10)),
+  types: () => ({
+    0: { name: 'BEGINNER', type: 'info' },
+    1: { name: 'BASIC', type: 'warning' },
+    2: { name: 'DIFFICULT', type: 'danger' },
+    3: { name: 'EXPERT', type: 'success' },
+    4: { name: 'CHALLENGE', type: 'primary' },
+  }),
+  charts: p =>
+    Object.keys(p.types ?? { 0: '', 1: '', 2: '', 3: '', 4: '' }).map(s =>
+      parseInt(s, 10)
+    ),
 })
 </script>
