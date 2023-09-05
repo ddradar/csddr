@@ -25,7 +25,6 @@ const _defaultTypes = {
 
 withDefaults(defineProps<ChartProps>(), {
   types: () => _defaultTypes,
-  charts: p =>
-    Object.keys(p.types ?? _defaultTypes).map(s => parseInt(s, 10)),
+  charts: p => Object.keys(p.types ?? _defaultTypes).map(s => parseInt(s, 10)),
 })
 </script>
