@@ -8,10 +8,6 @@ on:
   pull_request:
   workflow_dispatch:
 
-concurrency:
-  group: 'pages'
-  cancel-in-progress: true
-
 jobs:
   lint:
     name: Lint
@@ -60,6 +56,9 @@ jobs:
   deploy:
     name: Deploy
     needs: [build]
+    concurrency:
+      group: 'pages'
+      cancel-in-progress: true
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     permissions:
