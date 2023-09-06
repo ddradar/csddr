@@ -1,0 +1,32 @@
+# Please see the documentation for all configuration options:
+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/about-dependabot-version-updates
+
+version: 2
+updates:
+  # npm/yarn (/**/package.json)
+  - package-ecosystem: npm
+    directory: '/'
+    schedule:
+      interval: monthly
+      time: '08:00'
+      timezone: Japan
+    commit-message:
+      prefix: fix
+      prefix-development: chore
+      include: scope
+    labels:
+      - 'dependabot:robot:'
+    open-pull-requests-limit: 10
+
+  # GitHub Actions (/.github/workflows/*.yml)
+  - package-ecosystem: github-actions
+    directory: '/'
+    schedule:
+      interval: monthly
+      time: '08:00'
+      timezone: Japan
+    commit-message:
+      prefix: ci
+      include: scope
+    labels:
+      - 'dependabot:robot:'
