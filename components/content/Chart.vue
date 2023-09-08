@@ -25,8 +25,10 @@ withDefaults(defineProps<ChartProps>(), {
     4: { name: 'CHALLENGE', type: 'primary' },
   }),
   charts: p =>
-    Object.keys(p.types ?? { 0: '', 1: '', 2: '', 3: '', 4: '' }).map(s =>
-      parseInt(s, 10)
-    ),
+    p.types
+      ? Object.entries(p.types)
+          .filter(([_, d]) => !!d)
+          .map(([i]) => parseInt(i, 10))
+      : [0, 1, 2, 3, 4],
 })
 </script>
