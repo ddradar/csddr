@@ -1,57 +1,33 @@
-# Docus Starter
+# Consumer DDR
 
-Starter template for [Docus](https://docus.dev).
+[![release version](https://img.shields.io/github/v/release/ddradar/csddr "release version")](https://github.com/ddradar/csddr/releases)
+[![studio-nuxt-build](https://github.com/ddradar/csddr/actions/workflows/studio.yml/badge.svg)](https://github.com/ddradar/csddr/actions/workflows/studio.yml)
+[![CodeFactor](https://www.codefactor.io/repository/github/ddradar/csddr/badge)](https://www.codefactor.io/repository/github/ddradar/csddr)
+[![License](https://img.shields.io/github/license/ddradar/csddr)](LICENSE)
 
-## Clone
-
-Clone the repository (using `nuxi`):
-
-```bash
-npx nuxi init -t themes/docus
-```
-
-## Setup
-
-Install dependencies:
-
-```bash
-yarn install
-```
+家庭用DDR作品の曲リストです。(powered by [Docus](https://docus.dev))
 
 ## Development
 
-```bash
-yarn dev
-```
+### Environment
+- Node.js >= 18 (required)
 
-## Edge Side Rendering
-
-Can be deployed to Vercel Functions, Netlify Functions, AWS, and most Node-compatible environments.
-
-Look at all the available presets [here](https://v3.nuxtjs.org/guide/deploy/presets).
+### CLI Commands
 
 ```bash
-yarn build
+# 依存関係のインストール
+> npm install
+
+# コードの記法チェック (use ESLint & Prettier)
+> npm run lint
+# コードの記法チェック & 自動修正
+> npm run fix
+
+# 開発サーバーの起動 (see https://nuxt.com/docs/api/commands/dev)
+> npm run dev
+
+# 本番ビルド
+> npm run build
+# 本番ビルドした内容のプレビュー
+> npm run preview
 ```
-
-## Static Generation
-
-Use the `generate` command to build your application.
-
-The HTML files will be generated in the .output/public directory and ready to be deployed to any static compatible hosting.
-
-```bash
-yarn generate
-```
-
-## Preview build
-
-You might want to preview the result of your build locally, to do so, run the following command:
-
-```bash
-yarn preview
-```
-
----
-
-For a detailed explanation of how things work, check out [Docus](https://docus.dev).
