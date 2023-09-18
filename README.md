@@ -4,6 +4,7 @@
 [![studio-nuxt-build](https://github.com/ddradar/csddr/actions/workflows/studio.yml/badge.svg)](https://github.com/ddradar/csddr/actions/workflows/studio.yml)
 [![CodeFactor](https://www.codefactor.io/repository/github/ddradar/csddr/badge)](https://www.codefactor.io/repository/github/ddradar/csddr)
 [![License](https://img.shields.io/github/license/ddradar/csddr)](LICENSE)
+[![Nuxt Studio](https://img.shields.io/badge/Open%20in%20Nuxt%20Studio-18181B?&logo=nuxt.js&logoColor=3BB5EC)](https://nuxt.studio/@ddradar/csddr)
 
 家庭用DDR作品の曲リストです。(powered by [Docus](https://docus.dev))
 
@@ -11,6 +12,7 @@
 
 ### Environment
 - Node.js >= 18 (required)
+- Visual Studio Code または他のエディタ
 
 ### CLI Commands
 
