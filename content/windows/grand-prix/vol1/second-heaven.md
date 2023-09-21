@@ -1,0 +1,23 @@
+# Second Heaven / Ryu☆
+
+|Artist|BPM|From|
+|------|---|----|
+|Ryu☆|149|beatmania IIDX 14 GOLD|
+
+## 収録タイトル
+
+- [:icon{name="simple-icons:simple-icons:windows"} DDR GRAND PRIX グランプリ楽曲パック vol.1](/windows/grand-prix#グランプリ楽曲パック-vol1)
+
+## 譜面一覧
+
+|PlayStyle|Difficulty|Levels|Notes|Movie|
+|---------|----------|------|-----|-----|
+|SINGLE| :badge[BEGINNER]{type="info"} | :lv{type="info" :links='["/windows/grand-prix#グランプリ楽曲パック-vol1"]' :lv='[2]'} |93/0||
+|SINGLE| :badge[BASIC]{type="warning"} | :lv{type="warning" :links='["/windows/grand-prix#グランプリ楽曲パック-vol1"]' :lv='[5]'} |158/13||
+|SINGLE| :badge[DIFFICULT]{type="danger"} | :lv{type="danger" :links='["/windows/grand-prix#グランプリ楽曲パック-vol1"]' :lv='[9]'} |253/10||
+|SINGLE| :badge[EXPERT]{type="success"} | :lv{type="success" :links='["/windows/grand-prix#グランプリ楽曲パック-vol1"]' :lv='[11]'} |357/9||
+|SINGLE| :badge[CHALLENGE]{type="primary"} | :lv{type="primary" :links='["/windows/grand-prix#グランプリ楽曲パック-vol1"]' :lv='[14]'} |470/12||
+|DOUBLE| :badge[BASIC]{type="warning"} | :lv{type="warning" :links='["/windows/grand-prix#グランプリ楽曲パック-vol1"]' :lv='[5]'} |166/12||
+|DOUBLE| :badge[DIFFICULT]{type="danger"} | :lv{type="danger" :links='["/windows/grand-prix#グランプリ楽曲パック-vol1"]' :lv='[9]'} |246/5||
+|DOUBLE| :badge[EXPERT]{type="success"} | :lv{type="success" :links='["/windows/grand-prix#グランプリ楽曲パック-vol1"]' :lv='[11]'} |366/7||
+|DOUBLE| :badge[CHALLENGE]{type="primary"} | :lv{type="primary" :links='["/windows/grand-prix#グランプリ楽曲パック-vol1"]' :lv='[14]'} |464/20||
