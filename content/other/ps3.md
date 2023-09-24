@@ -95,7 +95,7 @@ chartTypes:
 - [Wicked Plastik](/other/ps3/wicked-plastik)
 - [Seasons](/other/ps3/seasons)
 - [MAX 300](/playstation2-jp/max/max-300)
-- [ever snow](/other/ps3/ever-snow-terra)
+- [ever snow](/other/ps3/ever-snow)
 - [DOUBLE TORNARD](/wii-jp/hottest/double-tornard)
 - [CRAZY♥LOVE](/other/ps3/crazy-love)
 - New York EVOLVED ([Type A](/other/ps3/new-york-evolved-type-a), [Type B](/other/ps3/new-york-evolved-type-b), [Type C](/other/ps3/new-york-evolved-type-c))
