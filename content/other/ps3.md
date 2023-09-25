@@ -60,7 +60,7 @@ chartTypes:
 |[Top The Charts](/other/ps3/top-the-charts)|J-Mi & Midi-D feat. Hanna Stockzell|160| :chart{:types="chartTypes" :levels='[2,4,6,8,8]' :charts='[0,1,2,3,5]'} |
 |[Flowers](/playstation2-jp/supernova/flowers)|TЁЯRA|160| :chart{:types="chartTypes" :levels='[1,4,6,8]'} |
 |[Curry Up](/other/ps3/curry-up)|OR-IF-IS|165| :chart{:types="chartTypes" :levels='[3,5,6,8,8]' :charts='[0,1,2,3,5]'} |
-|[TSUGARU (APPLE MIX)](/playstation2-jp/max2/tsugaru-apple)|RevenG VS DE-SIRE|165| :chart{:types="chartTypes" :levels='[3,4,6,8,9]' :charts='[0,1,2,3,4]'} |
+|[TSUGARU (APPLE MIX)](/playstation2-jp/max2/tsugaru-apple)|RevenG VS DE-SIRE|165| :chart{:types="chartTypes" :levels='[3,4,6,8,9]'} |
 |[The Way U Move](/other/ps3/the-way-u-move)|Bill Hamel & Derek James feat. Breana Skiles|135| :chart{:types="chartTypes" :levels='[3,5,6,8]'} |
 |[AFRONOVA](/playstation-jp/3rd/afronova)|RE-VENGE|200| :chart{:types="chartTypes" :levels='[2,5,7,9]'} |
 |[Wicked Plastik](/other/ps3/wicked-plastik)|nc ft. Electric Touch|145| :chart{:types="chartTypes" :levels='[3,4,6,9,9]' :charts='[0,1,2,3,5]'} |
