@@ -8,7 +8,7 @@
 
 - [ :icon{name="simple-icons:playstation2"} Dance Dance Revolution SuperNOVA2 :icon{name="flag:jp-4x3"} ](/playstation2-jp/supernova2)
 - [ :icon{name="simple-icons:playstation2"} DanceDanceRevolution X :icon{name="flag:us-4x3"} ](/playstation2-us/x)
-- [ :icon{name="simple-icons:simple-icons:windows"} DDR GRAND PRIX グランプリ楽曲パック vol.1](/windows/grand-prix#グランプリ楽曲パック-vol1)
+- [ :icon{name="simple-icons:windows"} DDR GRAND PRIX グランプリ楽曲パック vol.1](/windows/grand-prix#グランプリ楽曲パック-vol1)
 
 ## 譜面一覧
 
