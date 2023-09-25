@@ -67,7 +67,7 @@
 |[Tracers (4Beat Remix)](/playstation2-us/x/tracers)|Ruffage & Size|140| :chart{:levels='[2,5,7,10]'} | :chart{:levels='[6,8,11]' :charts='[1,2,3]'} |
 |[Trust -DanceDanceRevolution mix-](/playstation2-jp/supernova2/trust)|Tatsh feat. Yoko|164| :chart{:levels='[2,5,7,9]'} | :chart{:levels='[4,7,10]' :charts='[1,2,3]'} |
 |[Uranus](/playstation2-jp/supernova2/uranus)|Tatsh SN 2 Style|81-162| :chart{:levels='[3,7,9,11,13]'} | :chart{:levels='[7,9,11,14]' :charts='[1,2,3,4]'} |
-|[Venus](/playstation2-jp/supernova2/venus-tatsh)|Tatsh+RayZY|195| :chart{:levels='[2,4,7,10,12]'} | :chart{:levels='[4,6,10,12]' :charts='[1,2,3,4]'} |
+|[Venus](/playstation2-jp/supernova2/venus)|Tatsh+RayZY|195| :chart{:levels='[2,4,7,10,12]'} | :chart{:levels='[4,6,10,12]' :charts='[1,2,3,4]'} |
 |[Votum stellarum -forest #25 DDR RMX-](/playstation2-jp/supernova2/votum-stellarum)|iconoclasm|140| :chart{:levels='[1,4,8,12]'} | :chart{:levels='[4,6,11]' :charts='[1,2,3]'} |
 |[Waiting 4 u](/playstation2-us/x/waiting-4-u)|DDT|175| :chart{:levels='[3,6,8,11,11]'} | :chart{:levels='[6,8,12,12]' :charts='[1,2,3,4]'} |
 |[Why not](/playstation2-jp/supernova2/why-not)|Darwin|175| :chart{:levels='[3,5,9,10]'} | :chart{:levels='[6,8,10]' :charts='[1,2,3]'} |
