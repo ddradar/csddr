@@ -7,7 +7,7 @@
 ## 収録タイトル
 
 - [ :icon{name="simple-icons:wii"} ダンスダンスレボリューション フルフル♪パーティー :icon{name="flag:jp-4x3"} ](/wii-jp/furufuru)
-- [ :icon{name="simple-icons:simple-icons:windows"} DDR GRAND PRIX グランプリ楽曲パック vol.2](/windows/grand-prix#グランプリ楽曲パック-vol2)
+- [ :icon{name="simple-icons:windows"} DDR GRAND PRIX グランプリ楽曲パック vol.2](/windows/grand-prix#グランプリ楽曲パック-vol2)
 
 ## 譜面一覧
 

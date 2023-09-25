@@ -8,7 +8,7 @@
 
 - [ :icon{name="simple-icons:playstation2"} DanceDanceRevolution X2 :icon{name="flag:us-4x3"} ](/playstation2-us/x2)
 - [ :icon{name="simple-icons:wii"} DanceDanceRevolution MUSIC FIT :icon{name="flag:jp-4x3"} ](/wii-jp/music-fit)
-- [ :icon{name="simple-icons:simple-icons:windows"} DDR GRAND PRIX グランプリ楽曲パック vol.10](/windows/grand-prix#グランプリ楽曲パック-vol10)
+- [ :icon{name="simple-icons:windows"} DDR GRAND PRIX グランプリ楽曲パック vol.10](/windows/grand-prix#グランプリ楽曲パック-vol10)
 
 ## 譜面一覧
 
