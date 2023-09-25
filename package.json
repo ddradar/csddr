@@ -13,7 +13,7 @@
     "lint:prettier": "prettier --ignore-path .gitignore -l \"**/*.{js,cjs,ts,vue,json,yaml,yml,scss}\""
   },
   "devDependencies": {
-    "@nuxt-themes/docus": "^1.14.6",
+    "@nuxt-themes/docus": "^1.14.7",
     "@nuxt/content": "2.7.2",
     "@nuxt/devtools": "^0.8.4",
     "@nuxt/eslint-config": "^0.2.0",
