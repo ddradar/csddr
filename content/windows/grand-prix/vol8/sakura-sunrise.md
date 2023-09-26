@@ -6,7 +6,7 @@
 
 ## 収録タイトル
 
-- [:icon{name="simple-icons:simple-icons:windows"} DDR GRAND PRIX グランプリ楽曲パック vol.8](/windows/grand-prix#グランプリ楽曲パック-vol8)
+- [ :icon{name="simple-icons:simple-icons:windows"} DDR GRAND PRIX グランプリ楽曲パック vol.8](/windows/grand-prix#グランプリ楽曲パック-vol8)
 
 ## 譜面一覧
 
