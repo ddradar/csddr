@@ -6,7 +6,7 @@
 
 ## 収録タイトル
 
-- [ :icon{name="simple-icons:playstation2"} Dance Dance Revolution SuperNOVA2 :icon{name="flag:jp-4x3"(/playstation2-jp/supernova2)
+- [ :icon{name="simple-icons:playstation2"} Dance Dance Revolution SuperNOVA2 :icon{name="flag:jp-4x3"} ](/playstation2-jp/supernova2)
 - [ :icon{name="simple-icons:simple-icons:windows"} DDR GRAND PRIX グランプリ楽曲パック vol.8](/windows/grand-prix#グランプリ楽曲パック-vol8)
 
 ## 譜面一覧
