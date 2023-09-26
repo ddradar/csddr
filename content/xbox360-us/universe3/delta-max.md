@@ -22,4 +22,4 @@
 |DOUBLE| :badge[DIFFICULT]{type="danger"} | :lv{type="danger" :links='["/windows/grand-prix#グランプリ楽曲パック-vol1"]' :lv='[14]'} |463/40||
 |DOUBLE| :badge[EXPERT]{type="success"} | :lv{type="success" :links='["/windows/grand-prix#グランプリ楽曲パック-vol1"]' :lv='[17]'} |573/14||
 |DOUBLE| :badge[CHALLENGE]{type="primary"} | :lv{type="primary" :links='["/windows/grand-prix#グランプリ楽曲パック-vol1"]' :lv='[18]'} |595/60||
-<!-- |DOUBLE| :badge[BEGINNER]{type="info"} | :lv{type="info" :links='["/xbox360-us/universe3"]' :lv='[?]'} ||| -->
+<!-- |DOUBLE| :badge[BEGINNER]{type="info"} | :lv{type="info" :links='["/xbox360-us/universe3"]' :lv='["?"]'} ||| -->
