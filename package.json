@@ -18,7 +18,7 @@
     "@nuxt/devtools": "^0.8.5",
     "@nuxt/eslint-config": "^0.2.0",
     "@nuxthq/studio": "^0.14.1",
-    "@types/node": "^18.17.12",
+    "@types/node": "^18.18.1",
     "eslint": "^8.48.0",
     "eslint-config-prettier": "^9.0.0",
     "npm-run-all2": "^6.0.6",
