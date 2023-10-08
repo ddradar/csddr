@@ -66,7 +66,7 @@
 |[Healing Vision (Angelic mix)](/playstation-jp/5th/healing-vision-angelic)|2MB|196| :chart{:levels='[5,7,10,13]'} | :chart{:levels='[8,10,14]' :charts='[1,2,3]'} |
 |[La Señorita Virtual](/playstation-jp/3rd/la-senorita-virtual)|2MB|182| :chart{:levels='[4,8,10,12]'} | :chart{:levels='[9,10,12]' :charts='[1,2,3]'} |
 |[LOVE THIS FEELIN'](/playstation-jp/2nd/love-this-feelin)|Chang ma|95-190| :chart{:levels='[4,9,10,11]'} | :chart{:levels='[9,10,11]' :charts='[1,2,3]'} |
-|[MAXIMIZER](/playstation2-us/extreme/maximizer)|CLI-MAX S.|190| :chart{:levels='[5,6,9,12]'} | :chart{:levels='[6,9,11]' :charts='[1,2,3]'} |
+|[MAXIMIZER](/playstation2-jp/festival/maximizer)|CLI-MAX S.|190| :chart{:levels='[5,6,9,12]'} | :chart{:levels='[6,9,11]' :charts='[1,2,3]'} |
 |[ORION.78 (civilization mix)](/playstation-jp/4th/orion-78-civilization)|2MB|200| :chart{:levels='[4,9,12,13]'} | :chart{:levels='[9,11,13]' :charts='[1,2,3]'} |
 |[PARANOiA KCET \~clean mix\~](/playstation-jp/1st/paranoia-kcet)|2MB|180| :chart{:levels='[4,8,9,11]'} | :chart{:levels='[8,10,10]' :charts='[1,2,3]'} |
 |[PARANOiA MAX \~DIRTY MIX\~](/playstation-jp/1st/paranoia-max)|190|190| :chart{:levels='[5,9,10,12]'} | :chart{:levels='[10,12,11]' :charts='[1,2,3]'} |
