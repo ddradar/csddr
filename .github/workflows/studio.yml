@@ -46,6 +46,7 @@ jobs:
         env:
           NUXT_PUBLIC_STUDIO_API_URL: ${{ vars.NUXT_PUBLIC_STUDIO_API_URL }}
           NUXT_PUBLIC_STUDIO_TOKENS: ${{ vars.NUXT_PUBLIC_STUDIO_TOKENS }}
+          NODE_OPTIONS: --max-old-space-size=8192
 
       - name: Upload Production Artifact
         if: github.event_name != 'pull_request'
