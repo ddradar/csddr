@@ -10,6 +10,14 @@ updates:
       interval: monthly
       time: '08:00'
       timezone: Japan
+    groups:
+      lint-tools:
+        dependency-type: development
+        patterns:
+          - '@nuxt/eslint-config'
+          - 'eslint*'
+          - npm-run-all2
+          - prettier
     commit-message:
       prefix: fix
       prefix-development: chore
