@@ -1,6 +1,6 @@
 ---
 navigation:
-  icon: simple-icons:playstation3
+  icon: i-simple-icons-playstation3
 colors:
   0: { name: 'BEGINNER', color: 'blue' }
   1: { name: 'BASIC', color: 'yellow' }
@@ -14,7 +14,7 @@ colors:
 
 |発売日|機種|リージョン|
 |------|----|---------|
-|2010-11-16|Play Station 3| :icon{name="flag:us-4x3"} |
+|2010-11-16|Play Station 3| :u-icon{name="i-flag-us-4x3"} |
 
 ## 収録曲リスト
 

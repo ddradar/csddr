@@ -24,6 +24,11 @@ export default defineAppConfig({
       },
     ],
   },
+  toc: {
+    bottom: {
+      edit: 'https://github.com/ddradar/csddr/edit/main/content',
+    },
+  },
   footer: {
     credits: 'Copyright © 2023-2024 DDRadar',
     colorMode: false,

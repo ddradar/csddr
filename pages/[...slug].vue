@@ -1,9 +1,7 @@
 <script setup lang="ts">
 import { withoutTrailingSlash } from 'ufo'
 
-definePageMeta({
-  layout: 'docs',
-})
+definePageMeta({ layout: 'docs' })
 
 const route = useRoute()
 const { toc, seo } = useAppConfig()
@@ -39,8 +37,6 @@ defineOgImage({
   title: page.value.title,
   description: page.value.description,
 })
-
-const headline = computed(() => findPageHeadline(page.value))
 
 const links = computed(() =>
   [

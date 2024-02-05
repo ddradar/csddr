@@ -13,6 +13,7 @@
     "lint:prettier": "prettier --ignore-path .gitignore -l \"**/*.{js,cjs,ts,vue,json,yaml,yml,scss}\""
   },
   "dependencies": {
+    "@iconify-json/flag": "^1.1.48",
     "@iconify-json/heroicons": "^1.1.19",
     "@iconify-json/simple-icons": "^1.1.90",
     "@nuxt/content": "^2.11.0",

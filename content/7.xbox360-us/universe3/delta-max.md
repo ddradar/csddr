@@ -6,8 +6,8 @@
 
 ## 収録タイトル
 
-- :icon{name="simple-icons:xbox"} DanceDanceRevolution UNIVERSE3 :icon{name="flag:us-4x3"}
-- [ :icon{name="simple-icons:simple-icons:windows"} DDR GRAND PRIX グランプリ楽曲パック vol.1](/grand-prix#グランプリ楽曲パック-vol1)
+- :u-icon{name="i-simple-icons-xbox"} DanceDanceRevolution UNIVERSE3 :u-icon{name="i-flag-us-4x3"}
+- [ :u-icon{name="i-simple-icons-windows"} DDR GRAND PRIX グランプリ楽曲パック vol.1](/grand-prix#グランプリ楽曲パック-vol1)
 
 ## 譜面一覧
 

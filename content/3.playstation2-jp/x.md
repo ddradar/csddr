@@ -2,7 +2,7 @@
 
 |発売日|機種|リージョン|
 |------|----|---------|
-|2009-01-29|Play Station 2| :icon{name="flag:jp-4x3"} |
+|2009-01-29|Play Station 2| :u-icon{name="i-flag-jp-4x3"} |
 
 ## 収録曲リスト
 
