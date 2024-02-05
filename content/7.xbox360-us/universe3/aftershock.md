@@ -13,11 +13,11 @@
 
 |PlayStyle|Difficulty|Levels|Notes|Movie|
 |---------|----------|------|-----|-----|
-|SINGLE| :badge[BEGINNER]{type="info"} | :lv{type="info" :links='["/xbox360-us/universe3","/grand-prix#グランプリ楽曲パック-vol20"]' :lv='["?",3]'} |125/0||
-|SINGLE| :badge[BASIC]{type="warning"} | :lv{type="warning" :links='["/xbox360-us/universe3","/grand-prix#グランプリ楽曲パック-vol20"]' :lv='[4,5]'} |141/42||
-|SINGLE| :badge[DIFFICULT]{type="danger"} | :lv{type="danger" :links='["/xbox360-us/universe3","/grand-prix#グランプリ楽曲パック-vol20"]' :lv='[6,9]'} |304/43||
-|SINGLE| :badge[EXPERT]{type="success"} | :lv{type="success" :links='["/xbox360-us/universe3","/grand-prix#グランプリ楽曲パック-vol20"]' :lv='[9,13]'} |447/14||
-|DOUBLE| :badge[BEGINNER]{type="info"} | :lv{type="info" :links='["/xbox360-us/universe3"]' :lv='["?"]'} |96/14||
-|DOUBLE| :badge[BASIC]{type="warning"} | :lv{type="warning" :links='["/xbox360-us/universe3","/grand-prix#グランプリ楽曲パック-vol20"]' :lv='[4,5]'} |134/37||
-|DOUBLE| :badge[DIFFICULT]{type="danger"} | :lv{type="danger" :links='["/xbox360-us/universe3","/grand-prix#グランプリ楽曲パック-vol20"]' :lv='[7,9]'} |304/43||
-|DOUBLE| :badge[EXPERT]{type="success"} | :lv{type="success" :links='["/xbox360-us/universe3","/grand-prix#グランプリ楽曲パック-vol20"]' :lv='[9,13]'} |427/14||
+|SINGLE| :u-badge[BEGINNER]{color="blue"} | :lv{color="blue" :links='["/xbox360-us/universe3","/grand-prix#グランプリ楽曲パック-vol20"]' :lv='["?",3]'} |125/0||
+|SINGLE| :u-badge[BASIC]{color="yellow"} | :lv{color="yellow" :links='["/xbox360-us/universe3","/grand-prix#グランプリ楽曲パック-vol20"]' :lv='[4,5]'} |141/42||
+|SINGLE| :u-badge[DIFFICULT]{color="red"} | :lv{color="red" :links='["/xbox360-us/universe3","/grand-prix#グランプリ楽曲パック-vol20"]' :lv='[6,9]'} |304/43||
+|SINGLE| :u-badge[EXPERT]{color="green"} | :lv{color="green" :links='["/xbox360-us/universe3","/grand-prix#グランプリ楽曲パック-vol20"]' :lv='[9,13]'} |447/14||
+|DOUBLE| :u-badge[BEGINNER]{color="blue"} | :lv{color="blue" :links='["/xbox360-us/universe3"]' :lv='["?"]'} |96/14||
+|DOUBLE| :u-badge[BASIC]{color="yellow"} | :lv{color="yellow" :links='["/xbox360-us/universe3","/grand-prix#グランプリ楽曲パック-vol20"]' :lv='[4,5]'} |134/37||
+|DOUBLE| :u-badge[DIFFICULT]{color="red"} | :lv{color="red" :links='["/xbox360-us/universe3","/grand-prix#グランプリ楽曲パック-vol20"]' :lv='[7,9]'} |304/43||
+|DOUBLE| :u-badge[EXPERT]{color="green"} | :lv{color="green" :links='["/xbox360-us/universe3","/grand-prix#グランプリ楽曲パック-vol20"]' :lv='[9,13]'} |427/14||
