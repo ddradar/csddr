@@ -10,7 +10,8 @@
     "fix": "run-p \"lint:eslint -- --fix\" \"lint:prettier -- --write\"",
     "lint": "run-p lint:*",
     "lint:eslint": "eslint --ext .js,.cjs,.ts,.vue --ignore-path .gitignore .",
-    "lint:prettier": "prettier --ignore-path .gitignore -l \"**/*.{js,cjs,ts,vue,json,yaml,yml,scss}\""
+    "lint:prettier": "prettier --ignore-path .gitignore -l \"**/*.{js,cjs,ts,vue,json,yaml,yml,scss}\"",
+    "lint:tsc": "nuxi typecheck"
   },
   "dependencies": {
     "@iconify-json/flag": "^1.1.48",
@@ -24,7 +25,6 @@
     "nuxt-og-image": "^2.2.4"
   },
   "devDependencies": {
-    "@nuxt-themes/docus": "^1.15.0",
     "@nuxt/devtools": "^1.0.6",
     "@nuxt/eslint-config": "^0.2.0",
     "@nuxthq/studio": "^1.0.10",

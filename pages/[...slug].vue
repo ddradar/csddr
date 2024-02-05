@@ -46,7 +46,6 @@ const links = computed(() =>
       to: `${toc.bottom.edit}/${page?.value?._file}`,
       target: '_blank',
     },
-    ...(toc?.bottom?.links || []),
   ].filter(Boolean)
 )
 </script>
@@ -62,15 +61,14 @@ const links = computed(() =>
     </UPageBody>
 
     <template v-if="page.toc !== false" #right>
-      <UDocsToc :title="toc?.title" :links="page.body?.toc?.links">
+      <UDocsToc :links="page.body?.toc?.links">
         <template v-if="toc?.bottom" #bottom>
           <div
             class="hidden lg:block space-y-6"
             :class="{ '!mt-6': page.body?.toc?.links?.length }"
           >
             <UDivider v-if="page.body?.toc?.links?.length" type="dashed" />
-
-            <UPageLinks :title="toc.bottom.title" :links="links" />
+            <UPageLinks :links="links" />
           </div>
         </template>
       </UDocsToc>

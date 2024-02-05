@@ -31,7 +31,7 @@ withDefaults(defineProps<ChartProps>(), {
           .filter(([_, d]) => !!d)
           .map(([i]) => parseInt(i, 10))
       : p.dp
-      ? [0, 1, 2, 3, 4]
-      : [1, 2, 3, 4],
+        ? [0, 1, 2, 3, 4]
+        : [1, 2, 3, 4],
 })
 </script>
