@@ -1,28 +1,31 @@
 export default defineAppConfig({
-  docus: {
-    title: 'Consumer DDR',
-    description: 'Consumer DDR Song List',
-    socials: { github: 'ddradar/csddr' },
-    github: {
-      dir: '/content',
-      branch: 'main',
-      repo: 'csddr',
-      owner: 'ddradar',
-      edit: true,
+  ui: {
+    primary: 'green',
+    gray: 'slate',
+    footer: {
+      bottom: {
+        left: 'text-sm text-gray-500 dark:text-gray-400',
+        wrapper: 'border-t border-gray-200 dark:border-gray-800',
+      },
     },
-    aside: {
-      level: 0,
-      collapsed: true,
-      exclude: [],
-    },
-    main: {
-      padded: true,
-      fluid: true,
-    },
-    header: {
-      showLinkIcon: true,
-      exclude: [],
-      fluid: true,
-    },
+  },
+  seo: {
+    siteName: 'Consumer DDR',
+  },
+  header: {
+    search: true,
+    colorMode: true,
+    links: [
+      {
+        icon: 'i-simple-icons-github',
+        'aria-label': 'GitHub Repository',
+        to: 'https://github.com/ddradar/csddr',
+        target: '_blank',
+      },
+    ],
+  },
+  footer: {
+    credits: 'Copyright © 2023-2024 DDRadar',
+    colorMode: false,
   },
 })
