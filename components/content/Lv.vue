@@ -1,12 +1,12 @@
 <template>
   <NuxtLink v-for="(l, i) in links" :key="l" :to="l">
-    <Badge :type="type">{{ lv[i] ?? lv[0] }}</Badge>
+    <UBadge :color="color">{{ lv[i] ?? lv[0] }}</UBadge>
   </NuxtLink>
 </template>
 
 <script lang="ts" setup>
 interface LevelProps {
-  type?: string
+  color?: string
   links: string[]
   lv: (string | number)[]
 }

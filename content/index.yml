@@ -1,0 +1,10 @@
+title: 'Consumer DDR'
+description: 'Consumer DDR Song List'
+navigation: false
+features:
+  title: シリーズから探す
+  items:
+    - title: 'DanceDanceRevolution GRAND PRIX'
+      description: DanceDanceRevolutionがPCで遊べる!
+      icon: 'i-simple-icons-windows'
+      to: '/grand-prix'
