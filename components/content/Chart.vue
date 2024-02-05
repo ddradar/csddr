@@ -1,34 +1,37 @@
 <template>
-  <Badge
+  <UBadge
     v-for="(level, i) in levels"
     :key="i"
-    :title="types[charts[i]].name"
-    :type="types[charts[i]].type"
+    :title="colors[charts[i]].name"
+    :color="colors[charts[i]].color"
   >
     {{ level }}
-  </Badge>
+  </UBadge>
 </template>
 
 <script lang="ts" setup>
 interface ChartProps {
-  types?: Record<number, { name: string; type: string }>
+  colors?: Record<number, { name: string; color: string }>
   levels: (number | '?' | '10+')[]
   charts?: number[]
+  dp?: boolean
 }
 
 withDefaults(defineProps<ChartProps>(), {
-  types: () => ({
-    0: { name: 'BEGINNER', type: 'info' },
-    1: { name: 'BASIC', type: 'warning' },
-    2: { name: 'DIFFICULT', type: 'danger' },
-    3: { name: 'EXPERT', type: 'success' },
-    4: { name: 'CHALLENGE', type: 'primary' },
+  colors: () => ({
+    0: { name: 'BEGINNER', color: 'blue' },
+    1: { name: 'BASIC', color: 'yellow' },
+    2: { name: 'DIFFICULT', color: 'red' },
+    3: { name: 'EXPERT', color: 'green' },
+    4: { name: 'CHALLENGE', color: 'purple' },
   }),
   charts: p =>
-    p.types
-      ? Object.entries(p.types)
+    p.colors
+      ? Object.entries(p.colors)
           .filter(([_, d]) => !!d)
           .map(([i]) => parseInt(i, 10))
-      : [0, 1, 2, 3, 4],
+      : p.dp
+      ? [0, 1, 2, 3, 4]
+      : [1, 2, 3, 4],
 })
 </script>
