@@ -14,7 +14,7 @@ updates:
       lint-tools:
         dependency-type: development
         patterns:
-          - '@nuxt/eslint-config'
+          - '@nuxt/eslint'
           - 'eslint*'
           - npm-run-all2
           - prettier
@@ -23,7 +23,7 @@ updates:
       prefix-development: chore
       include: scope
     labels:
-      - 'dependabot:robot:'
+      - 'dependabot :robot:'
     open-pull-requests-limit: 10
 
   # GitHub Actions (/.github/workflows/*.yml)
@@ -37,4 +37,4 @@ updates:
       prefix: ci
       include: scope
     labels:
-      - 'dependabot:robot:'
+      - 'dependabot :robot:'
