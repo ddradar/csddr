@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "prepare": "nuxi prepare",
     "dev": "nuxi dev",
     "build": "nuxi build",
     "preview": "nuxi preview",
