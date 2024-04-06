@@ -9,7 +9,7 @@
     "preview": "nuxi preview",
     "fix": "run-p \"lint:eslint -- --fix\" \"lint:prettier -- --write\"",
     "lint": "run-p lint:*",
-    "lint:eslint": "eslint --ext .js,.cjs,.ts,.vue --ignore-path .gitignore .",
+    "lint:eslint": "eslint .",
     "lint:prettier": "prettier --ignore-path .gitignore -l \"**/*.{js,cjs,ts,vue,json,yaml,yml,scss}\"",
     "lint:tsc": "nuxi typecheck"
   },
