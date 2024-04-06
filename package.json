@@ -4,13 +4,14 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "prepare": "nuxi prepare",
     "dev": "nuxi dev",
     "build": "nuxi build",
     "preview": "nuxi preview",
     "fix": "run-p \"lint:eslint -- --fix\" \"lint:prettier -- --write\"",
     "lint": "run-p lint:*",
-    "lint:eslint": "eslint --ext .js,.cjs,.ts,.vue --ignore-path .gitignore .",
-    "lint:prettier": "prettier --ignore-path .gitignore -l \"**/*.{js,cjs,ts,vue,json,yaml,yml,scss}\"",
+    "lint:eslint": "eslint .",
+    "lint:prettier": "prettier --ignore-path .gitignore -l \"**/*.{js,cjs,mjs,ts,vue,json,yaml,yml}\"",
     "lint:tsc": "nuxi typecheck"
   },
   "dependencies": {
@@ -23,7 +24,7 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "^1.0.8",
-    "@nuxt/eslint-config": "^0.2.0",
+    "@nuxt/eslint": "^0.3.1",
     "@nuxt/fonts": "^0.6.1",
     "@nuxthq/studio": "^1.0.13",
     "@types/node": "^18.19.30",
