@@ -11,7 +11,7 @@ const { header } = useAppConfig()
     <template #logo>Consumer DDR</template>
 
     <template #center>
-      <UDocsSearchButton class="hidden lg:flex" />
+      <UContentSearchButton class="hidden lg:flex" />
     </template>
 
     <template #right>
