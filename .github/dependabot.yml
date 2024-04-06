@@ -25,6 +25,7 @@ updates:
     labels:
       - 'dependabot :robot:'
     open-pull-requests-limit: 10
+    milestone: 3
 
   # GitHub Actions (/.github/workflows/*.yml)
   - package-ecosystem: github-actions
@@ -38,3 +39,4 @@ updates:
       include: scope
     labels:
       - 'dependabot :robot:'
+    milestone: 3
