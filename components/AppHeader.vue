@@ -15,7 +15,7 @@ const { header } = useAppConfig()
     </template>
 
     <template #right>
-      <UDocsSearchButton :label="null" class="lg:hidden" />
+      <UContentSearchButton :label="null" class="lg:hidden" />
 
       <UColorModeButton />
 
