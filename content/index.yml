@@ -1,10 +1,228 @@
-title: 'Consumer DDR'
-description: 'Consumer DDR Song List'
+title: Consumer DDR
+description: Consumer DDR Song List
 navigation: false
 features:
-  title: シリーズから探す
-  items:
-    - title: 'DanceDanceRevolution GRAND PRIX'
-      description: DanceDanceRevolutionがPCで遊べる!
-      icon: 'i-simple-icons-windows'
-      to: '/grand-prix'
+  - title: DDR GRAND PRIX
+    items:
+      - title: グランプリ楽曲パック vol.23, vol.24
+        icon: i-simple-icons-windows
+        description: 先行プレー特典あり
+        date: '2023-12-21'
+        to: '/grand-prix#グランプリ楽曲パック-vol23'
+      - title: スペシャル楽曲パック feat.ひなビタ♪ vol.1, vol.2
+        icon: i-simple-icons-konami
+        description: 先行プレー特典あり
+        date: '2023-12-21'
+        to: '/grand-prix#スペシャル楽曲パック-featひなビタ-vol1'
+      - title: スペシャル楽曲パック feat.東方Project vol.3, vol.4
+        icon: i-simple-icons-windows
+        description: 先行プレー特典あり
+        date: '2023-11-08'
+        to: '/grand-prix#スペシャル楽曲パック-feat東方project-vol3'
+      - title: スペシャル楽曲パック feat.UNDERTALE
+        icon: i-simple-icons-undertale
+        description: 先行プレー特典あり
+        date: '2023-08-10'
+        to: '/grand-prix#スペシャル楽曲パック-featundertale'
+      - title: BPL S2楽曲パック vol.1, vol.2, vol.3, vol.4, vol.5, vol.6, vol.7, vol.8
+        icon: i-simple-icons-redbull
+        description: 先行プレー特典あり
+        date: '2023-07-06'
+        to: '/grand-prix#bpl-s2楽曲パック-vol1'
+      - title: グランプリ楽曲パック vol.19, vol.20, vol.21, vol.22
+        icon: i-simple-icons-windows
+        description: 先行プレー特典あり
+        date: '2023-05-25'
+        to: '/grand-prix#グランプリ楽曲パック-vol19'
+      - title: BPL S2楽曲パック vol.0
+        icon: i-simple-icons-redbull
+        description: 先行プレー特典あり
+        date: '2023-05-25'
+        to: '/grand-prix#bpl-s2楽曲パック-vol0'
+      - title: スペシャル楽曲パック feat.REFLEC BEAT vol.1, vol.2
+        icon: i-simple-icons-konami
+        description: 先行プレー特典あり
+        date: '2023-04-24'
+        to: '/grand-prix#スペシャル楽曲パック-featreflec-beat-vol1'
+      - title: DanceDanceRevolution GRAND PRIX
+        icon: i-simple-icons-windows
+        description: DanceDanceRevolutionがPCで遊べる!
+        date: '2021-11-08'
+        to: '/grand-prix'
+  - title: PlayStation シリーズ(日本版)
+    items:
+      - title: DanceDanceRevolution X
+        description: 革命の<ruby>瞬間<rt>とき</rt></ruby>を見逃すな!
+        date: '2009-01-29'
+        icon: i-simple-icons-playstation2
+        to: '/playstation2-jp/x'
+      - title: Dance Dance Revolution SuperNOVA2
+        description: 超新星の煌めき、再び!!
+        date: '2008-02-21'
+        icon: i-simple-icons-playstation2
+        to: '/playstation2-jp/supernova2'
+      - title: Dance Dance Revolution SuperNOVA
+        description: ダンス、新時代の幕開け!
+        date: '2007-01-25'
+        icon: i-simple-icons-playstation2
+        to: '/playstation2-jp/supernova'
+      - title: DanceDanceRevolution STRIKE
+        description: ダンスシミュレーションの頂点、再び降臨!
+        date: '2006-02-16'
+        icon: i-simple-icons-playstation2
+        to: '/playstation2-jp/strike'
+      - title: DDR FESTIVAL Dance Dance Revolution
+        description: 体感ダンスゲームの原点にして頂点! 装いも新たに登場!!
+        date: '2004-11-18'
+        icon: i-simple-icons-playstation2
+        to: '/playstation2-jp/festival'
+      - title: Dance Dance Revolution Party Collection
+        description: おうちでダンスパーティー
+        date: '2003-12-11'
+        icon: i-simple-icons-playstation2
+        to: '/playstation2-jp/party'
+      - title: Dance Dance Revolution EXTREME
+        description: STEP極限!!
+        date: '2003-10-09'
+        icon: i-simple-icons-playstation2
+        to: '/playstation2-jp/extreme'
+      - title: DDRMAX2 -DanceDanceRevolution 7thMIX-
+        description: ステップ増量! 過去最高の70曲以上を収録。
+        date: '2003-04-24'
+        icon: i-simple-icons-playstation2
+        to: '/playstation2-jp/max2'
+      - title: DDRMAX -DanceDanceRevolution 6thMIX-
+        description: STEP <ruby>MAX<rt>最高潮</rt></ruby>!!
+        date: '2002-05-16'
+        icon: i-simple-icons-playstation2
+        to: '/playstation2-jp/max'
+      - title: Dance Dance Revolution 5thMIX
+        description: ダ・ン・ス・世・紀・始・ま・る
+        date: '2001-09-20'
+        icon: i-simple-icons-playstation
+        to: '/playstation-jp/5th'
+      - title: Dance Dance Revolution EXTRA MIX
+        description: みんな、おまたせ!!
+        date: '2001-06-07'
+        icon: i-simple-icons-playstation
+        to: '/playstation-jp/extra'
+      - title: Dance Dance Revolution 4thMIX
+        description: さらなる進化と革命がここに！
+        date: '2001-03-15'
+        icon: i-simple-icons-playstation
+        to: '/playstation-jp/4th'
+      - title: Dance Dance Revolution BEST HITS
+        description: これぞダンスの真髄！
+        date: '2000-12-21'
+        icon: i-simple-icons-playstation
+        to: '/playstation-jp/best'
+      - title: Dance Dance Revolution Disney's RAVE
+        description: Clubの中のミッキーたちとLet's Dancin'!
+        date: '2000-11-30'
+        icon: i-simple-icons-playstation
+        to: '/playstation-jp/disney'
+      - title: おはスタ Dance Dance Revolution
+        description: 元気にOHA!!
+        date: '2000-09-14'
+        icon: i-simple-icons-playstation
+        to: '/playstation-jp/oha-sta'
+      - title: Dance Dance Revolution 3rd MIX
+        description: ステップでダイエット！
+        date: '2000-06-01'
+        icon: i-simple-icons-playstation
+        to: '/playstation-jp/3rd'
+      - title: Dancing Stage featuring DREAMS COME TRUE
+        description: ドリカムの曲でステップ!!
+        date: '2000-04-20'
+        icon: i-simple-icons-playstation
+        to: '/playstation-jp/dct'
+      - title: Dance Dance Revolution 2nd ReMIX APPEND CLUB VERSION vol.2
+        description: アペンドディスク第2弾！
+        date: '1999-12-12'
+        icon: i-simple-icons-playstation
+        to: '/playstation-jp/club-vol2'
+      - title: Dancing Stage featuring TRUE KiSS DESTiNATiON
+        description: ステップを極めろ!!
+        date: '1999-12-09'
+        icon: i-simple-icons-playstation
+        to: '/playstation-jp/tkd'
+      - title: Dance Dance Revolution 2nd ReMIX APPEND CLUB VERSION vol.1
+        description: アペンドディスク第1弾！
+        date: '1999-11-25'
+        icon: i-simple-icons-playstation
+        to: '/playstation-jp/club-vol1'
+      - title: Dance Dance Revolution 2nd ReMIX
+        description: ますますゲーム革命、Dance Dance Revolutionの第2弾。
+        date: '1999-08-26'
+        icon: i-simple-icons-playstation
+        to: '/playstation-jp/2nd'
+      - title: Dance Dance Revolution
+        date: '1999-04-10'
+        icon: i-simple-icons-playstation
+        to: '/playstation-jp/1st'
+  - title: 任天堂ハード(日本版)
+    items:
+      - title: DanceDanceRevolution MUSIC FIT
+        description: ココロリズム カラダバランス 今の自分にレボリューション
+        date: '2010-01-28'
+        icon: i-simple-icons-wii
+        to: '/wii-jp/music-fit'
+      - title: ダンスダンスレボリューション フルフル♪パーティー
+        description: からだフルフル♪ ワンダフル!
+        date: '2008-12-18'
+        icon: i-simple-icons-wii
+        to: '/wii-jp/furufuru'
+      - title: Dance Dance Revolution HOTTEST PARTY
+        description: カラダ ハジける Wii Love Dance!
+        date: '2007-10-25'
+        icon: i-simple-icons-wii
+        to: '/wii-jp/hottest'
+      - title: Dance Dance Revolution GB Disney mix
+        description: いつでもどこでもミッキーたちとダンス!!
+        date: '2001-03-29'
+        icon: i-simple-icons-nintendo
+        to: '/gameboy/disney'
+      - title: Dance Dance Revolution GB3
+        description: 怒涛の第3弾!!シリーズ最新作が登場!!
+        date: '2001-03-15'
+        icon: i-simple-icons-nintendo
+        to: '/gameboy/gb3'
+      - title: おはスタ Dance Dance Revolution GB
+        description: OHA!2001年指で再燃。
+        date: '2001-02-08'
+        icon: i-simple-icons-nintendo
+        to: '/gameboy/oha-sta'
+      - title: Dance Dance Revolution GB2
+        description: 専用指コントローラ同梱で、いつでもどこでもクールステップ!!第<ruby>2<rt>オマチカネ</rt></ruby>弾!!
+        date: '2000-11-16'
+        icon: i-simple-icons-nintendo
+        to: '/gameboy/gb2'
+      - title: Dance Dance Revolution GB
+        description: 専用指コントローラ同梱！今度は指でステップ！
+        date: '2000-08-03'
+        icon: i-simple-icons-nintendo
+        to: '/gameboy/1st'
+  - title: その他(日本版)
+    items:
+      - title: Dance Dance Revolution CLUB VERSION Dreamcast Edition
+        description: DanceDanceRevolutionがDreamcastに大ボリュームで登場!!
+        date: '2000-04-27'
+        icon: i-simple-icons-sega
+        to: '/dreamcast-jp/club'
+      - title: Dance Dance Revolution 2nd MIX Dreamcast Edition
+        description: あの興奮がドリームキャストで登場！
+        date: '2000-02-17'
+        icon: i-simple-icons-sega
+        to: '/dreamcast-jp/2nd'
+  - title: その他(海外版)
+    items:
+      - title: Dance Dance Revolution
+        description: MOVE YOUR BODY TO THE BEAT
+        date: '2011-04-12'
+        icon: i-simple-icons-xbox
+        to: '/xbox360-us/2010'
+      - title: Dance Dance Revolution
+        description: MOVE YOUR BODY TO THE BEAT
+        date: '2010-11-16'
+        icon: i-simple-icons-playstation3
+        to: '/other/ps3'
