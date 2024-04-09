@@ -1,5 +1,4 @@
-name: studio-nuxt-build
-run-name: studio nuxt build
+name: Node.js CI/CD
 
 on:
   push:
@@ -27,6 +26,8 @@ jobs:
         run: npm run lint:eslint
       - name: Prettier
         run: npm run lint:prettier
+      - name: Type Check
+        run: npm run lint:tsc
 
   build:
     name: Build
