@@ -4,6 +4,11 @@ navigation: false
 features:
   - title: DDR GRAND PRIX
     items:
+      - title: BEMANI SELECTION楽曲パック vol.1
+        icon: i-simple-icons-konami
+        description: 先行プレー特典あり
+        date: '2024-03-13'
+        to: '/grand-prix#bemani-selection楽曲パック-vol1'
       - title: グランプリ楽曲パック vol.23, vol.24
         icon: i-simple-icons-windows
         description: 先行プレー特典あり
@@ -39,11 +44,6 @@ features:
         description: 先行プレー特典あり
         date: '2023-05-25'
         to: '/grand-prix#bpl-s2楽曲パック-vol0'
-      - title: スペシャル楽曲パック feat.REFLEC BEAT vol.1, vol.2
-        icon: i-simple-icons-konami
-        description: 先行プレー特典あり
-        date: '2023-04-24'
-        to: '/grand-prix#スペシャル楽曲パック-featreflec-beat-vol1'
       - title: DanceDanceRevolution GRAND PRIX
         icon: i-simple-icons-windows
         description: DanceDanceRevolutionがPCで遊べる!
