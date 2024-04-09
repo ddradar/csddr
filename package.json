@@ -31,7 +31,6 @@
     "eslint": "^9.0.0",
     "eslint-config-prettier": "^9.1.0",
     "npm-run-all2": "^6.1.2",
-    "nuxt-og-image": "^3.0.0-rc.52",
     "prettier": "^3.2.5",
     "vue-tsc": "^2.0.11"
   }
