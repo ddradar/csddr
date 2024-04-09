@@ -5,7 +5,6 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxt/fonts',
     '@nuxthq/studio',
-    'nuxt-og-image',
     '@nuxt/eslint',
   ],
   nitro: { preset: 'github-pages' },

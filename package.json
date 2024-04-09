@@ -1,7 +1,7 @@
 {
   "name": "csddr",
   "description": "Consumer DDR Song List",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": true,
   "scripts": {
     "prepare": "nuxi prepare",
@@ -17,22 +17,21 @@
   "dependencies": {
     "@iconify-json/flag": "^1.1.50",
     "@iconify-json/heroicons": "^1.1.20",
-    "@iconify-json/simple-icons": "^1.1.98",
+    "@iconify-json/simple-icons": "^1.1.99",
     "@nuxt/content": "^2.12.1",
     "@nuxt/ui-pro": "^1.1.0",
     "nuxt": "^3.11.2"
   },
   "devDependencies": {
-    "@nuxt/devtools": "^1.0.8",
-    "@nuxt/eslint": "^0.3.1",
+    "@nuxt/devtools": "^1.1.5",
+    "@nuxt/eslint": "^0.3.2",
     "@nuxt/fonts": "^0.6.1",
     "@nuxthq/studio": "^1.0.13",
     "@types/node": "^18.19.30",
     "eslint": "^9.0.0",
     "eslint-config-prettier": "^9.1.0",
     "npm-run-all2": "^6.1.2",
-    "nuxt-og-image": "^3.0.0-rc.50",
     "prettier": "^3.2.5",
-    "vue-tsc": "^2.0.10"
+    "vue-tsc": "^2.0.11"
   }
 }
