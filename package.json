@@ -32,6 +32,6 @@
     "eslint-config-prettier": "^9.1.0",
     "npm-run-all2": "^6.2.0",
     "prettier": "^3.2.5",
-    "vue-tsc": "^2.0.15"
+    "vue-tsc": "^2.0.19"
   }
 }
