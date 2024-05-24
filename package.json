@@ -24,13 +24,13 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "^1.2.0",
-    "@nuxt/eslint": "^0.3.10",
+    "@nuxt/eslint": "^0.3.13",
     "@nuxt/fonts": "^0.6.1",
     "@nuxthq/studio": "^1.1.0",
     "@types/node": "^18.19.33",
-    "eslint": "^9.1.1",
+    "eslint": "^9.3.0",
     "eslint-config-prettier": "^9.1.0",
-    "npm-run-all2": "^6.1.2",
+    "npm-run-all2": "^6.2.0",
     "prettier": "^3.2.5",
     "vue-tsc": "^2.0.15"
   }
