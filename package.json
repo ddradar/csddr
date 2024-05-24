@@ -15,7 +15,7 @@
     "lint:tsc": "nuxi typecheck"
   },
   "dependencies": {
-    "@iconify-json/flag": "^1.1.51",
+    "@iconify-json/flag": "^1.1.52",
     "@iconify-json/heroicons": "^1.1.21",
     "@iconify-json/simple-icons": "^1.1.102",
     "@nuxt/content": "^2.12.1",
