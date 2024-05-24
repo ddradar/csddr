@@ -17,19 +17,19 @@ colors:
 
 |Name|Artist|BPM|SINGLE|DOUBLE|
 |----|------|---|------|------|
-|[A Fifth of Beethoven]|Walter Murphy and The Big Apple Band|110| :charts{:colors="colors" :levels='["?",2,7,9]'} | :charts{:colors="colors" :levels='["?",2,7,9]'} |
-|[Alice]|Moby|95| :charts{:colors="colors" :levels='["?",2,4,6]'} | :charts{:colors="colors" :levels='["?",2,4,6]'} |
-|[Bad Taste]|The Divys|142| :charts{:colors="colors" :levels='["?",3,5,7]'} | :charts{:colors="colors" :levels='["?",3,5,7]'} |
-|[Canned Heat]|Jamiroquai|128| :charts{:colors="colors" :levels='["?",4,5,8,9]'} | :charts{:colors="colors" :levels='["?",4,6,8,9]'} |
-|[Conga]|Miami Sound Machine|122| :charts{:colors="colors" :levels='["?",4,6,8,10]'} | :charts{:colors="colors" :levels='["?",3,6,9,10]'} |
-|[Dancing Machine]|Jackson 5|108| :charts{:colors="colors" :levels='["?",2,4,6]'} | :charts{:colors="colors" :levels='["?",2,4,6]'} |
-|[Gutterpunk]|Noisia feat. Bex Riley|128| :charts{:colors="colors" :levels='["?",3,5,8,9]'} | :charts{:colors="colors" :levels='["?",3,6,8,9]'} |
-|[If (Dave Audé Remix)]|Colette|128| :charts{:colors="colors" :levels='["?",4,6,7]'} | :charts{:colors="colors" :levels='["?",3,6,8]'} |
-|[Man With The Hex]|Atomic Fireballs|216| :charts{:colors="colors" :levels='["?",3,6,8]'} | :charts{:colors="colors" :levels='["?",3,6,8]'} |
-|[parade]|Witchery SKANK|192| :charts{:colors="colors" :levels='["?",3,5,9]'} | :charts{:colors="colors" :levels='["?",3,5,9]'} |
-|[Return of the Machines (Radio Mix)]|Oforia feat. Bwicked|144| :charts{:colors="colors" :levels='["?",2,4,6]'} | :charts{:colors="colors" :levels='["?",2,4,6]'} |
-|[The Bomb (These Sounds Fall Into My Mind)]|The Bucketheads|126| :charts{:colors="colors" :levels='["?",2,4,7]'} | :charts{:colors="colors" :levels='["?",2,5,7]'} |
-|[Watch Us Work It]|Devo|147| :charts{:colors="colors" :levels='["?",2,4,7]'} | :charts{:colors="colors" :levels='["?",2,4,7]'} |
+|[A Fifth of Beethoven](/xbox360-us/universe3/a-fifth-of-beethoven)|Walter Murphy and The Big Apple Band|110| :charts{:colors="colors" :levels='["?",2,7,9]'} | :charts{:colors="colors" :levels='["?",2,7,9]'} |
+|[Alice](/xbox360-us/universe3/alice)|Moby|95| :charts{:colors="colors" :levels='["?",2,4,6]'} | :charts{:colors="colors" :levels='["?",2,4,6]'} |
+|[Bad Taste](/xbox360-us/universe3/bad-taste)|The Divys|142| :charts{:colors="colors" :levels='["?",3,5,7]'} | :charts{:colors="colors" :levels='["?",3,5,7]'} |
+|[Canned Heat](/xbox360-us/universe3/canned-heat)|Jamiroquai|128| :charts{:colors="colors" :levels='["?",4,5,8,9]'} | :charts{:colors="colors" :levels='["?",4,6,8,9]'} |
+|[Conga](/xbox360-us/universe3/conga)|Miami Sound Machine|122| :charts{:colors="colors" :levels='["?",4,6,8,10]'} | :charts{:colors="colors" :levels='["?",3,6,9,10]'} |
+|[Dancing Machine](/xbox360-us/universe3/dancing-machine)|Jackson 5|108| :charts{:colors="colors" :levels='["?",2,4,6]'} | :charts{:colors="colors" :levels='["?",2,4,6]'} |
+|[Gutterpunk](/xbox360-us/universe3/gutterpunk)|Noisia feat. Bex Riley|128| :charts{:colors="colors" :levels='["?",3,5,8,9]'} | :charts{:colors="colors" :levels='["?",3,6,8,9]'} |
+|[If (Dave Audé Remix)](/xbox360-us/universe3/if)|Colette|128| :charts{:colors="colors" :levels='["?",4,6,7]'} | :charts{:colors="colors" :levels='["?",3,6,8]'} |
+|[Man With The Hex](/xbox360-us/universe3/man-with-the-hex)|Atomic Fireballs|216| :charts{:colors="colors" :levels='["?",3,6,8]'} | :charts{:colors="colors" :levels='["?",3,6,8]'} |
+|[parade](/xbox360-us/universe3/parade)|Witchery SKANK|192| :charts{:colors="colors" :levels='["?",3,5,9]'} | :charts{:colors="colors" :levels='["?",3,5,9]'} |
+|[Return of the Machines (Radio Mix)](/xbox360-us/universe3/return-of-the-machines)|Oforia feat. Bwicked|144| :charts{:colors="colors" :levels='["?",2,4,6]'} | :charts{:colors="colors" :levels='["?",2,4,6]'} |
+|[The Bomb (These Sounds Fall Into My Mind)](/xbox360-us/universe3/the-bomb)|The Bucketheads|126| :charts{:colors="colors" :levels='["?",2,4,7]'} | :charts{:colors="colors" :levels='["?",2,5,7]'} |
+|[Watch Us Work It](/xbox360-us/universe3/watch-us-work-it)|Devo|147| :charts{:colors="colors" :levels='["?",2,4,7]'} | :charts{:colors="colors" :levels='["?",2,4,7]'} |
 |[All Over Again]|Blu Mar Ten|127| :charts{:colors="colors" :levels='["?",2,5,8]'} | :charts{:colors="colors" :levels='["?",2,5,8]'} |
 |[Over]|Mark Hill Presents Kelly Marie|125| :charts{:colors="colors" :levels='["?",2,4,7]'} | :charts{:colors="colors" :levels='["?",2,4,7]'} |
 |[30 Lives (Up-Up-Down-Dance Mix)](/playstation2-jp/x/30-lives)|The Motion Sick|144| :charts{:colors="colors" :levels='["?",2,4,6]'} | :charts{:colors="colors" :levels='["?",2,4,6]'} |
