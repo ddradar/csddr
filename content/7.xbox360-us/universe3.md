@@ -30,20 +30,20 @@ colors:
 |[Return of the Machines (Radio Mix)](/xbox360-us/universe3/return-of-the-machines)|Oforia feat. Bwicked|144| :chart{:colors="colors" :levels='["?",2,4,6]'} | :chart{:colors="colors" :levels='["?",2,4,6]'} |
 |[The Bomb (These Sounds Fall Into My Mind)](/xbox360-us/universe3/the-bomb)|The Bucketheads|126| :chart{:colors="colors" :levels='["?",2,4,7]'} | :chart{:colors="colors" :levels='["?",2,5,7]'} |
 |[Watch Us Work It](/xbox360-us/universe3/watch-us-work-it)|Devo|147| :chart{:colors="colors" :levels='["?",2,4,7]'} | :chart{:colors="colors" :levels='["?",2,4,7]'} |
-|[All Over Again](/xbox360-us/universe3/)|Blu Mar Ten|127| :chart{:colors="colors" :levels='["?",2,5,8]'} | :chart{:colors="colors" :levels='["?",2,5,8]'} |
-|[Over](/xbox360-us/universe3/)|Mark Hill Presents Kelly Marie|125| :chart{:colors="colors" :levels='["?",2,4,7]'} | :chart{:colors="colors" :levels='["?",2,4,7]'} |
+|[All Over Again](/xbox360-us/universe3/all-over-again)|Blu Mar Ten|127| :chart{:colors="colors" :levels='["?",2,5,8]'} | :chart{:colors="colors" :levels='["?",2,5,8]'} |
+|[Over](/xbox360-us/universe3/over)|Mark Hill Presents Kelly Marie|125| :chart{:colors="colors" :levels='["?",2,4,7]'} | :chart{:colors="colors" :levels='["?",2,4,7]'} |
 |[30 Lives (Up-Up-Down-Dance Mix)](/playstation2-jp/x/30-lives)|The Motion Sick|144| :chart{:colors="colors" :levels='["?",2,4,6]'} | :chart{:colors="colors" :levels='["?",2,4,6]'} |
-|[Caught In The Moment](/xbox360-us/universe3/)|Entona|130| :chart{:colors="colors" :levels='["?",2,5,7]'} | :chart{:colors="colors" :levels='["?",2,5,7]'} |
-|[Dancin' My Way](/xbox360-us/universe3/)|DeeJayz Paradize feat. Thomas Howard|128| :chart{:colors="colors" :levels='["?",2,4,7]'} | :chart{:colors="colors" :levels='["?",2,4,7]'} |
-|[freshmagicgroove](/xbox360-us/universe3/)|IKAAN.fresh!|110| :chart{:colors="colors" :levels='["?",3,5,7,9]'} | :chart{:colors="colors" :levels='["?",3,5,8,9]'} |
-|[Less Than Three (Ricardo Autobahn Remix)](/xbox360-us/universe3/)|Becky|160| :chart{:colors="colors" :levels='["?",4,6,8]'} | :chart{:colors="colors" :levels='["?",3,5,8]'} |
-|[Rave Until The Night Is Over (Universe Edit)](/xbox360-us/universe3/)|DM Ashura feat. MC Jay & Weronika|144| :chart{:colors="colors" :levels='["?",4,6,8,9]'} | :chart{:colors="colors" :levels='["?",4,6,8,9]'} |
+|[Caught In The Moment](/xbox360-us/universe3/caught-in-the-moment)|Entona|130| :chart{:colors="colors" :levels='["?",2,5,7]'} | :chart{:colors="colors" :levels='["?",2,5,7]'} |
+|[Dancin' My Way](/xbox360-us/universe3/dancin-my-way)|DeeJayz Paradize feat. Thomas Howard|128| :chart{:colors="colors" :levels='["?",2,4,7]'} | :chart{:colors="colors" :levels='["?",2,4,7]'} |
+|[freshmagicgroove](/xbox360-us/universe3/freshmagicgroove)|IKAAN.fresh!|110| :chart{:colors="colors" :levels='["?",3,5,7,9]'} | :chart{:colors="colors" :levels='["?",3,5,8,9]'} |
+|[Less Than Three (Ricardo Autobahn Remix)](/xbox360-us/universe3/less-than-three)|Becky|160| :chart{:colors="colors" :levels='["?",4,6,8]'} | :chart{:colors="colors" :levels='["?",3,5,8]'} |
+|[Rave Until The Night Is Over (Universe Edit)](/xbox360-us/universe3/rave-until-the-night-is-over)|DM Ashura feat. MC Jay & Weronika|144| :chart{:colors="colors" :levels='["?",4,6,8,9]'} | :chart{:colors="colors" :levels='["?",4,6,8,9]'} |
 |[Till the lonely's gone](/playstation2-jp/x/till-the-lonelys-gone)|Z-licious|130| :chart{:colors="colors" :levels='["?",2,6,7]'} | :chart{:colors="colors" :levels='["?",3,6,7]'} |
-|[Feel The Beat](/xbox360-us/universe3/)|Master Source|139| :chart{:colors="colors" :levels='["?",4,7,8]'} | :chart{:colors="colors" :levels='["?",4,7,8]'} |
-|[Hey, What's Your Name](/xbox360-us/universe3/)|Big Idea|170| :chart{:colors="colors" :levels='["?",4,6,7]'} | :chart{:colors="colors" :levels='["?",4,6,7]'} |
-|[Lament Configuration](/xbox360-us/universe3/)|Rephaim|140| :chart{:colors="colors" :levels='["?",2,6,9]'} | :chart{:colors="colors" :levels='["?",3,6,9]'} |
-|[NRG Surge](/xbox360-us/universe3/)|oo39.com|146| :chart{:colors="colors" :levels='["?",3,5,8,9]'} | :chart{:colors="colors" :levels='["?",4,6,8,9]'} |
-|[ONCE UPON A TIME (Jertz mix)](/xbox360-us/universe3/)|Mitsu-O! Summer2008|68| :chart{:colors="colors" :levels='["?",2,4,5]'} | :chart{:colors="colors" :levels='["?",3,4,6]'} |
+|[Feel The Beat](/xbox360-us/universe3/feel-the-beat)|Master Source|139| :chart{:colors="colors" :levels='["?",4,7,8]'} | :chart{:colors="colors" :levels='["?",4,7,8]'} |
+|[Hey, What's Your Name](/xbox360-us/universe3/hey-whats-your-name)|Big Idea|170| :chart{:colors="colors" :levels='["?",4,6,7]'} | :chart{:colors="colors" :levels='["?",4,6,7]'} |
+|[Lament Configuration](/xbox360-us/universe3/lament-configuration)|Rephaim|140| :chart{:colors="colors" :levels='["?",2,6,9]'} | :chart{:colors="colors" :levels='["?",3,6,9]'} |
+|[NRG Surge](/xbox360-us/universe3/nrg-surge)|oo39.com|146| :chart{:colors="colors" :levels='["?",3,5,8,9]'} | :chart{:colors="colors" :levels='["?",4,6,8,9]'} |
+|[ONCE UPON A TIME (Jertz mix)](/xbox360-us/universe3/once-upon-a-time)|Mitsu-O! Summer2008|68| :chart{:colors="colors" :levels='["?",2,4,5]'} | :chart{:colors="colors" :levels='["?",3,4,6]'} |
 |[Your Angel](/xbox360-us/universe3/your-angel)|DM Ashura feat. kors k|175| :chart{:colors="colors" :levels='["?",3,5,7]'} | :chart{:colors="colors" :levels='["?",3,5,8]'} |
 |[Concertino In Blue](/xbox360-us/universe3/concertino-in-blue)|Hirofumi Sasaki|103-155| :chart{:colors="colors" :levels='["?",4,8,10,10]'} | :chart{:colors="colors" :levels='["?",4,8,9,10]'} |
 |[Kind Lady](/playstation2-jp/max/kind-lady)|OKUYATOS|135| :chart{:colors="colors" :levels='["?",4,6,7,9]'} | :chart{:colors="colors" :levels='["?",4,5,8,9]'} |
