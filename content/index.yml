@@ -231,3 +231,8 @@ features:
         date: '2010-11-16'
         icon: i-simple-icons-playstation3
         to: '/other/ps3'
+      - title: DanceDanceRevolution UNIVERSE3
+        description: The Universe is YOUR Dance Floor!
+        date: '2008-10-21'
+        icon: i-simple-icons-xbox
+        to: '/xbox360-us/universe3'
