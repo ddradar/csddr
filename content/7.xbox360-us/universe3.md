@@ -48,40 +48,40 @@ colors:
 |[Concertino In Blue](/xbox360-us/universe3/concertino-in-blue)|Hirofumi Sasaki|103-155| :chart{:colors="colors" :levels='["?",4,8,10,10]'} | :chart{:colors="colors" :levels='["?",4,8,9,10]'} |
 |[Kind Lady](/playstation2-jp/max/kind-lady)|OKUYATOS|135| :chart{:colors="colors" :levels='["?",4,6,7,9]'} | :chart{:colors="colors" :levels='["?",4,5,8,9]'} |
 |[MATSURI JAPAN](/playstation-jp/5th/matsuri-japan)|RE-VENGE|180| :chart{:colors="colors" :levels='["?",4,5,9]'} | :chart{:colors="colors" :levels='["?",4,6,8]'} |
-|[Doki Doki (Panik Mix)](/xbox360-us/universe3/)|SMiLE.dk|175| :chart{:colors="colors" :levels='["?",4,7,8,9]'} | :chart{:colors="colors" :levels='["?",3,7,9,9]'} |
-|[Burn Out](/xbox360-us/universe3/)|Beatdrop|136| :chart{:colors="colors" :levels='["?",2,4,7]'} | :chart{:colors="colors" :levels='["?",2,4,7]'} |
-|[Don't Don't Go Away (Ricardo Autobahn Remix)](/xbox360-us/universe3/)|Foxxie|145| :chart{:colors="colors" :levels='["?",3,6,7]'} | :chart{:colors="colors" :levels='["?",4,6,8]'} |
-|[Time To Move](/xbox360-us/universe3/)|Fcdeejay|142| :chart{:colors="colors" :levels='["?",2,5,8]'} | :chart{:colors="colors" :levels='["?",2,5,8]'} |
-|[Waiting For You](/xbox360-us/universe3/)|C-14|142| :chart{:colors="colors" :levels='["?",3,4,7]'} | :chart{:colors="colors" :levels='["?",3,5,8]'} |
-|[888](/xbox360-us/universe3/888)|DJ TECHNORCH|111-888| :chart{:colors="colors" :levels='["?",5,8,9,10]'} | :chart{:colors="colors" :levels='["?",6,8,9,10]'} |
+|[Doki Doki (Panik Mix)](/xbox360-us/universe3/doki-doki)|SMiLE.dk|175| :chart{:colors="colors" :levels='["?",4,7,8,9]'} | :chart{:colors="colors" :levels='["?",3,7,9,9]'} |
+|[Burn Out](/xbox360-us/universe3/burn-out)|Beatdrop|136| :chart{:colors="colors" :levels='["?",2,4,7]'} | :chart{:colors="colors" :levels='["?",2,4,7]'} |
+|[Don't Don't Go Away (Ricardo Autobahn Remix)](/xbox360-us/universe3/dont-dont-go-away)|Foxxie|145| :chart{:colors="colors" :levels='["?",3,6,7]'} | :chart{:colors="colors" :levels='["?",4,6,8]'} |
+|[Time To Move](/xbox360-us/universe3/time-to-move)|Fcdeejay|142| :chart{:colors="colors" :levels='["?",2,5,8]'} | :chart{:colors="colors" :levels='["?",2,5,8]'} |
+|[Waiting For You](/xbox360-us/universe3/waiting-for-you)|C-14|142| :chart{:colors="colors" :levels='["?",3,4,7]'} | :chart{:colors="colors" :levels='["?",3,5,8]'} |
+|[888](/xbox360-us/universe3/hachiyasoba)|DJ TECHNORCH|111-888| :chart{:colors="colors" :levels='["?",5,8,9,10]'} | :chart{:colors="colors" :levels='["?",6,8,9,10]'} |
 |[aftershock!!](/xbox360-us/universe3/aftershock)|DM Ashura|157| :chart{:colors="colors" :levels='["?",4,6,9]'} | :chart{:colors="colors" :levels='["?",4,7,9]'} |
-|[Akibarrific](/xbox360-us/universe3/)|Ko Kimura|128| :chart{:colors="colors" :levels='["?",2,7,9,10]'} | :chart{:colors="colors" :levels='["?",2,7,9,10]'} |
-|[Angel](/xbox360-us/universe3/)|Master Source|127| :chart{:colors="colors" :levels='["?",2,5,8]'} | :chart{:colors="colors" :levels='["?",4,5,8]'} |
-|[Big City Lights](/xbox360-us/universe3/)|Big Idea|150| :chart{:colors="colors" :levels='["?",2,5,8]'} | :chart{:colors="colors" :levels='["?",3,5,8]'} |
-|[Come Back](/xbox360-us/universe3/)|Gein|137| :chart{:colors="colors" :levels='["?",3,5,7,9]'} | :chart{:colors="colors" :levels='["?",3,5,7,9]'} |
-|[Consuela](/xbox360-us/universe3/)|Captain.T|182| :chart{:colors="colors" :levels='["?",4,6,8]'} | :chart{:colors="colors" :levels='["?",4,6,8]'} |
-|[CONTROL (The Attic remix)](/xbox360-us/universe3/)|90 GROOVERS|138| :chart{:colors="colors" :levels='["?",3,5,7]'} | :chart{:colors="colors" :levels='["?",4,4,6]'} |
+|[Akibarrific](/xbox360-us/universe3/akibarrific)|Ko Kimura|128| :chart{:colors="colors" :levels='["?",2,7,9,10]'} | :chart{:colors="colors" :levels='["?",2,7,9,10]'} |
+|[Angel](/xbox360-us/universe3/angel)|Master Source|127| :chart{:colors="colors" :levels='["?",2,5,8]'} | :chart{:colors="colors" :levels='["?",4,5,8]'} |
+|[Big City Lights](/xbox360-us/universe3/big-city-lights)|Big Idea|150| :chart{:colors="colors" :levels='["?",2,5,8]'} | :chart{:colors="colors" :levels='["?",3,5,8]'} |
+|[Come Back](/xbox360-us/universe3/come-back)|Gein|137| :chart{:colors="colors" :levels='["?",3,5,7,9]'} | :chart{:colors="colors" :levels='["?",3,5,7,9]'} |
+|[Consuela](/xbox360-us/universe3/consuela)|Captain.T|182| :chart{:colors="colors" :levels='["?",4,6,8]'} | :chart{:colors="colors" :levels='["?",4,6,8]'} |
+|[CONTROL (The Attic remix)](/xbox360-us/universe3/control)|90 GROOVERS|138| :chart{:colors="colors" :levels='["?",3,5,7]'} | :chart{:colors="colors" :levels='["?",4,4,6]'} |
 |[ΔMAX](/xbox360-us/universe3/delta-max)|DM Ashura|100-573| :chart{:colors="colors" :levels='["?",3,8,10]'} | :chart{:colors="colors" :levels='["?",6,8,10]'} |
 |[dirty digital](/xbox360-us/universe3/dirty-digital)|kors k|140| :chart{:colors="colors" :levels='["?",4,6,8,9]'} | :chart{:colors="colors" :levels='["?",4,6,8,9]'} |
 |[Dummy](/xbox360-us/universe3/dummy)|RAM|175| :chart{:colors="colors" :levels='["?",2,4,7]'} | :chart{:colors="colors" :levels='["?",3,5,8]'} |
-|[EtoSharu](/xbox360-us/universe3/)|oo39.com|128| :chart{:colors="colors" :levels='["?",3,5,7,9]'} | :chart{:colors="colors" :levels='["?",3,5,7,9]'} |
-|[HOLD YOU IN MY ARMS (Danceforze dream mix)](/xbox360-us/universe3/)|NM feat. Asher|70| :chart{:colors="colors" :levels='["?",2,4,6]'} | :chart{:colors="colors" :levels='["?",2,4,7]'} |
-|[Inspiration](/xbox360-us/universe3/)|Togo Project feat. Mayumi|130| :chart{:colors="colors" :levels='["?",4,7,8]'} | :chart{:colors="colors" :levels='["?",4,7,8]'} |
-|[Just Pretend](/xbox360-us/universe3/)|Big Idea|120| :chart{:colors="colors" :levels='["?",3,6,7]'} | :chart{:colors="colors" :levels='["?",3,5,7]'} |
-|[KEEP ON MOVING (Orbit1 remix)](/xbox360-us/universe3/)|D'n'B STARS|85-170| :chart{:colors="colors" :levels='["?",3,6,8]'} | :chart{:colors="colors" :levels='["?",3,6,8]'} |
-|[Kimochi](/xbox360-us/universe3/)|NAOKI feat. Melody & Mezzo|150| :chart{:colors="colors" :levels='["?",2,5,7]'} | :chart{:colors="colors" :levels='["?",2,5,8]'} |
-|[L.A. EVOLVED](/xbox360-us/universe3/)|NAOKI underground|280| :chart{:colors="colors" :levels='["?",4,7,9]'} | :chart{:colors="colors" :levels='["?",3,8,9]'} |
-|[Less Is More](/xbox360-us/universe3/)|lim's Sculpture|125| :chart{:colors="colors" :levels='["?",2,5,8]'} | :chart{:colors="colors" :levels='["?",2,5,8]'} |
-|[Midnight Blaze (SySF Mix)](/xbox360-us/universe3/)|System S.F.|152| :chart{:colors="colors" :levels='["?",3,5,9]'} | :chart{:colors="colors" :levels='["?",3,5,9]'} |
-|[My Hero](/xbox360-us/universe3/)|In Geer|167| :chart{:colors="colors" :levels='["?",3,4,6]'} | :chart{:colors="colors" :levels='["?",3,4,7]'} |
-|[Out of Decaf](/xbox360-us/universe3/)|NEKOJIRA|150| :chart{:colors="colors" :levels='["?",3,5,8,9]'} | :chart{:colors="colors" :levels='["?",3,5,8,9]'} |
+|[EtoSharu](/xbox360-us/universe3/etosharu)|oo39.com|128| :chart{:colors="colors" :levels='["?",3,5,7,9]'} | :chart{:colors="colors" :levels='["?",3,5,7,9]'} |
+|[HOLD YOU IN MY ARMS (Danceforze dream mix)](/xbox360-us/universe3/hold-you-in-my-arms)|NM feat. Asher|70| :chart{:colors="colors" :levels='["?",2,4,6]'} | :chart{:colors="colors" :levels='["?",2,4,7]'} |
+|[Inspiration](/xbox360-us/universe3/inspiration)|Togo Project feat. Mayumi|130| :chart{:colors="colors" :levels='["?",4,7,8]'} | :chart{:colors="colors" :levels='["?",4,7,8]'} |
+|[Just Pretend](/xbox360-us/universe3/just-pretend)|Big Idea|120| :chart{:colors="colors" :levels='["?",3,6,7]'} | :chart{:colors="colors" :levels='["?",3,5,7]'} |
+|[KEEP ON MOVING (Orbit1 remix)](/xbox360-us/universe3/keep-on-moving)|D'n'B STARS|85-170| :chart{:colors="colors" :levels='["?",3,6,8]'} | :chart{:colors="colors" :levels='["?",3,6,8]'} |
+|[Kimochi](/xbox360-us/universe3/kimochi)|NAOKI feat. Melody & Mezzo|150| :chart{:colors="colors" :levels='["?",2,5,7]'} | :chart{:colors="colors" :levels='["?",2,5,8]'} |
+|[L.A. EVOLVED](/xbox360-us/universe3/l-a-evolved)|NAOKI underground|280| :chart{:colors="colors" :levels='["?",4,7,9]'} | :chart{:colors="colors" :levels='["?",3,8,9]'} |
+|[Less Is More](/xbox360-us/universe3/less-is-more)|lim's Sculpture|125| :chart{:colors="colors" :levels='["?",2,5,8]'} | :chart{:colors="colors" :levels='["?",2,5,8]'} |
+|[Midnight Blaze (SySF Mix)](/xbox360-us/universe3/midnight-blaze-sysf)|System S.F.|152| :chart{:colors="colors" :levels='["?",3,5,9]'} | :chart{:colors="colors" :levels='["?",3,5,9]'} |
+|[My Hero](/xbox360-us/universe3/my-hero)|In Geer|167| :chart{:colors="colors" :levels='["?",3,4,6]'} | :chart{:colors="colors" :levels='["?",3,4,7]'} |
+|[Out of Decaf](/xbox360-us/universe3/out-of-decaf)|NEKOJIRA|150| :chart{:colors="colors" :levels='["?",3,5,8,9]'} | :chart{:colors="colors" :levels='["?",3,5,8,9]'} |
 |[sakura storm](/xbox360-us/universe3/sakura-storm)|Ryu☆|184| :chart{:colors="colors" :levels='["?",3,5,7,9]'} | :chart{:colors="colors" :levels='["?",3,5,7,9]'} |
-|[Senses (Kaiju Remix)](/xbox360-us/universe3/)|JT.1UP|120| :chart{:colors="colors" :levels='["?",3,4,6]'} | :chart{:colors="colors" :levels='["?",3,5,6]'} |
-|[Siege Engine](/xbox360-us/universe3/)|Morgan's Corner|175| :chart{:colors="colors" :levels='["?",4,5,8]'} | :chart{:colors="colors" :levels='["?",4,5,8]'} |
-|[Streamline](/xbox360-us/universe3/)|Kazuto|175| :chart{:colors="colors" :levels='["?",4,6,8]'} | :chart{:colors="colors" :levels='["?",4,6,8]'} |
-|[Tesla Coil](/xbox360-us/universe3/)|Rephaim|145-180| :chart{:colors="colors" :levels='["?",3,6,9]'} | :chart{:colors="colors" :levels='["?",3,6,9]'} |
-|[100 Sec. Kitchen Battle!!](/xbox360-us/universe3/)|Orange Lounge|89-178| :chart{:colors="colors" :levels='["?",2,5,8,9]'} | :chart{:colors="colors" :levels='["?",2,6,8,9]'} |
-|[777](/xbox360-us/universe3/)|EeL|200| :chart{:colors="colors" :levels='["?",4,6,8,9]'} | :chart{:colors="colors" :levels='["?",3,6,9,10]'} |
+|[Senses (Kaiju Remix)](/xbox360-us/universe3/senses)|JT.1UP|120| :chart{:colors="colors" :levels='["?",3,4,6]'} | :chart{:colors="colors" :levels='["?",3,5,6]'} |
+|[Siege Engine](/xbox360-us/universe3/siege-engine)|Morgan's Corner|175| :chart{:colors="colors" :levels='["?",4,5,8]'} | :chart{:colors="colors" :levels='["?",4,5,8]'} |
+|[Streamline](/xbox360-us/universe3/streamline)|Kazuto|175| :chart{:colors="colors" :levels='["?",4,6,8]'} | :chart{:colors="colors" :levels='["?",4,6,8]'} |
+|[Tesla Coil](/xbox360-us/universe3/tesla-coil)|Rephaim|145-180| :chart{:colors="colors" :levels='["?",3,6,9]'} | :chart{:colors="colors" :levels='["?",3,6,9]'} |
+|[100 Sec. Kitchen Battle!!](/xbox360-us/universe3/100-sec-kitchen-battle)|Orange Lounge|89-178| :chart{:colors="colors" :levels='["?",2,5,8,9]'} | :chart{:colors="colors" :levels='["?",2,6,8,9]'} |
+|[777](/xbox360-us/universe3/three-star-three-seven)|EeL|200| :chart{:colors="colors" :levels='["?",4,6,8,9]'} | :chart{:colors="colors" :levels='["?",3,6,9,10]'} |
 |[ABSOLUTE](/playstation-jp/5th/absolute)|dj TAKA|144| :chart{:colors="colors" :levels='["?",4,6,7]'} | :chart{:colors="colors" :levels='["?",4,6,7]'} |
 |[MOBO★MOGA](/playstation2-jp/extreme/mobo-moga)|Orange Lounge|172| :chart{:colors="colors" :levels='["?",3,6,7]'} | :chart{:colors="colors" :levels='["?",3,6,7]'} |
 |[murmur twins](/playstation2-jp/supernova/murmur-twins)|yu_tokiwa.djw|174| :chart{:colors="colors" :levels='["?",2,6,7,10]'} | :chart{:colors="colors" :levels='["?",2,6,7,10]'} |
