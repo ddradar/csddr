@@ -236,3 +236,8 @@ features:
         date: '2008-10-21'
         icon: i-simple-icons-xbox
         to: '/xbox360-us/universe3'
+      - title: DanceDanceRevolution UNIVERSE2
+        description: LAUNCH YOURSELF INTO THE DANCING UNIVERSE
+        date: '2007-12-04'
+        icon: i-simple-icons-xbox
+        to: '/xbox360-us/universe2'
