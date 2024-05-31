@@ -28,7 +28,7 @@
     "@nuxt/fonts": "^0.7.0",
     "@nuxthq/studio": "^1.1.0",
     "@types/node": "^18.19.33",
-    "eslint": "^9.3.0",
+    "eslint": "^9.4.0",
     "eslint-config-prettier": "^9.1.0",
     "npm-run-all2": "^6.2.0",
     "prettier": "^3.2.5",
