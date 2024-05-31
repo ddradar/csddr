@@ -17,7 +17,7 @@
   "dependencies": {
     "@iconify-json/flag": "^1.1.52",
     "@iconify-json/heroicons": "^1.1.21",
-    "@iconify-json/simple-icons": "^1.1.102",
+    "@iconify-json/simple-icons": "^1.1.103",
     "@nuxt/content": "^2.12.1",
     "@nuxt/ui-pro": "^1.2.0",
     "nuxt": "^3.11.2"
