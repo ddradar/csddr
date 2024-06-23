@@ -8,6 +8,7 @@
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
         "EditorConfig.EditorConfig",
+        "Jacano.vscode-pnpm",
         "Nuxt.mdc",
         "yzhang.markdown-all-in-one",
         "Vue.volar"
