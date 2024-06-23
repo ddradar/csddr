@@ -28,10 +28,10 @@
     "@nuxt/fonts": "^0.7.0",
     "@nuxthq/studio": "^1.1.2",
     "@types/node": "^18.19.33",
-    "eslint": "^9.4.0",
+    "eslint": "^9.5.0",
     "eslint-config-prettier": "^9.1.0",
     "npm-run-all2": "^6.2.0",
-    "prettier": "^3.2.5",
+    "prettier": "^3.3.2",
     "vue-tsc": "^2.0.15"
   }
 }
