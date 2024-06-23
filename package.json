@@ -12,7 +12,7 @@
     "fix": "run-p \"lint:eslint -- --fix\" \"lint:prettier -- --write\"",
     "lint": "run-p lint:*",
     "lint:eslint": "eslint .",
-    "lint:prettier": "prettier --ignore-path .gitignore -l \"**/*.{js,cjs,mjs,ts,vue,json,yaml,yml}\"",
+    "lint:prettier": "prettier --ignore-path .gitignore -l \"**/*.{js,cjs,mjs,ts,vue,json,yml}\"",
     "lint:tsc": "nuxi typecheck"
   },
   "dependencies": {
