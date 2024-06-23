@@ -24,6 +24,6 @@
   "otherPortsAttributes": {
     "onAutoForward": "ignore"
   },
-  "postCreateCommand": "npm install",
+  "postCreateCommand": ["corepack enable", "pnpm install"],
   "remoteUser": "node"
 }
