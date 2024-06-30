@@ -6,7 +6,7 @@ settings:
 
 patchedDependencies:
   '@nuxt/ui-pro@1.3.1':
-    hash: patezd2yivznqqwcx4el677eey
+    hash: dnc5ndyx7u2ndmvslwzilc3r7y
     path: patches/@nuxt__ui-pro@1.3.1.patch
 
 importers:
@@ -27,7 +27,7 @@ importers:
         version: 2.13.0(ioredis@5.4.1)(magicast@0.3.4)(nuxt@3.12.2(@opentelemetry/api@1.9.0)(@parcel/watcher@2.4.1)(@types/node@18.19.39)(encoding@0.1.13)(eslint@9.6.0)(ioredis@5.4.1)(magicast@0.3.4)(optionator@0.9.4)(rollup@4.18.0)(terser@5.31.1)(typescript@5.5.2)(vite@5.3.2(@types/node@18.19.39)(terser@5.31.1))(vue-tsc@2.0.24(typescript@5.5.2)))(rollup@4.18.0)(vue@3.4.31(typescript@5.5.2))
       '@nuxt/ui-pro':
         specifier: ^1.3.1
-        version: 1.3.1(patch_hash=patezd2yivznqqwcx4el677eey)(magicast@0.3.4)(rollup@4.18.0)(vite@5.3.2(@types/node@18.19.39)(terser@5.31.1))(vue@3.4.31(typescript@5.5.2))
+        version: 1.3.1(patch_hash=dnc5ndyx7u2ndmvslwzilc3r7y)(magicast@0.3.4)(rollup@4.18.0)(vite@5.3.2(@types/node@18.19.39)(terser@5.31.1))(vue@3.4.31(typescript@5.5.2))
       nuxt:
         specifier: ^3.12.2
         version: 3.12.2(@opentelemetry/api@1.9.0)(@parcel/watcher@2.4.1)(@types/node@18.19.39)(encoding@0.1.13)(eslint@9.6.0)(ioredis@5.4.1)(magicast@0.3.4)(optionator@0.9.4)(rollup@4.18.0)(terser@5.31.1)(typescript@5.5.2)(vite@5.3.2(@types/node@18.19.39)(terser@5.31.1))(vue-tsc@2.0.24(typescript@5.5.2))
@@ -6153,7 +6153,7 @@ snapshots:
       - rollup
       - supports-color
 
-  '@nuxt/ui-pro@1.3.1(patch_hash=patezd2yivznqqwcx4el677eey)(magicast@0.3.4)(rollup@4.18.0)(vite@5.3.2(@types/node@18.19.39)(terser@5.31.1))(vue@3.4.31(typescript@5.5.2))':
+  '@nuxt/ui-pro@1.3.1(patch_hash=dnc5ndyx7u2ndmvslwzilc3r7y)(magicast@0.3.4)(rollup@4.18.0)(vite@5.3.2(@types/node@18.19.39)(terser@5.31.1))(vue@3.4.31(typescript@5.5.2))':
     dependencies:
       '@nuxt/ui': 2.17.0(magicast@0.3.4)(rollup@4.18.0)(vite@5.3.2(@types/node@18.19.39)(terser@5.31.1))(vue@3.4.31(typescript@5.5.2))
       '@vueuse/core': 10.11.0(vue@3.4.31(typescript@5.5.2))
