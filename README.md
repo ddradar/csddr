@@ -1,10 +1,10 @@
 # Consumer DDR
 
 [![release version](https://img.shields.io/github/v/release/ddradar/csddr "release version")](https://github.com/ddradar/csddr/releases)
-[![studio-nuxt-build](https://github.com/ddradar/csddr/actions/workflows/node.yml/badge.svg)](https://github.com/ddradar/csddr/actions/workflows/node.yml)
+[![Node.js CI/CD](https://github.com/ddradar/csddr/actions/workflows/node.yml/badge.svg)](https://github.com/ddradar/csddr/actions/workflows/node.yml)
 [![CodeFactor](https://www.codefactor.io/repository/github/ddradar/csddr/badge)](https://www.codefactor.io/repository/github/ddradar/csddr)
 [![License](https://img.shields.io/github/license/ddradar/csddr)](LICENSE)
-[![Nuxt Studio](https://img.shields.io/badge/Open%20in%20Nuxt%20Studio-18181B?&logo=nuxt.js&logoColor=3BB5EC)](https://nuxt.studio/@ddradar/csddr)
+[![Nuxt Studio](https://img.shields.io/badge/Open%20in%20Nuxt%20Studio-18181B?&logo=nuxt.js&logoColor=3BB5EC)](https://nuxt.studio/nogic1008/csddr)
 
 家庭用DDR作品の曲リストです。(powered by [@nuxt/content](https://content.nuxt.com/))
 
