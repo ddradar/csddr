@@ -225,7 +225,7 @@ features:
         description: MOVE YOUR BODY TO THE BEAT
         date: '2011-04-12'
         icon: i-simple-icons-xbox
-        to: '/xbox360-us/2010'
+        to: '/xbox360-us/ddr2010'
       - title: Dance Dance Revolution
         description: MOVE YOUR BODY TO THE BEAT
         date: '2010-11-16'
@@ -236,3 +236,8 @@ features:
         date: '2008-10-21'
         icon: i-simple-icons-xbox
         to: '/xbox360-us/universe3'
+      - title: DanceDanceRevolution UNIVERSE2
+        description: LAUNCH YOURSELF INTO THE DANCING UNIVERSE
+        date: '2007-12-04'
+        icon: i-simple-icons-xbox
+        to: '/xbox360-us/universe2'
