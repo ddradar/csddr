@@ -1,0 +1,87 @@
+diff --git a/modules/pro/runtime/components/content/ContentSearch.vue b/modules/pro/runtime/components/content/ContentSearch.vue
+index 98c8f6912bb50dbef72caa71f03eda74908dab54..87ba09a3155975cef6b90f69b65a79af847e0627 100644
+--- a/modules/pro/runtime/components/content/ContentSearch.vue
++++ b/modules/pro/runtime/components/content/ContentSearch.vue
+@@ -23,7 +23,7 @@
+ import type { PropType } from 'vue'
+ import { defu } from 'defu'
+ import { useBreakpoints, breakpointsTailwind } from '@vueuse/core'
+-import type { ParsedContent, NavItem, MarkdownNode } from '@nuxt/content/dist/runtime/types'
++import type { ParsedContent, NavItem, MarkdownNode } from '@nuxt/content'
+ import type { Group, Command } from '#ui/types'
+ import type { ContentSearchLink } from '#ui-pro/types'
+ import type { UseFuseOptions } from '@vueuse/integrations/useFuse'
+diff --git a/modules/pro/runtime/components/content/ContentSurround.vue b/modules/pro/runtime/components/content/ContentSurround.vue
+index 7f311ca64f76b3ee91fcb14ba5a2e1397362aff1..a2e63c24f55e00bd8b7b34959009e0df1ded6690 100644
+--- a/modules/pro/runtime/components/content/ContentSurround.vue
++++ b/modules/pro/runtime/components/content/ContentSurround.vue
+@@ -19,7 +19,7 @@
+ 
+ <script setup lang="ts">
+ import type { PropType } from 'vue'
+-import type { ParsedContent } from '@nuxt/content/dist/runtime/types'
++import type { ParsedContent } from '@nuxt/content'
+ 
+ const config = {
+   wrapper: 'grid gap-8 sm:grid-cols-2',
+diff --git a/modules/pro/runtime/components/content/ContentSurroundLink.vue b/modules/pro/runtime/components/content/ContentSurroundLink.vue
+index d0539dc61b28b732dec0de77829ce48c620b7a18..33c19946976d270d1ea702d432fdd2d8f6f8a9ba 100644
+--- a/modules/pro/runtime/components/content/ContentSurroundLink.vue
++++ b/modules/pro/runtime/components/content/ContentSurroundLink.vue
+@@ -16,7 +16,7 @@
+ 
+ <script setup lang="ts">
+ import type { PropType } from 'vue'
+-import type { ParsedContent } from '@nuxt/content/dist/runtime/types'
++import type { ParsedContent } from '@nuxt/content'
+ 
+ const config = {
+   wrapper: 'block px-6 py-8 border not-prose rounded-lg border-gray-200 dark:border-gray-800 hover:bg-gray-100/50 dark:hover:bg-gray-800/50 group',
+diff --git a/modules/pro/runtime/components/content/ContentToc.vue b/modules/pro/runtime/components/content/ContentToc.vue
+index 57733146e2959d7ab5e6c600b15d1b556617a9f3..67c1d2161f652a224ade36e37489e2d5351fb313 100644
+--- a/modules/pro/runtime/components/content/ContentToc.vue
++++ b/modules/pro/runtime/components/content/ContentToc.vue
+@@ -22,7 +22,7 @@
+ 
+ <script setup lang="ts">
+ import type { PropType } from 'vue'
+-import type { TocLink } from '@nuxt/content/dist/runtime/types'
++import type { TocLink } from '@nuxt/content'
+ 
+ const appConfig = useAppConfig()
+ 
+diff --git a/modules/pro/runtime/components/content/ContentTocLinks.vue b/modules/pro/runtime/components/content/ContentTocLinks.vue
+index 2c7710f514563e6c99f84280a38289670fa8c606..67cdb1d4f840a376725d5210117eeb22e296f207 100644
+--- a/modules/pro/runtime/components/content/ContentTocLinks.vue
++++ b/modules/pro/runtime/components/content/ContentTocLinks.vue
+@@ -16,7 +16,7 @@
+ 
+ <script setup lang="ts">
+ import type { PropType } from 'vue'
+-import type { TocLink } from '@nuxt/content/dist/runtime/types'
++import type { TocLink } from '@nuxt/content'
+ 
+ const config = {
+   wrapper: 'space-y-1',
+diff --git a/modules/pro/runtime/components/global/Callout.vue b/modules/pro/runtime/components/global/Callout.vue
+index 2104821d8fcdce94eaaccd4ba40f4ad4fd560a69..50a7c50aa44fbf7abf46dfe48bc995ba7a26f007 100644
+--- a/modules/pro/runtime/components/global/Callout.vue
++++ b/modules/pro/runtime/components/global/Callout.vue
+@@ -1,5 +1,5 @@
+ <template>
+-  <div :class="[ui.wrapper, to && ui.to]" v-bind="attrs" :style="{ '--color-light': colorLight, '--color-dark': colorDark }">
++  <div :class="[ui.wrapper, to && ui.to]" v-bind="attrs" :style="{ '--color-light': colorLight as string, '--color-dark': colorDark as string }">
+     <NuxtLink v-if="to" :to="to" :target="target" class="focus:outline-none" tabindex="-1">
+       <span class="absolute inset-0" aria-hidden="true" />
+     </NuxtLink>
+diff --git a/modules/pro/runtime/utils/content.ts b/modules/pro/runtime/utils/content.ts
+index 1caf1295fbcd3dc96c8204512aafbf0c6aca1494..84794a0d7a9524d0cf2e3ce54295222c1bdcfbf6 100644
+--- a/modules/pro/runtime/utils/content.ts
++++ b/modules/pro/runtime/utils/content.ts
+@@ -1,5 +1,5 @@
+ import { splitByCase, upperFirst } from 'scule'
+-import type { NavItem, ParsedContent } from '@nuxt/content/dist/runtime/types'
++import type { NavItem, ParsedContent } from '@nuxt/content'
+ import type { NavigationTree } from '#ui-pro/types'
+ 
+ export function mapContentNavigation (navigation: NavItem[], options?: { labelAttribute?: string }): NavigationTree[] {
