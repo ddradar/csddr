@@ -241,3 +241,8 @@ features:
         date: '2007-12-04'
         icon: i-simple-icons-xbox
         to: '/xbox360-us/universe2'
+      - title: Dance Dance Revolution
+        description: ''
+        date: '2002-05-24'
+        icon: i-simple-icons-windowsxp
+        to: '/other/windows'
