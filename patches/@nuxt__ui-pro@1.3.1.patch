@@ -1,0 +1,11 @@
+diff --git a/modules/pro/runtime/components/global/Callout.vue b/modules/pro/runtime/components/global/Callout.vue
+index 2104821d8fcdce94eaaccd4ba40f4ad4fd560a69..50a7c50aa44fbf7abf46dfe48bc995ba7a26f007 100644
+--- a/modules/pro/runtime/components/global/Callout.vue
++++ b/modules/pro/runtime/components/global/Callout.vue
+@@ -1,5 +1,5 @@
+ <template>
+-  <div :class="[ui.wrapper, to && ui.to]" v-bind="attrs" :style="{ '--color-light': colorLight, '--color-dark': colorDark }">
++  <div :class="[ui.wrapper, to && ui.to]" v-bind="attrs" :style="{ '--color-light': colorLight as string, '--color-dark': colorDark as string }">
+     <NuxtLink v-if="to" :to="to" :target="target" class="focus:outline-none" tabindex="-1">
+       <span class="absolute inset-0" aria-hidden="true" />
+     </NuxtLink>
