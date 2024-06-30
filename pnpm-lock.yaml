@@ -5,9 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 patchedDependencies:
-  '@nuxt/ui-pro@1.3.0':
-    hash: oxylyj3jmfxtpcvgmdupy5qosm
-    path: patches/@nuxt__ui-pro@1.3.0.patch
+  '@nuxt/ui-pro@1.3.1':
+    hash: patezd2yivznqqwcx4el677eey
+    path: patches/@nuxt__ui-pro@1.3.1.patch
 
 importers:
 
@@ -23,11 +23,11 @@ importers:
         specifier: ^1.1.107
         version: 1.1.107
       '@nuxt/content':
-        specifier: ^2.12.1
+        specifier: ^2.13.0
         version: 2.13.0(ioredis@5.4.1)(magicast@0.3.4)(nuxt@3.12.2(@opentelemetry/api@1.9.0)(@parcel/watcher@2.4.1)(@types/node@18.19.39)(encoding@0.1.13)(eslint@9.6.0)(ioredis@5.4.1)(magicast@0.3.4)(optionator@0.9.4)(rollup@4.18.0)(terser@5.31.1)(typescript@5.5.2)(vite@5.3.1(@types/node@18.19.39)(terser@5.31.1))(vue-tsc@2.0.24(typescript@5.5.2)))(rollup@4.18.0)(vue@3.4.30(typescript@5.5.2))
       '@nuxt/ui-pro':
-        specifier: ^1.3.0
-        version: 1.3.0(patch_hash=oxylyj3jmfxtpcvgmdupy5qosm)(magicast@0.3.4)(rollup@4.18.0)(vite@5.3.1(@types/node@18.19.39)(terser@5.31.1))(vue@3.4.30(typescript@5.5.2))
+        specifier: ^1.3.1
+        version: 1.3.1(patch_hash=patezd2yivznqqwcx4el677eey)(magicast@0.3.4)(rollup@4.18.0)(vite@5.3.1(@types/node@18.19.39)(terser@5.31.1))(vue@3.4.30(typescript@5.5.2))
       nuxt:
         specifier: ^3.12.2
         version: 3.12.2(@opentelemetry/api@1.9.0)(@parcel/watcher@2.4.1)(@types/node@18.19.39)(encoding@0.1.13)(eslint@9.6.0)(ioredis@5.4.1)(magicast@0.3.4)(optionator@0.9.4)(rollup@4.18.0)(terser@5.31.1)(typescript@5.5.2)(vite@5.3.1(@types/node@18.19.39)(terser@5.31.1))(vue-tsc@2.0.24(typescript@5.5.2))
@@ -57,7 +57,7 @@ importers:
         specifier: ^6.2.0
         version: 6.2.0
       prettier:
-        specifier: ^3.2.5
+        specifier: ^3.3.2
         version: 3.3.2
       vue-tsc:
         specifier: ^2.0.24
@@ -78,9 +78,6 @@ packages:
 
   '@antfu/utils@0.7.10':
     resolution: {integrity: sha512-+562v9k4aI80m1+VuMHehNJWLOFjBnXn3tdOitzD0il5b7smkSBal4+a3oKiQTbrwMmN/TBUMDvbdoWDehgOww==}
-
-  '@antfu/utils@0.7.8':
-    resolution: {integrity: sha512-rWQkqXRESdjXtc+7NRfK9lASQjpXJu1ayp7qi1d23zZorY+wBHVLHHoVcMsEnkqEBWTFqbztO7/QdJFzyEcLTg==}
 
   '@apidevtools/json-schema-ref-parser@11.6.4':
     resolution: {integrity: sha512-9K6xOqeevacvweLGik6LnZCb1fBtCOSIWQs8d096XGeqoLKC33UVMGz9+77Gw44KvbH4pKcQPWo4ZpxkXYj05w==}
@@ -800,8 +797,8 @@ packages:
     resolution: {integrity: sha512-KH6wxzsNys69daSO0xUv0LEBAfhwwjK1M+0Cdi1/vxmifCslMIY7lN11B4eywSfscbyVPAYJvANyc7XiVPImBQ==}
     hasBin: true
 
-  '@nuxt/ui-pro@1.3.0':
-    resolution: {integrity: sha512-dfsToWIduXuByxhdY8PTzq6J1oFyAnTFG6klxmSF9iORvhIOsE61uXD3Nuz0jq/i7eXZw9LUWiAlyE0nhGOd9Q==}
+  '@nuxt/ui-pro@1.3.1':
+    resolution: {integrity: sha512-96G0MWO5Bh4rFlQDfpYfn/tIeJUSgyzHET2i99RX8zatJAygRMLoehT9QBw8+sKebLXRzryAj2uNziPrbWDtjg==}
 
   '@nuxt/ui@2.17.0':
     resolution: {integrity: sha512-RWG4svAkDdr5hNDQw9RgHEY9N5CH4sKCtRvveRxXOGT0fWyI/JL+qxaZWO/hjyJMfTvK9/hdbaI5Lrh+L9XFOg==}
@@ -5198,8 +5195,6 @@ snapshots:
 
   '@antfu/utils@0.7.10': {}
 
-  '@antfu/utils@0.7.8': {}
-
   '@apidevtools/json-schema-ref-parser@11.6.4':
     dependencies:
       '@jsdevtools/ono': 7.1.3
@@ -5720,7 +5715,7 @@ snapshots:
   '@iconify/utils@2.1.25':
     dependencies:
       '@antfu/install-pkg': 0.1.1
-      '@antfu/utils': 0.7.8
+      '@antfu/utils': 0.7.10
       '@iconify/types': 2.0.0
       debug: 4.3.5
       kolorist: 1.8.0
@@ -6160,7 +6155,7 @@ snapshots:
       - rollup
       - supports-color
 
-  '@nuxt/ui-pro@1.3.0(patch_hash=oxylyj3jmfxtpcvgmdupy5qosm)(magicast@0.3.4)(rollup@4.18.0)(vite@5.3.1(@types/node@18.19.39)(terser@5.31.1))(vue@3.4.30(typescript@5.5.2))':
+  '@nuxt/ui-pro@1.3.1(patch_hash=patezd2yivznqqwcx4el677eey)(magicast@0.3.4)(rollup@4.18.0)(vite@5.3.1(@types/node@18.19.39)(terser@5.31.1))(vue@3.4.30(typescript@5.5.2))':
     dependencies:
       '@nuxt/ui': 2.17.0(magicast@0.3.4)(rollup@4.18.0)(vite@5.3.1(@types/node@18.19.39)(terser@5.31.1))(vue@3.4.30(typescript@5.5.2))
       '@vueuse/core': 10.11.0(vue@3.4.30(typescript@5.5.2))
@@ -9723,7 +9718,7 @@ snapshots:
     dependencies:
       '@iconify/collections': 1.0.433
       '@iconify/vue': 4.1.2(vue@3.4.30(typescript@5.5.2))
-      '@nuxt/devtools-kit': 1.3.6(magicast@0.3.4)(rollup@4.18.0)(vite@5.3.1(@types/node@18.19.39)(terser@5.31.1))
+      '@nuxt/devtools-kit': 1.3.7(magicast@0.3.4)(rollup@4.18.0)(vite@5.3.1(@types/node@18.19.39)(terser@5.31.1))
       '@nuxt/kit': 3.12.2(magicast@0.3.4)(rollup@4.18.0)
     transitivePeerDependencies:
       - magicast
