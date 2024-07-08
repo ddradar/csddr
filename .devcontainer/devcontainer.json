@@ -25,6 +25,13 @@
   "otherPortsAttributes": {
     "onAutoForward": "ignore"
   },
-  "postCreateCommand": ["corepack enable", "pnpm install"],
+  "features": {
+    "ghcr.io/devcontainers-contrib/features/corepack:1": {}
+  },
+  "postCreateCommand": [
+    "corepack install",
+    "corepack enable",
+    "pnpm install --frozen-lockfile"
+  ],
   "remoteUser": "node"
 }
