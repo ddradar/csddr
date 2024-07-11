@@ -4,6 +4,11 @@ navigation: false
 features:
   - title: DDR GRAND PRIX
     items:
+      - title: スペシャル楽曲パック feat.DANCERUSH STARDOM vol.1, vol.2
+        icon: i-simple-icons-konami
+        description: 先行プレー特典あり
+        date: '2024-07-04'
+        to: '/grand-prix#スペシャル楽曲パック-featdancerush-stardom-vol1'
       - title: グランプリ楽曲パック vol.25, vol.26
         icon: i-simple-icons-windows
         description: 先行プレー特典あり
@@ -39,16 +44,6 @@ features:
         description: 先行プレー特典あり
         date: '2023-07-06'
         to: '/grand-prix#bpl-s2楽曲パック-vol1'
-      - title: グランプリ楽曲パック vol.19, vol.20, vol.21, vol.22
-        icon: i-simple-icons-windows
-        description: 先行プレー特典あり
-        date: '2023-05-25'
-        to: '/grand-prix#グランプリ楽曲パック-vol19'
-      - title: BPL S2楽曲パック vol.0
-        icon: i-simple-icons-redbull
-        description: 先行プレー特典あり
-        date: '2023-05-25'
-        to: '/grand-prix#bpl-s2楽曲パック-vol0'
       - title: DanceDanceRevolution GRAND PRIX
         icon: i-simple-icons-windows
         description: DanceDanceRevolutionがPCで遊べる!
