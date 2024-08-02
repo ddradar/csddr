@@ -18,9 +18,6 @@ export default defineNuxtConfig({
       globals.forEach(c => (c.global = true))
     },
   },
-  ui: {
-    icons: ['flag', 'heroicons', 'simple-icons'],
-  },
   routeRules: {
     '/api/search.json': { prerender: true },
   },
