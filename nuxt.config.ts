@@ -6,8 +6,11 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxthq/studio',
     '@nuxt/eslint',
+    '@nuxt/image',
   ],
   nitro: { preset: 'github-pages' },
+  compatibilityDate: '2024-07-11',
+  future: { compatibilityVersion: 4 },
   hooks: {
     // Define `@nuxt/ui` components as global to use them in `.md` (feel free to add those you need)
     'components:extend': components => {
@@ -21,10 +24,6 @@ export default defineNuxtConfig({
   routeRules: {
     '/api/search.json': { prerender: true },
   },
-  devtools: {
-    enabled: true,
-  },
-  typescript: {
-    strict: false,
-  },
+  devtools: { enabled: true },
+  typescript: { strict: false },
 })
