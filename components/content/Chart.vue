@@ -10,8 +10,10 @@
 </template>
 
 <script lang="ts" setup>
+import type { BadgeColor } from '#ui/types'
+
 interface ChartProps {
-  colors?: Record<number, { name: string; color: string }>
+  colors?: Record<number, { name: string; color: BadgeColor }>
   levels: (number | '?' | '10+')[]
   charts?: number[]
   dp?: boolean

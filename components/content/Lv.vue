@@ -5,8 +5,10 @@
 </template>
 
 <script lang="ts" setup>
+import type { BadgeColor } from '#ui/types'
+
 interface LevelProps {
-  color?: string
+  color?: BadgeColor
   links: string[]
   lv: (string | number)[]
 }
