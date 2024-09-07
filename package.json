@@ -18,21 +18,21 @@
   "dependencies": {
     "@iconify-json/flag": "^1.1.54",
     "@iconify-json/heroicons": "^1.1.24",
-    "@iconify-json/simple-icons": "^1.1.113",
+    "@iconify-json/simple-icons": "^1.1.115",
     "@nuxt/content": "^2.13.2",
     "@nuxt/ui-pro": "^1.4.1",
     "nuxt": "^3.12.4"
   },
   "devDependencies": {
-    "@nuxt/devtools": "^1.3.9",
-    "@nuxt/eslint": "^0.5.0",
+    "@nuxt/devtools": "^1.4.1",
+    "@nuxt/eslint": "^0.5.4",
     "@nuxt/fonts": "^0.7.2",
     "@nuxthq/studio": "^2.0.3",
-    "@types/node": "^18.19.44",
-    "eslint": "^9.9.0",
+    "@types/node": "^18.19.47",
+    "eslint": "^9.9.1",
     "eslint-config-prettier": "^9.1.0",
     "npm-run-all2": "^6.2.2",
     "prettier": "^3.3.3",
-    "vue-tsc": "^2.0.29"
+    "vue-tsc": "^2.1.4"
   }
 }
