@@ -4,6 +4,11 @@ navigation: false
 features:
   - title: DDR GRAND PRIX
     items:
+      - title: スペシャル楽曲パック feat.東方Project vol.5, vol.6
+        icon: i-simple-icons-windows
+        description: 先行プレー特典あり
+        date: '2024-08-07'
+        to: '/grand-prix#スペシャル楽曲パック-feat東方project-vol5'
       - title: グランプリ楽曲パック vol.27, vol.28
         icon: i-simple-icons-windows
         description: 先行プレー特典あり
@@ -39,16 +44,6 @@ features:
         description: 先行プレー特典あり
         date: '2023-11-08'
         to: '/grand-prix#スペシャル楽曲パック-feat東方project-vol3'
-      - title: スペシャル楽曲パック feat.UNDERTALE
-        icon: i-simple-icons-undertale
-        description: 先行プレー特典あり
-        date: '2023-08-10'
-        to: '/grand-prix#スペシャル楽曲パック-featundertale'
-      - title: BPL S2楽曲パック vol.1, vol.2, vol.3, vol.4, vol.5, vol.6, vol.7, vol.8
-        icon: i-simple-icons-redbull
-        description: 先行プレー特典あり
-        date: '2023-07-06'
-        to: '/grand-prix#bpl-s2楽曲パック-vol1'
       - title: DanceDanceRevolution GRAND PRIX
         icon: i-simple-icons-windows
         description: DanceDanceRevolutionがPCで遊べる!
