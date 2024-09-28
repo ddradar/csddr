@@ -29,7 +29,7 @@
     "@nuxt/fonts": "^0.7.2",
     "@nuxt/image": "^1.7.0",
     "@nuxthq/studio": "^2.1.1",
-    "@types/node": "^18.19.47",
+    "@types/node": "^18.19.54",
     "eslint": "^9.9.1",
     "eslint-config-prettier": "^9.1.0",
     "npm-run-all2": "^6.2.2",
