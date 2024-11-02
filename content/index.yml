@@ -4,6 +4,11 @@ navigation: false
 features:
   - title: DDR GRAND PRIX
     items:
+      - title: グランプリ楽曲パック vol.29, vol.30
+        icon: i-simple-icons-windows
+        description: 先行プレー特典あり
+        date: '2024-08-07'
+        to: '/grand-prix#グランプリ楽曲パック-vol29'
       - title: スペシャル楽曲パック feat.東方Project vol.5, vol.6
         icon: i-simple-icons-windows
         description: 先行プレー特典あり
