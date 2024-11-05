@@ -11,13 +11,23 @@ updates:
       time: '08:00'
       timezone: Japan
     groups:
+      iconify:
+        patterns:
+          - '@iconify-json/*'
+        update-types: [minor, patch]
       lint-tools:
         dependency-type: development
         patterns:
-          - '@nuxt/eslint'
           - 'eslint*'
           - npm-run-all2
           - prettier
+        update-types: [minor, patch]
+      nuxt:
+        patterns:
+          - '@nuxt/*'
+          - '@nuxthq/*'
+          - 'nuxt'
+        update-types: [minor, patch]
     commit-message:
       prefix: fix
       prefix-development: chore
@@ -25,7 +35,7 @@ updates:
     labels:
       - 'dependabot :robot:'
     open-pull-requests-limit: 10
-    milestone: 6
+    milestone: 7
 
   # GitHub Actions (/.github/workflows/*.yml)
   - package-ecosystem: github-actions
@@ -35,8 +45,20 @@ updates:
       time: '08:00'
       timezone: Japan
     commit-message:
-      prefix: ci
-      include: scope
+      prefix: ci(gh-actions)
     labels:
       - 'dependabot :robot:'
-    milestone: 6
+    milestone: 7
+
+  # Devcontainer (/.devcontainer/*)
+  - package-ecosystem: devcontainers
+    directory: '/'
+    schedule:
+      interval: monthly
+      time: '08:00'
+      timezone: Japan
+    commit-message:
+      prefix: ci(devcontainer)
+    labels:
+      - 'dependabot :robot:'
+    milestone: 7
