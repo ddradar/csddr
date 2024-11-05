@@ -4,6 +4,11 @@ navigation: false
 features:
   - title: DDR GRAND PRIX
     items:
+      - title: グランプリ楽曲パック vol.31, vol.32
+        icon: i-simple-icons-windows
+        description: 先行プレー特典あり
+        date: '2024-09-26'
+        to: '/grand-prix#グランプリ楽曲パック-vol31'
       - title: BEMANI SELECTION楽曲パック vol.2
         icon: i-simple-icons-konami
         description: 先行プレー特典あり
