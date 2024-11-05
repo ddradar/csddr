@@ -11,13 +11,23 @@ updates:
       time: '08:00'
       timezone: Japan
     groups:
+      iconify:
+        patterns:
+          - '@iconify-json/*'
+        update-types: [minor, patch]
       lint-tools:
         dependency-type: development
         patterns:
-          - '@nuxt/eslint'
           - 'eslint*'
           - npm-run-all2
           - prettier
+        update-types: [minor, patch]
+      nuxt:
+        patterns:
+          - '@nuxt/*'
+          - '@nuxthq/*'
+          - 'nuxt'
+        update-types: [minor, patch]
     commit-message:
       prefix: fix
       prefix-development: chore
