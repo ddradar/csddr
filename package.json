@@ -20,8 +20,8 @@
     "@iconify-json/heroicons": "^1.2.1",
     "@iconify-json/simple-icons": "^1.2.11",
     "@nuxt/content": "^2.13.4",
-    "@nuxt/ui-pro": "^1.4.4",
-    "nuxt": "^3.14.0"
+    "@nuxt/ui-pro": "^1.5.0",
+    "nuxt": "^3.14.159"
   },
   "devDependencies": {
     "@nuxt/devtools": "^1.6.0",
