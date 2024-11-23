@@ -244,6 +244,18 @@ features:
         date: '2000-02-17'
         icon: i-simple-icons-sega
         to: '/dreamcast-jp/2nd'
+  - title: PlayStation シリーズ(海外版)
+    items:
+      - title: Dance Dance Revolution
+        description: MOVE YOUR BODY TO THE BEAT
+        date: '2010-11-16'
+        icon: i-simple-icons-playstation3
+        to: '/other/ps3'
+      - title: DanceDanceRevolution
+        description: ''
+        date: '2001-03-06'
+        icon: i-simple-icons-playstation
+        to: '/playstation-us/us'
   - title: その他(海外版)
     items:
       - title: Dance Dance Revolution
@@ -251,11 +263,6 @@ features:
         date: '2011-04-12'
         icon: i-simple-icons-xbox
         to: '/xbox360-us/ddr2010'
-      - title: Dance Dance Revolution
-        description: MOVE YOUR BODY TO THE BEAT
-        date: '2010-11-16'
-        icon: i-simple-icons-playstation3
-        to: '/other/ps3'
       - title: DanceDanceRevolution UNIVERSE3
         description: The Universe is YOUR Dance Floor!
         date: '2008-10-21'
