@@ -251,6 +251,11 @@ features:
         date: '2010-11-16'
         icon: i-simple-icons-playstation3
         to: '/other/ps3'
+      - title: Dance Dance Revolution KONAMIX
+        description: ''
+        date: '2002-04-23'
+        icon: i-simple-icons-playstation
+        to: '/playstation-us/konamix'
       - title: DanceDanceRevolution
         description: ''
         date: '2001-03-06'
