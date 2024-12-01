@@ -229,6 +229,11 @@ features:
         to: '/gameboy/1st'
   - title: その他(日本版)
     items:
+      - title: DanceDanceRevolution Classic Mini
+        description: あの大人気ゲーム機がまさかのMINIサイズに!?
+        date: '2024-09-27'
+        icon: i-simple-icons-arm
+        to: '/other/classic-mini'
       - title: Dance Dance Revolution CLUB VERSION Dreamcast Edition
         description: DanceDanceRevolutionがDreamcastに大ボリュームで登場!!
         date: '2000-04-27'
