@@ -232,6 +232,7 @@ features:
       - title: DanceDanceRevolution Classic Mini
         description: あの大人気ゲーム機がまさかのMINIサイズに!?
         date: '2024-09-27'
+        icon: i-simple-icons-arm
         to: '/other/classic-mini'
       - title: Dance Dance Revolution CLUB VERSION Dreamcast Edition
         description: DanceDanceRevolutionがDreamcastに大ボリュームで登場!!
