@@ -1,0 +1,28 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`/app/components/content/Chart.vue > { levels: [ '?', 5.5, 13 ], charts: [ 1, 2, 3 ] } renders correctly 1`] = `
+"<span class="inline-flex items-center font-medium rounded-md text-xs px-2 py-1 bg-yellow-500 dark:bg-yellow-400 text-white dark:text-gray-900" title="BASIC">?</span>
+<span class="inline-flex items-center font-medium rounded-md text-xs px-2 py-1 bg-red-500 dark:bg-red-400 text-white dark:text-gray-900" title="DIFFICULT">5.5</span>
+<span class="inline-flex items-center font-medium rounded-md text-xs px-2 py-1 bg-green-500 dark:bg-green-400 text-white dark:text-gray-900" title="EXPERT">13</span>"
+`;
+
+exports[`/app/components/content/Chart.vue > { levels: [ 1, 2, 3, 4, 5 ] } renders correctly 1`] = `
+"<span class="inline-flex items-center font-medium rounded-md text-xs px-2 py-1 bg-blue-500 dark:bg-blue-400 text-white dark:text-gray-900" title="BEGINNER">1</span>
+<span class="inline-flex items-center font-medium rounded-md text-xs px-2 py-1 bg-yellow-500 dark:bg-yellow-400 text-white dark:text-gray-900" title="BASIC">2</span>
+<span class="inline-flex items-center font-medium rounded-md text-xs px-2 py-1 bg-red-500 dark:bg-red-400 text-white dark:text-gray-900" title="DIFFICULT">3</span>
+<span class="inline-flex items-center font-medium rounded-md text-xs px-2 py-1 bg-green-500 dark:bg-green-400 text-white dark:text-gray-900" title="EXPERT">4</span>
+<span class="inline-flex items-center font-medium rounded-md text-xs px-2 py-1 bg-purple-500 dark:bg-purple-400 text-white dark:text-gray-900" title="CHALLENGE">5</span>"
+`;
+
+exports[`/app/components/content/Chart.vue > { levels: [ 3, 4, 5 ], colors: [ { name: 'NORMAL', color: 'yellow' }, { name: 'BASIC', color: 'yellow' }, { name: 'ANOTHER', color: 'red' }, { name: 'MANIAC', color: 'green' } ], charts: [ 1, 2, 3 ] } renders correctly 1`] = `
+"<span class="inline-flex items-center font-medium rounded-md text-xs px-2 py-1 bg-yellow-500 dark:bg-yellow-400 text-white dark:text-gray-900" title="BASIC">3</span>
+<span class="inline-flex items-center font-medium rounded-md text-xs px-2 py-1 bg-red-500 dark:bg-red-400 text-white dark:text-gray-900" title="ANOTHER">4</span>
+<span class="inline-flex items-center font-medium rounded-md text-xs px-2 py-1 bg-green-500 dark:bg-green-400 text-white dark:text-gray-900" title="MANIAC">5</span>"
+`;
+
+exports[`/app/components/content/Chart.vue > { levels: [ 3, 4, 5, 6 ], colors: [ { name: 'NORMAL', color: 'yellow' }, { name: 'BASIC', color: 'yellow' }, { name: 'ANOTHER', color: 'red' }, { name: 'MANIAC', color: 'green' } ] } renders correctly 1`] = `
+"<span class="inline-flex items-center font-medium rounded-md text-xs px-2 py-1 bg-yellow-500 dark:bg-yellow-400 text-white dark:text-gray-900" title="NORMAL">3</span>
+<span class="inline-flex items-center font-medium rounded-md text-xs px-2 py-1 bg-yellow-500 dark:bg-yellow-400 text-white dark:text-gray-900" title="BASIC">4</span>
+<span class="inline-flex items-center font-medium rounded-md text-xs px-2 py-1 bg-red-500 dark:bg-red-400 text-white dark:text-gray-900" title="ANOTHER">5</span>
+<span class="inline-flex items-center font-medium rounded-md text-xs px-2 py-1 bg-green-500 dark:bg-green-400 text-white dark:text-gray-900" title="MANIAC">6</span>"
+`;
