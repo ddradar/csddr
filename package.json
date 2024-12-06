@@ -24,9 +24,9 @@
     "nuxt": "^3.14.1592"
   },
   "devDependencies": {
-    "@nuxt/devtools": "^1.6.1",
+    "@nuxt/devtools": "^1.6.3",
     "@nuxt/eslint": "^0.7.2",
-    "@nuxt/fonts": "^0.10.2",
+    "@nuxt/fonts": "^0.10.3",
     "@nuxt/image": "^1.8.1",
     "@nuxthq/studio": "^2.2.1",
     "@types/node": "^18.19.67",
