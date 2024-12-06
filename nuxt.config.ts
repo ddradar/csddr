@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     '@nuxthq/studio',
     '@nuxt/eslint',
     '@nuxt/image',
+    '@nuxt/test-utils/module',
   ],
   nitro: { preset: 'github-pages' },
   compatibilityDate: '2024-07-11',
