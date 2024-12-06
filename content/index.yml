@@ -251,6 +251,11 @@ features:
         date: '2010-11-16'
         icon: i-simple-icons-playstation3
         to: '/other/ps3'
+      - title: DDRMAX Dance Dance Revolution
+        description: ''
+        date: '2002-10-29'
+        icon: i-simple-icons-playstation2
+        to: '/playstation2-us/max'
       - title: Dance Dance Revolution KONAMIX
         description: ''
         date: '2002-04-23'
