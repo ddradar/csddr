@@ -251,18 +251,23 @@ features:
         date: '2010-11-16'
         icon: i-simple-icons-playstation3
         to: '/other/ps3'
+      - title: DDRMAX Dance Dance Revolution
+        description: 'REVOLUTIONARY TO THE MAX!'
+        date: '2002-10-29'
+        icon: i-simple-icons-playstation2
+        to: '/playstation2-us/max'
       - title: Dance Dance Revolution KONAMIX
-        description: ''
+        description: 'THE REVOLUTION CONTINUES...'
         date: '2002-04-23'
         icon: i-simple-icons-playstation
         to: '/playstation-us/konamix'
       - title: Dance Dance Revolution Disney MIX
-        description: ''
+        description: 'DANCE ALONG AND SING THIS SONG'
         date: '2001-09-18'
         icon: i-simple-icons-playstation
         to: '/playstation-us/disney'
       - title: DanceDanceRevolution
-        description: ''
+        description: 'JOIN THE REVOLUTION...'
         date: '2001-03-06'
         icon: i-simple-icons-playstation
         to: '/playstation-us/us'
