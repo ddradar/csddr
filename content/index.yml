@@ -251,6 +251,11 @@ features:
         date: '2010-11-16'
         icon: i-simple-icons-playstation3
         to: '/other/ps3'
+      - title: DDRMAX2 Dance Dance Revolution
+        description: 'MAXIMUM MUSIC = MAXIMUM DANCING'
+        date: '2003-09-23'
+        icon: i-simple-icons-playstation2
+        to: '/playstation2-us/max2'
       - title: DDRMAX Dance Dance Revolution
         description: 'REVOLUTIONARY TO THE MAX!'
         date: '2002-10-29'
