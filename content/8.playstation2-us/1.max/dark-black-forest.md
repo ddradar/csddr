@@ -12,9 +12,9 @@
 
 |PlayStyle|Difficulty|Levels|Notes|Movie|
 |---------|----------|------|-----|-----|
-|SINGLE| :u-badge[BASIC]{color="yellow"} | :lv{ :links='["/playstation2-jp/max"]' :lv='[3]'} |130/34||
-|SINGLE| :u-badge[DIFFICULT]{color="red"} | :lv{ :links='["/playstation2-jp/max"]' :lv='[6]'} |176/37||
-|SINGLE| :u-badge[EXPERT]{color="green"} | :lv{ :links='["/playstation2-jp/max"]' :lv='[7]'} |214/50||
-|DOUBLE| :u-badge[BASIC]{color="yellow"} | :lv{ :links='["/playstation2-jp/max"]' :lv='[4]'} |130/12||
-|DOUBLE| :u-badge[DIFFICULT]{color="red"} | :lv{ :links='["/playstation2-jp/max"]' :lv='[5]'} |201/10||
-|DOUBLE| :u-badge[EXPERT]{color="green"} | :lv{ :links='["/playstation2-jp/max"]' :lv='[7]'} |226/21||
+|SINGLE| :u-badge[BASIC]{color="yellow"} | :lv{ :links='["/playstation2-us/max"]' :lv='[3]'} |130/34||
+|SINGLE| :u-badge[DIFFICULT]{color="red"} | :lv{ :links='["/playstation2-us/max"]' :lv='[6]'} |176/37||
+|SINGLE| :u-badge[EXPERT]{color="green"} | :lv{ :links='["/playstation2-us/max"]' :lv='[7]'} |214/50||
+|DOUBLE| :u-badge[BASIC]{color="yellow"} | :lv{ :links='["/playstation2-us/max"]' :lv='[4]'} |130/12||
+|DOUBLE| :u-badge[DIFFICULT]{color="red"} | :lv{ :links='["/playstation2-us/max"]' :lv='[5]'} |201/10||
+|DOUBLE| :u-badge[EXPERT]{color="green"} | :lv{ :links='["/playstation2-us/max"]' :lv='[7]'} |226/21||
