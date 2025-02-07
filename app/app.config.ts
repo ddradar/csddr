@@ -1,12 +1,29 @@
 export default defineAppConfig({
   ui: {
-    primary: 'green',
-    gray: 'slate',
+    colors: {
+      primary: 'green',
+      secondary: 'purple',
+    },
+  },
+  uiPro: {
+    footer: {
+      slots: {
+        root: 'border-t border-(--ui-border)',
+        left: 'text-sm text-(--ui-text-muted)',
+      },
+    },
   },
   seo: {
     siteName: 'Consumer DDR',
   },
   header: {
+    logo: {
+      alt: '',
+      light: '',
+      dark: '',
+    },
+    search: true,
+    colorMode: true,
     links: [
       {
         icon: 'i-simple-icons-github',
@@ -16,13 +33,8 @@ export default defineAppConfig({
       },
     ],
   },
-  toc: {
-    bottom: {
-      edit: 'https://github.com/ddradar/csddr/edit/main/content',
-    },
-  },
   footer: {
-    credits: 'Copyright © 2023-2024 DDRadar',
+    credits: 'Copyright © 2023-2025 DDRadar',
     colorMode: false,
     links: [
       {
@@ -36,15 +48,16 @@ export default defineAppConfig({
         to: 'https://content.nuxt.com',
         target: '_blank',
         'aria-label': 'Nuxt Content',
-        color: 'green',
-      },
-      {
-        icon: 'i-simple-icons-nuxtdotjs',
-        to: 'https://nuxt.studio',
-        target: '_blank',
-        'aria-label': 'Nuxt Studio',
-        color: 'blue',
+        color: 'primary',
       },
     ],
+  },
+  toc: {
+    title: 'Table of Contents',
+    bottom: {
+      title: 'Community',
+      edit: 'https://github.com/ddradar/csddr/edit/main/content',
+      links: [],
+    },
   },
 } as const)
