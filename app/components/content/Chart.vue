@@ -4,28 +4,29 @@
     :key="i"
     :title="colors[charts[i]].name"
     :color="colors[charts[i]].color"
+    v-bind="rest"
   >
     {{ level }}
   </UBadge>
 </template>
 
 <script lang="ts" setup>
-import type { BadgeColor } from '#ui/types'
+import type { BadgeProps } from '#ui/types'
 
-interface ChartProps {
-  colors?: Record<number, { name: string; color: BadgeColor }>
+interface ChartProps extends /* @vue-ignore */ Omit<BadgeProps, 'color'> {
+  colors?: Record<number, { name: string; color: BadgeProps['color'] }>
   levels: (number | '?' | '10+')[]
   charts?: number[]
   dp?: boolean
 }
 
-withDefaults(defineProps<ChartProps>(), {
+const props = withDefaults(defineProps<ChartProps>(), {
   colors: () => ({
-    0: { name: 'BEGINNER', color: 'blue' },
-    1: { name: 'BASIC', color: 'yellow' },
-    2: { name: 'DIFFICULT', color: 'red' },
-    3: { name: 'EXPERT', color: 'green' },
-    4: { name: 'CHALLENGE', color: 'purple' },
+    0: { name: 'BEGINNER', color: 'info' },
+    1: { name: 'BASIC', color: 'warning' },
+    2: { name: 'DIFFICULT', color: 'error' },
+    3: { name: 'EXPERT', color: 'primary' },
+    4: { name: 'CHALLENGE', color: 'secondary' },
   }),
   charts: p =>
     p.colors
@@ -35,5 +36,9 @@ withDefaults(defineProps<ChartProps>(), {
       : p.dp
         ? [0, 1, 2, 3, 4]
         : [1, 2, 3, 4],
+})
+const rest = computed(() => {
+  const { colors: _1, levels: _2, charts: _3, dp: _4, ...rest } = props
+  return rest
 })
 </script>
