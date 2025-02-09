@@ -1,4 +1,6 @@
-# DanceDanceRevolution X
+---
+title: DanceDanceRevolution X
+---
 
 |発売日|機種|リージョン|
 |------|----|---------|
