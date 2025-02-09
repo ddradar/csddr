@@ -23,6 +23,15 @@ export default defineContentConfig({
             })
           )
           .optional(),
+        colors: z
+          .record(
+            z.number(),
+            z.object({
+              name: z.string(),
+              color: z.string(),
+            })
+          )
+          .optional(),
       }),
     }),
   },
