@@ -2,6 +2,9 @@
 const { seo } = useAppConfig()
 
 const { data: navigation } = await useAsyncData('navigation', () =>
+  queryCollectionNavigation('docs').where('type', '=', 'series')
+)
+const { data: searchNavigation } = await useAsyncData('searchNavigation', () =>
   queryCollectionNavigation('docs')
 )
 const { data: files } = useLazyAsyncData(
@@ -39,7 +42,7 @@ provide('navigation', navigation)
     <AppFooter />
 
     <ClientOnly>
-      <LazyUContentSearch :files="files" :navigation="navigation" />
+      <LazyUContentSearch :files="files" :navigation="searchNavigation" />
     </ClientOnly>
   </div>
 </template>

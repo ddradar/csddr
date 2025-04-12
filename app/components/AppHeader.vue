@@ -17,12 +17,7 @@ const { header } = useAppConfig()
       </template>
     </UContentSearchButton>
 
-    <template #title>
-      <template v-if="header?.logo?.dark || header?.logo?.light">
-        <UColorModeImage v-bind="header?.logo" class="h-6 w-auto" />
-      </template>
-      <template v-else>Consumer DDR</template>
-    </template>
+    <template #title>Consumer DDR</template>
 
     <template #right>
       <UContentSearchButton class="lg:hidden" />
