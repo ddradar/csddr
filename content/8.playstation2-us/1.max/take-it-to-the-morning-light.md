@@ -1,4 +1,6 @@
-# Take It To The Morning Light (Extended Vocal) / Golden Gate
+---
+title: Take It To The Morning Light (Extended Vocal) / Golden Gate
+---
 
 |Artist|BPM|From|
 |------|---|----|
@@ -12,9 +14,9 @@
 
 |PlayStyle|Difficulty|Levels|Notes|Movie|
 |---------|----------|------|-----|-----|
-|SINGLE| :u-badge[BASIC]{color="yellow"} | :lv{ :links='["/playstation2-us/max"]' :lv='[5]'} |140/23||
-|SINGLE| :u-badge[DIFFICULT]{color="red"} | :lv{ :links='["/playstation2-us/max"]' :lv='[6]'} |188/15||
-|SINGLE| :u-badge[EXPERT]{color="green"} | :lv{ :links='["/playstation2-us/max"]' :lv='[7]'} |214/23||
-|DOUBLE| :u-badge[BASIC]{color="yellow"} | :lv{ :links='["/playstation2-us/max"]' :lv='[3]'} |127/13||
-|DOUBLE| :u-badge[DIFFICULT]{color="red"} | :lv{ :links='["/playstation2-us/max"]' :lv='[6]'} |182/6||
-|DOUBLE| :u-badge[EXPERT]{color="green"} | :lv{ :links='["/playstation2-us/max"]' :lv='[8]'} |210/18||
+|SINGLE| :u-badge[BASIC]{color="warning"} | :lv{ :links='["/playstation2-us/max"]' :lv='[5]'} |140/23||
+|SINGLE| :u-badge[DIFFICULT]{color="error"} | :lv{ :links='["/playstation2-us/max"]' :lv='[6]'} |188/15||
+|SINGLE| :u-badge[EXPERT]{color="primary"} | :lv{ :links='["/playstation2-us/max"]' :lv='[7]'} |214/23||
+|DOUBLE| :u-badge[BASIC]{color="warning"} | :lv{ :links='["/playstation2-us/max"]' :lv='[3]'} |127/13||
+|DOUBLE| :u-badge[DIFFICULT]{color="error"} | :lv{ :links='["/playstation2-us/max"]' :lv='[6]'} |182/6||
+|DOUBLE| :u-badge[EXPERT]{color="primary"} | :lv{ :links='["/playstation2-us/max"]' :lv='[8]'} |210/18||

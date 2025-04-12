@@ -1,4 +1,6 @@
-# I Like To Move It / Reel 2 Real
+---
+title: I Like To Move It / Reel 2 Real
+---
 
 |Artist|BPM|From|
 |------|---|----|
@@ -12,9 +14,9 @@
 
 |PlayStyle|Difficulty|Levels|Notes|Movie|
 |---------|----------|------|-----|-----|
-|SINGLE| :u-badge[BASIC]{color="yellow"} | :lv{ :links='["/playstation2-us/max"]' :lv='[4]'} |105/23||
-|SINGLE| :u-badge[DIFFICULT]{color="red"} | :lv{ :links='["/playstation2-us/max"]' :lv='[6]'} |163/26||
-|SINGLE| :u-badge[EXPERT]{color="green"} | :lv{ :links='["/playstation2-us/max"]' :lv='[7]'} |214/41||
-|DOUBLE| :u-badge[BASIC]{color="yellow"} | :lv{ :links='["/playstation2-us/max"]' :lv='[3]'} |124/4||
-|DOUBLE| :u-badge[DIFFICULT]{color="red"} | :lv{ :links='["/playstation2-us/max"]' :lv='[5]'} |171/7||
-|DOUBLE| :u-badge[EXPERT]{color="green"} | :lv{ :links='["/playstation2-us/max"]' :lv='[7]'} |245/12||
+|SINGLE| :u-badge[BASIC]{color="warning"} | :lv{ :links='["/playstation2-us/max"]' :lv='[4]'} |105/23||
+|SINGLE| :u-badge[DIFFICULT]{color="error"} | :lv{ :links='["/playstation2-us/max"]' :lv='[6]'} |163/26||
+|SINGLE| :u-badge[EXPERT]{color="primary"} | :lv{ :links='["/playstation2-us/max"]' :lv='[7]'} |214/41||
+|DOUBLE| :u-badge[BASIC]{color="warning"} | :lv{ :links='["/playstation2-us/max"]' :lv='[3]'} |124/4||
+|DOUBLE| :u-badge[DIFFICULT]{color="error"} | :lv{ :links='["/playstation2-us/max"]' :lv='[5]'} |171/7||
+|DOUBLE| :u-badge[EXPERT]{color="primary"} | :lv{ :links='["/playstation2-us/max"]' :lv='[7]'} |245/12||

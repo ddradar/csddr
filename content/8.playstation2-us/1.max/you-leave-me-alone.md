@@ -1,4 +1,6 @@
-# You Leave Me Alone / Venus
+---
+title: You Leave Me Alone / Venus
+---
 
 |Artist|BPM|From|
 |------|---|----|
@@ -12,9 +14,9 @@
 
 |PlayStyle|Difficulty|Levels|Notes|Movie|
 |---------|----------|------|-----|-----|
-|SINGLE| :u-badge[BASIC]{color="yellow"} | :lv{ :links='["/playstation2-us/max"]' :lv='[3]'} |133/30||
-|SINGLE| :u-badge[DIFFICULT]{color="red"} | :lv{ :links='["/playstation2-us/max"]' :lv='[6]'} |185/19||
-|SINGLE| :u-badge[EXPERT]{color="green"} | :lv{ :links='["/playstation2-us/max"]' :lv='[7]'} |217/41||
-|DOUBLE| :u-badge[BASIC]{color="yellow"} | :lv{ :links='["/playstation2-us/max"]' :lv='[4]'} |112/26||
-|DOUBLE| :u-badge[DIFFICULT]{color="red"} | :lv{ :links='["/playstation2-us/max"]' :lv='[6]'} |152/31||
-|DOUBLE| :u-badge[EXPERT]{color="green"} | :lv{ :links='["/playstation2-us/max"]' :lv='[8]'} |236/16||
+|SINGLE| :u-badge[BASIC]{color="warning"} | :lv{ :links='["/playstation2-us/max"]' :lv='[3]'} |133/30||
+|SINGLE| :u-badge[DIFFICULT]{color="error"} | :lv{ :links='["/playstation2-us/max"]' :lv='[6]'} |185/19||
+|SINGLE| :u-badge[EXPERT]{color="primary"} | :lv{ :links='["/playstation2-us/max"]' :lv='[7]'} |217/41||
+|DOUBLE| :u-badge[BASIC]{color="warning"} | :lv{ :links='["/playstation2-us/max"]' :lv='[4]'} |112/26||
+|DOUBLE| :u-badge[DIFFICULT]{color="error"} | :lv{ :links='["/playstation2-us/max"]' :lv='[6]'} |152/31||
+|DOUBLE| :u-badge[EXPERT]{color="primary"} | :lv{ :links='["/playstation2-us/max"]' :lv='[8]'} |236/16||

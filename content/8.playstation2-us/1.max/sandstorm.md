@@ -1,4 +1,6 @@
-# Sandstorm / Darude
+---
+title: Sandstorm / Darude
+---
 
 |Artist|BPM|From|
 |------|---|----|
@@ -12,9 +14,9 @@
 
 |PlayStyle|Difficulty|Levels|Notes|Movie|
 |---------|----------|------|-----|-----|
-|SINGLE| :u-badge[BASIC]{color="yellow"} | :lv{ :links='["/playstation2-us/max"]' :lv='[4]'} |103/25||
-|SINGLE| :u-badge[DIFFICULT]{color="red"} | :lv{ :links='["/playstation2-us/max"]' :lv='[6]'} |153/30||
-|SINGLE| :u-badge[EXPERT]{color="green"} | :lv{ :links='["/playstation2-us/max"]' :lv='[8]'} |216/36||
-|DOUBLE| :u-badge[BASIC]{color="yellow"} | :lv{ :links='["/playstation2-us/max"]' :lv='[4]'} |114/18||
-|DOUBLE| :u-badge[DIFFICULT]{color="red"} | :lv{ :links='["/playstation2-us/max"]' :lv='[6]'} |172/13||
-|DOUBLE| :u-badge[EXPERT]{color="green"} | :lv{ :links='["/playstation2-us/max"]' :lv='[8]'} |250/20||
+|SINGLE| :u-badge[BASIC]{color="warning"} | :lv{ :links='["/playstation2-us/max"]' :lv='[4]'} |103/25||
+|SINGLE| :u-badge[DIFFICULT]{color="error"} | :lv{ :links='["/playstation2-us/max"]' :lv='[6]'} |153/30||
+|SINGLE| :u-badge[EXPERT]{color="primary"} | :lv{ :links='["/playstation2-us/max"]' :lv='[8]'} |216/36||
+|DOUBLE| :u-badge[BASIC]{color="warning"} | :lv{ :links='["/playstation2-us/max"]' :lv='[4]'} |114/18||
+|DOUBLE| :u-badge[DIFFICULT]{color="error"} | :lv{ :links='["/playstation2-us/max"]' :lv='[6]'} |172/13||
+|DOUBLE| :u-badge[EXPERT]{color="primary"} | :lv{ :links='["/playstation2-us/max"]' :lv='[8]'} |250/20||
