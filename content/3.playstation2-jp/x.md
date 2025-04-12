@@ -1,6 +1,6 @@
 ---
 title: DanceDanceRevolution X
-type: series
+visibleAside: true
 ---
 
 |発売日|機種|リージョン|

@@ -13,7 +13,7 @@ export default defineContentConfig({
         exclude: ['index.md', '**/.*-template.md'],
       },
       schema: z.object({
-        type: z.string().optional(),
+        visibleAside: z.boolean().optional(),
         links: z
           .array(
             z.object({
