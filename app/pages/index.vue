@@ -1,41 +1,23 @@
 <script setup lang="ts">
 const { data: page } = await useAsyncData('index', () =>
-  queryContent('/').findOne()
+  queryCollection('landing').path('/').first()
 )
+if (!page.value) {
+  throw createError({
+    statusCode: 404,
+    statusMessage: 'Page not found',
+    fatal: true,
+  })
+}
 
 useSeoMeta({
-  title: page.value.title,
-  ogTitle: page.value.title,
-  description: page.value.description,
-  ogDescription: page.value.description,
+  title: page.value.seo.title,
+  ogTitle: page.value.seo.title,
+  description: page.value.seo.description,
+  ogDescription: page.value.seo.description,
 })
 </script>
 
 <template>
-  <div>
-    <ULandingSection
-      v-for="feature in page.features"
-      :key="feature.title"
-      :title="feature.title"
-      :ui="{
-        wrapper: 'py-8 sm:py-12',
-        container: 'gap-4 sm:gap-y-8',
-        title: 'text-2xl sm:text-3xl lg:text-4xl',
-      }"
-    >
-      <UPageGrid>
-        <ULandingCard
-          v-for="(item, index) of feature.items"
-          :key="index"
-          v-bind="item"
-        >
-          <template #description>
-            <!-- eslint-disable-next-line vue/no-v-html -->
-            <span v-html="item.description"></span>
-            <time class="block text-right text-gray-600">{{ item.date }}</time>
-          </template>
-        </ULandingCard>
-      </UPageGrid>
-    </ULandingSection>
-  </div>
+  <ContentRenderer v-if="page" :value="page" :prose="false" />
 </template>

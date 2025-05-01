@@ -1,15 +1,27 @@
 <script setup lang="ts">
-import { withoutTrailingSlash } from 'ufo'
+import type { ContentNavigationItem } from '@nuxt/content'
+import { findPageHeadline } from '#ui-pro/utils/content'
 
 definePageMeta({ layout: 'docs' })
 
 const route = useRoute()
 const { toc, seo } = useAppConfig()
+const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
 
-const { data: page } = await useAsyncData(route.path, () =>
-  queryContent(route.path).findOne()
+const { data } = await useAsyncData(
+  route.path,
+  () =>
+    Promise.all([
+      queryCollection('docs').path(route.path).first(),
+      queryCollectionItemSurroundings('docs', route.path, {
+        fields: ['title', 'description'],
+      }),
+    ]),
+  {
+    transform: ([page, surround]) => ({ page, surround }),
+  }
 )
-if (!page.value) {
+if (!data.value || !data.value.page) {
   throw createError({
     statusCode: 404,
     statusMessage: 'Page not found',
@@ -17,12 +29,8 @@ if (!page.value) {
   })
 }
 
-const { data: surround } = await useAsyncData(`${route.path}-surround`, () =>
-  queryContent()
-    .where({ _extension: 'md', navigation: { $ne: false } })
-    .only(['title', 'description', '_path'])
-    .findSurround(withoutTrailingSlash(route.path))
-)
+const page = computed(() => data.value?.page)
+const surround = computed(() => data.value?.surround)
 
 useSeoMeta({
   titleTemplate: `%s - ${seo?.siteName}`,
@@ -32,12 +40,14 @@ useSeoMeta({
   ogDescription: page.value.description,
 })
 
+const headline = computed(() => findPageHeadline(navigation.value, page.value))
+
 const links = computed(() =>
   [
     toc?.bottom?.edit && {
-      icon: 'i-heroicons-pencil-square',
+      icon: 'i-lucide-external-link',
       label: 'Edit this page',
-      to: `${toc.bottom.edit}/${page?.value?._file}`,
+      to: `${toc.bottom.edit}/${page?.value?.stem}.${page?.value?.extension}`,
       target: '_blank',
     },
   ].filter(Boolean)
@@ -45,24 +55,32 @@ const links = computed(() =>
 </script>
 
 <template>
-  <UPage>
-    <UPageBody prose>
-      <ContentRenderer v-if="page.body" :value="page" />
+  <UPage v-if="page">
+    <UPageHeader
+      :title="page.title"
+      :description="page.description"
+      :links="page.links"
+      :headline="headline"
+    />
 
-      <hr v-if="surround?.length" />
+    <UPageBody>
+      <ContentRenderer v-if="page" :value="page" />
+
+      <USeparator v-if="surround?.length" />
 
       <UContentSurround :surround="surround" />
     </UPageBody>
 
-    <template v-if="page.toc !== false" #right>
-      <UContentToc :links="page.body?.toc?.links">
+    <template v-if="page?.body?.toc?.links?.length" #right>
+      <UContentToc :title="toc?.title" :links="page.body?.toc?.links">
         <template v-if="toc?.bottom" #bottom>
           <div
             class="hidden lg:block space-y-6"
             :class="{ '!mt-6': page.body?.toc?.links?.length }"
           >
-            <UDivider v-if="page.body?.toc?.links?.length" type="dashed" />
-            <UPageLinks :links="links" />
+            <USeparator v-if="page.body?.toc?.links?.length" type="dashed" />
+
+            <UPageLinks :title="toc.bottom.title" :links="links" />
           </div>
         </template>
       </UContentToc>

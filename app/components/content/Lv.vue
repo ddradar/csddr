@@ -5,12 +5,12 @@
 </template>
 
 <script lang="ts" setup>
-import type { BadgeColor } from '#ui/types'
+import type { BadgeProps } from '#ui/types'
 
 interface LevelProps {
-  color?: BadgeColor
   links: string[]
   lv: (string | number)[]
+  color: BadgeProps['color']
 }
 
 defineProps<LevelProps>()

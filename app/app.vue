@@ -1,22 +1,22 @@
 <script setup lang="ts">
-import type { ParsedContent } from '@nuxt/content'
-
 const { seo } = useAppConfig()
 
 const { data: navigation } = await useAsyncData('navigation', () =>
-  fetchContentNavigation()
+  queryCollectionNavigation('docs').where('visibleAside', '=', true)
 )
-const { data: files } = useLazyFetch<ParsedContent[]>('/api/search.json', {
-  default: () => [],
-  server: false,
-})
+const { data: searchNavigation } = await useAsyncData('searchNavigation', () =>
+  queryCollectionNavigation('docs')
+)
+const { data: files } = useLazyAsyncData(
+  'search',
+  () => queryCollectionSearchSections('docs'),
+  { server: false }
+)
 
 useHead({
   meta: [{ name: 'viewport', content: 'width=device-width, initial-scale=1' }],
   link: [{ rel: 'icon', href: '/favicon.ico' }],
-  htmlAttrs: {
-    lang: 'en',
-  },
+  htmlAttrs: { lang: 'en' },
 })
 
 useSeoMeta({
@@ -29,6 +29,8 @@ provide('navigation', navigation)
 
 <template>
   <div>
+    <NuxtLoadingIndicator />
+
     <AppHeader />
 
     <UMain>
@@ -40,9 +42,7 @@ provide('navigation', navigation)
     <AppFooter />
 
     <ClientOnly>
-      <LazyUContentSearch :files="files" :navigation="navigation" />
+      <LazyUContentSearch :files="files" :navigation="searchNavigation" />
     </ClientOnly>
-
-    <UNotifications />
   </div>
 </template>

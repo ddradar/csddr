@@ -1,29 +1,20 @@
 export default defineNuxtConfig({
-  extends: ['@nuxt/ui-pro'],
   modules: [
+    '@nuxt/ui-pro',
     '@nuxt/content',
-    '@nuxt/ui',
-    '@nuxt/fonts',
-    '@nuxthq/studio',
     '@nuxt/eslint',
+    '@nuxt/fonts',
     '@nuxt/image',
   ],
+  devtools: { enabled: true },
+  css: ['~/assets/css/main.css'],
   nitro: { preset: 'github-pages' },
   compatibilityDate: '2024-07-11',
   future: { compatibilityVersion: 4 },
-  hooks: {
-    // Define `@nuxt/ui` components as global to use them in `.md` (feel free to add those you need)
-    'components:extend': components => {
-      const globals = components.filter(c =>
-        ['UButton', 'UIcon', 'UBadge'].includes(c.pascalName)
-      )
-
-      globals.forEach(c => (c.global = true))
+  content: {
+    preview: {
+      api: 'https://api.nuxt.studio',
     },
   },
-  routeRules: {
-    '/api/search.json': { prerender: true },
-  },
-  devtools: { enabled: true },
   typescript: { strict: false },
 })
