@@ -25,7 +25,6 @@ updates:
       nuxt:
         patterns:
           - '@nuxt/*'
-          - '@nuxthq/*'
           - 'nuxt'
         update-types: [minor, patch]
     commit-message:
@@ -35,7 +34,7 @@ updates:
     labels:
       - 'dependabot :robot:'
     open-pull-requests-limit: 10
-    milestone: 10
+    milestone: 11
 
   # GitHub Actions (/.github/workflows/*.yml)
   - package-ecosystem: github-actions
@@ -48,9 +47,9 @@ updates:
       prefix: ci(gh-actions)
     labels:
       - 'dependabot :robot:'
-    milestone: 10
+    milestone: 11
 
-  # Devcontainer (/.devcontainer/*)
+  # Devcontainer Features (/.devcontainer/*)
   - package-ecosystem: devcontainers
     directory: '/'
     schedule:
@@ -61,4 +60,4 @@ updates:
       prefix: ci(devcontainer)
     labels:
       - 'dependabot :robot:'
-    milestone: 10
+    milestone: 11
