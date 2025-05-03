@@ -4,13 +4,16 @@ on:
   push:
     branches:
       - 'main'
-    tags: 'v*'
+    tags:
+      - 'v*'
   pull_request:
 
 jobs:
   lint:
     name: Lint
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - name: Checkout
         uses: actions/checkout@v4.2.2
@@ -35,6 +38,8 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - name: Checkout
         uses: actions/checkout@v4.2.2
