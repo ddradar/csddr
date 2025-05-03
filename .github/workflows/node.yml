@@ -57,8 +57,6 @@ jobs:
       - name: Build
         run: pnpm build
         env:
-          NUXT_PUBLIC_STUDIO_API_URL: ${{ vars.NUXT_PUBLIC_STUDIO_API_URL }}
-          NUXT_PUBLIC_STUDIO_TOKENS: ${{ vars.NUXT_PUBLIC_STUDIO_TOKENS }}
           NUXT_UI_PRO_LICENSE: ${{ secrets.NUXT_UI_PRO_LICENSE }}
           NODE_OPTIONS: --max-old-space-size=8192
 
