@@ -1,3 +1,14 @@
+<script lang="ts" setup>
+interface UnlockAtProps {
+  date: string
+}
+
+const { date } = defineProps<UnlockAtProps>()
+
+const dateTime = computed(() => new Date(date))
+const unlocked = computed(() => dateTime.value <= new Date())
+</script>
+
 <template>
   <template v-if="unlocked">
     <del><slot /></del>
@@ -14,14 +25,3 @@
     </span>
   </template>
 </template>
-
-<script lang="ts" setup>
-interface UnlockAtProps {
-  date: string
-}
-
-const props = defineProps<UnlockAtProps>()
-
-const dateTime = computed(() => new Date(props.date))
-const unlocked = computed(() => dateTime.value <= new Date())
-</script>

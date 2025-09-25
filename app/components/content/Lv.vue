@@ -1,9 +1,3 @@
-<template>
-  <NuxtLink v-for="(l, i) in links" :key="l" :to="l">
-    <UBadge :color="color">{{ lv[i] ?? lv[0] }}</UBadge>
-  </NuxtLink>
-</template>
-
 <script lang="ts" setup>
 import type { BadgeProps } from '#ui/types'
 
@@ -13,5 +7,11 @@ interface LevelProps {
   color: BadgeProps['color']
 }
 
-defineProps<LevelProps>()
+const { links, lv, color } = defineProps<LevelProps>()
 </script>
+
+<template>
+  <NuxtLink v-for="(l, i) in links" :key="l" :to="l">
+    <UBadge :color="color">{{ lv[i] ?? lv[0] }}</UBadge>
+  </NuxtLink>
+</template>
