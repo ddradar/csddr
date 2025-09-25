@@ -11,7 +11,7 @@ useSeoMeta({
 })
 
 const { data: navigation } = await useAsyncData('navigation', () =>
-  queryCollectionNavigation('docs').where('type', '=', 'series')
+  queryCollectionNavigation('docs').where('visibleAside', '=', true)
 )
 const { data: searchNavigation } = await useAsyncData('searchNavigation', () =>
   queryCollectionNavigation('docs')

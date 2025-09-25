@@ -10,11 +10,15 @@ if (!page.value) {
   })
 }
 
+const title = page.value.seo?.title || page.value.title
+const description = page.value.seo?.description || page.value.description
+
 useSeoMeta({
-  title: page.value.seo.title,
-  ogTitle: page.value.seo.title,
-  description: page.value.seo.description,
-  ogDescription: page.value.seo.description,
+  titleTemplate: '',
+  title,
+  ogTitle: title,
+  description,
+  ogDescription: description,
 })
 </script>
 

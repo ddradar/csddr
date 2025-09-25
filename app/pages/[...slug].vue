@@ -8,36 +8,30 @@ const route = useRoute()
 const { toc, seo } = useAppConfig()
 const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
 
-const { data } = await useAsyncData(
-  route.path,
-  () =>
-    Promise.all([
-      queryCollection('docs').path(route.path).first(),
-      queryCollectionItemSurroundings('docs', route.path, {
-        fields: ['title', 'description'],
-      }),
-    ]),
-  {
-    transform: ([page, surround]) => ({ page, surround }),
-  }
+const { data: page } = await useAsyncData(route.path, () =>
+  queryCollection('docs').path(route.path).first()
 )
-if (!data.value || !data.value.page) {
+if (!page.value) {
   throw createError({
     statusCode: 404,
     statusMessage: 'Page not found',
     fatal: true,
   })
 }
+const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
+  return queryCollectionItemSurroundings('docs', route.path, {
+    fields: ['description'],
+  })
+})
 
-const page = computed(() => data.value?.page)
-const surround = computed(() => data.value?.surround)
-
+const title = page.value.seo?.title || page.value.title
+const description = page.value.seo?.description || page.value.description
 useSeoMeta({
   titleTemplate: `%s - ${seo?.siteName}`,
-  title: page.value.title,
-  ogTitle: `${page.value.title} - ${seo?.siteName}`,
-  description: page.value.description,
-  ogDescription: page.value.description,
+  title,
+  ogTitle: title,
+  description,
+  ogDescription: description,
 })
 
 const headline = computed(() =>
@@ -52,6 +46,7 @@ const links = computed(() =>
       to: `${toc.bottom.edit}/${page?.value?.stem}.${page?.value?.extension}`,
       target: '_blank',
     },
+    ...(toc?.bottom?.links || []),
   ].filter(Boolean)
 )
 </script>

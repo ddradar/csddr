@@ -4,11 +4,10 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   nitro: { preset: 'github-pages' },
   compatibilityDate: '2024-07-11',
-  future: { compatibilityVersion: 4 },
   content: {
     preview: {
       api: 'https://api.nuxt.studio',
     },
   },
-  typescript: { strict: false },
+  icon: { provider: 'iconify' },
 })

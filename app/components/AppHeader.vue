@@ -7,15 +7,8 @@ const { header } = useAppConfig()
 </script>
 
 <template>
-  <UHeader :ui="{ center: 'flex-1' }">
-    <UContentSearchButton label="Search..." variant="outline" class="w-full">
-      <template #trailing>
-        <div class="flex items-center gap-0.5 ms-auto">
-          <UKbd value="meta" />
-          <UKbd value="k" />
-        </div>
-      </template>
-    </UContentSearchButton>
+  <UHeader :ui="{ center: 'flex-1' }" to="/">
+    <UContentSearchButton :collapsed="false" class="w-full" />
 
     <template #title>Consumer DDR</template>
 
@@ -33,7 +26,7 @@ const { header } = useAppConfig()
       </template>
     </template>
 
-    <template #content>
+    <template #body>
       <UContentNavigation highlight :navigation="navigation" />
     </template>
   </UHeader>
