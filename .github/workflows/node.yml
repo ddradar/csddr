@@ -18,9 +18,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5.0.0
       - name: Install pnpm
-        uses: pnpm/action-setup@v4.1.0
+        uses: pnpm/action-setup@v4.2.0
       - name: Setup Node.js ${{ vars.NODE_VERSION }}
-        uses: actions/setup-node@v4.4.0
+        uses: actions/setup-node@v6.0.0
         with:
           node-version: ${{ vars.NODE_VERSION }}
           cache: pnpm
@@ -44,9 +44,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5.0.0
       - name: Install pnpm
-        uses: pnpm/action-setup@v4.1.0
+        uses: pnpm/action-setup@v4.2.0
       - name: Setup Node.js ${{ vars.NODE_VERSION }}
-        uses: actions/setup-node@v4.4.0
+        uses: actions/setup-node@v6.0.0
         with:
           node-version: ${{ vars.NODE_VERSION }}
           cache: pnpm
