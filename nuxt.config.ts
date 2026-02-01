@@ -1,14 +1,10 @@
 export default defineNuxtConfig({
+  compatibilityDate: '2024-07-11',
   modules: ['@nuxt/ui', '@nuxt/content', '@nuxt/eslint', '@nuxt/image'],
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   nitro: { preset: 'github-pages' },
-  compatibilityDate: '2024-07-11',
-  future: { compatibilityVersion: 4 },
-  content: {
-    preview: {
-      api: 'https://api.nuxt.studio',
-    },
+  icon: {
+    provider: 'iconify',
   },
-  typescript: { strict: false },
 })
