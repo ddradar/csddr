@@ -4,8 +4,6 @@ export default defineAppConfig({
       primary: 'green',
       secondary: 'purple',
     },
-  },
-  uiPro: {
     footer: {
       slots: {
         root: 'border-t border-(--ui-border)',
@@ -34,23 +32,7 @@ export default defineAppConfig({
     ],
   },
   footer: {
-    credits: 'Copyright © 2023-2025 DDRadar',
-    colorMode: false,
-    links: [
-      {
-        icon: 'i-simple-icons-nuxtdotjs',
-        to: 'https://nuxt.com',
-        target: '_blank',
-        'aria-label': 'Nuxt Website',
-      },
-      {
-        icon: 'i-simple-icons-nuxtdotjs',
-        to: 'https://content.nuxt.com',
-        target: '_blank',
-        'aria-label': 'Nuxt Content',
-        color: 'primary',
-      },
-    ],
+    credits: 'Copyright © 2023-2026 DDRadar',
   },
   toc: {
     title: 'Table of Contents',
