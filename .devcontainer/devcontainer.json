@@ -1,6 +1,6 @@
 {
-  "name": "Node.js 20 + Vue.js + Markdown",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "name": "Node.js 24 + Vue.js + Markdown",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
   "customizations": {
     "vscode": {
       "extensions": [
