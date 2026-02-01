@@ -33,7 +33,7 @@ useSeoMeta({
 })
 
 const headline = computed(() =>
-  findPageHeadline(navigation?.value, page.value.path)
+  findPageHeadline(navigation?.value, page.value?.path)
 )
 
 const links = computed(() =>
@@ -41,7 +41,7 @@ const links = computed(() =>
     {
       icon: 'i-lucide-external-link',
       label: 'Edit this page',
-      to: `${toc.bottom.edit}/${page.value.stem}.${page.value.extension}`,
+      to: `${toc.bottom.edit}/${page.value?.stem}.${page.value?.extension}`,
       target: '_blank',
     },
   ].filter(Boolean)
