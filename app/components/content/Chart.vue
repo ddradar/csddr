@@ -2,8 +2,8 @@
   <UBadge
     v-for="(level, i) in levels"
     :key="i"
-    :title="colors[charts[i]].name"
-    :color="colors[charts[i]].color"
+    :title="colors[charts[i]!]!.name"
+    :color="colors[charts[i]!]!.color"
     v-bind="rest"
   >
     {{ level }}
