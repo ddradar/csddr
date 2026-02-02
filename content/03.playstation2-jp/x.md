@@ -1,6 +1,7 @@
 ---
 title: DanceDanceRevolution X
 visibleAside: true
+navigation.title: X
 ---
 
 |発売日|機種|リージョン|
