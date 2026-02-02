@@ -3,16 +3,18 @@
   "description": "Consumer DDR Song List",
   "version": "2.1.0",
   "private": true,
-  "packageManager": "pnpm@10.15.0",
+  "packageManager": "pnpm@10.28.2",
   "scripts": {
     "prepare": "nuxi prepare",
     "dev": "nuxi dev",
     "build": "nuxi build",
     "preview": "nuxi preview",
-    "fix": "run-p \"lint:eslint --fix\" \"lint:prettier --write\"",
-    "lint": "run-p lint:*",
+    "fix": "pnpm run \"/^fix:.+/\"",
+    "fix:eslint": "eslint . --fix",
+    "fix:prettier": "prettier --ignore-path .gitignore -l --write \"**/*.{js,cjs,mjs,ts,vue,json,yml}\" --experimental-cli",
+    "lint": "pnpm run \"/^lint:.+/\"",
     "lint:eslint": "eslint .",
-    "lint:prettier": "prettier --ignore-path .gitignore -l \"**/*.{js,cjs,mjs,ts,vue,json,yml}\"",
+    "lint:prettier": "prettier --ignore-path .gitignore --check \"**/*.{js,cjs,mjs,ts,vue,json,yml}\" --experimental-cli",
     "lint:tsc": "nuxi typecheck"
   },
   "dependencies": {
@@ -22,24 +24,19 @@
     "@nuxt/content": "^3.11.0",
     "@nuxt/image": "^2.0.0",
     "@nuxt/ui": "^4.4.0",
-    "better-sqlite3": "^12.6.2",
     "nuxt": "^4.3.0",
     "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.13.0",
     "@types/node": "24.x",
-    "eslint": "^9.28.0",
-    "eslint-config-prettier": "^10.1.5",
-    "npm-run-all2": "^8.0.4",
-    "prettier": "^3.5.3",
+    "eslint": "^9.29.2",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.8.1",
     "typescript": "^5.9.3",
     "vue-tsc": "^3.2.4"
   },
   "pnpm": {
-    "onlyBuiltDependencies": [
-      "better-sqlite3"
-    ],
     "ignoredBuiltDependencies": [
       "vue-demi"
     ]
