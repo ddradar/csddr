@@ -2,43 +2,64 @@
   <UBadge
     v-for="(level, i) in levels"
     :key="i"
-    :title="colors[charts[i]!]!.name"
-    :color="colors[charts[i]!]!.color"
+    :title="filledColors[filledCharts[i]!].name"
+    :color="filledColors[filledCharts[i]!].color"
     v-bind="rest"
   >
     {{ level }}
   </UBadge>
 </template>
 
-<script lang="ts" setup>
+<script lang="ts" setup generic="T extends number = number">
 import type { BadgeProps } from '#ui/types'
 
-interface ChartProps extends /* @vue-ignore */ Omit<BadgeProps, 'color'> {
-  colors?: Record<number, { name: string; color: BadgeProps['color'] }>
+type ChartColor = { name: string; color: BadgeProps['color'] }
+
+interface ChartProps {
+  /**
+   * Chart name/color mappings.
+   * @default `BEGINNER` to `CHALLENGE`
+   */
+  colors?: Record<T, ChartColor>
+  /** Levels per chart. Should be less than or equal to the length of `charts`. */
   levels: (number | '?' | '10+')[]
-  charts?: number[]
+  /**
+   * Chart type per chart level.
+   * @default `[0, 1, 2, 3, 4]` if `dp` is `false`, `[1, 2, 3, 4]` if `dp` is `true`
+   */
+  charts?: T[]
+  /**
+   * Whether to skip the first chart (usually BEGINNER).
+   * @default false
+   */
   dp?: boolean
 }
 
-const props = withDefaults(defineProps<ChartProps>(), {
-  colors: () => ({
-    0: { name: 'BEGINNER', color: 'info' },
-    1: { name: 'BASIC', color: 'warning' },
-    2: { name: 'DIFFICULT', color: 'error' },
-    3: { name: 'EXPERT', color: 'primary' },
-    4: { name: 'CHALLENGE', color: 'secondary' },
-  }),
-  charts: p =>
-    p.colors
-      ? Object.entries(p.colors)
-          .filter(([_, d]) => !!d)
-          .map(([i]) => parseInt(i, 10))
-      : p.dp
-        ? [0, 1, 2, 3, 4]
-        : [1, 2, 3, 4],
-})
-const rest = computed(() => {
-  const { colors: _1, levels: _2, charts: _3, dp: _4, ...rest } = props
-  return rest
-})
+const {
+  colors = undefined,
+  levels,
+  charts = undefined,
+  dp,
+  ...rest
+} = defineProps<ChartProps & Omit<BadgeProps, 'color'>>()
+
+const filledColors = computed<Record<T, ChartColor>>(
+  () =>
+    colors ??
+    ({
+      0: { name: 'BEGINNER', color: 'info' },
+      1: { name: 'BASIC', color: 'warning' },
+      2: { name: 'DIFFICULT', color: 'error' },
+      3: { name: 'EXPERT', color: 'primary' },
+      4: { name: 'CHALLENGE', color: 'secondary' },
+    } as Record<T, ChartColor>)
+)
+const filledCharts = computed<T[]>(
+  () =>
+    charts ??
+    (Object.entries(filledColors.value)
+      .filter(([_, d]) => !!d)
+      .map(([i]) => parseInt(i, 10))
+      .slice(dp ? 1 : 0) as T[])
+)
 </script>
