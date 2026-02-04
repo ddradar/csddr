@@ -60,6 +60,7 @@ jobs:
           NODE_OPTIONS: --max-old-space-size=8192
 
       - name: Archive artifact
+        if: startsWith(github.ref, 'refs/tags/v')
         run: |
           echo "::group::Archive artifact"
           tar \
