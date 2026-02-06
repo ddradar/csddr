@@ -6,10 +6,7 @@ export default defineNuxtConfig({
     typedPages: true,
     typescriptPlugin: true,
   },
-  nitro: {
-    preset: 'github-pages',
-    compressPublicAssets: true,
-  },
+  nitro: { preset: 'github-pages' },
   vite: {
     vue: { features: { optionsAPI: false } },
   },
