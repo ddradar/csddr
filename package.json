@@ -29,7 +29,7 @@
     "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
-    "@nuxt/eslint": "^1.13.0",
+    "@nuxt/eslint": "^1.14.0",
     "@types/node": "24.x",
     "eslint": "^9.29.2",
     "eslint-config-prettier": "^10.1.8",
