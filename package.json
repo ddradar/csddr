@@ -12,12 +12,10 @@
     "fix:eslint": "eslint . --fix",
     "fix:oxfmt": "oxfmt",
     "fix:oxlint": "oxlint --type-aware . --fix --fix-suggestions",
-    "fix:prettier": "prettier --ignore-path .gitignore --write \"**/*.{js,cjs,mjs,ts,vue,json,yml}\" --experimental-cli",
     "lint": "pnpm run \"/^lint:.+/\"",
     "lint:eslint": "eslint .",
     "lint:oxfmt": "oxfmt --check",
     "lint:oxlint": "oxlint --type-aware .",
-    "lint:prettier": "prettier --ignore-path .gitignore --check \"**/*.{js,cjs,mjs,ts,vue,json,yml}\" --experimental-cli",
     "lint:tsc": "nuxi typecheck"
   },
   "dependencies": {
@@ -40,7 +38,6 @@
     "oxfmt": "^0.36.0",
     "oxlint": "^1.51.0",
     "oxlint-tsgolint": "^0.16.0",
-    "prettier": "^3.8.1",
     "typescript": "^5.9.3",
     "vue-tsc": "^3.2.5"
   },
