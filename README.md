@@ -46,8 +46,8 @@
 1. リポジトリをクローンし、新しいブランチを作成します。 / Clone this repository and create new branch.
 1. コードを追加、または変更します。 / Add or fix these codes.
 1. 変更箇所について、下記を確認します。 / Check your changes on:
-   - コードの記法ルールに準拠しているか / Compliants lint rules (`pnpm lint`)
-   - 正しく表示されるか / Views correctly (`pnpm dev`)
+   - コードの記法ルールに準拠しているか / Complies with lint rules (`pnpm lint`)
+   - 正しく表示されるか / Displays correctly (`pnpm dev`)
 1. プルリクエストを送ります。 / Create a pull request.
    - 変更内容について、タイトルと詳細にわかりやすく記述してください。 / Please write a title and detail to clarify your changes.
 
