@@ -1,5 +1,6 @@
 // @ts-check
-import withNuxt from './.nuxt/eslint.config.mjs'
-import prettier from 'eslint-config-prettier'
+import oxlint from 'eslint-plugin-oxlint'
 
-export default withNuxt(prettier)
+import withNuxt from './.nuxt/eslint.config.mjs'
+
+export default withNuxt(...oxlint.buildFromOxlintConfigFile('./.oxlintrc.json'))

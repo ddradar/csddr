@@ -1,9 +1,8 @@
 {
   "name": "csddr",
-  "description": "Consumer DDR Song List",
   "version": "2.1.0",
   "private": true,
-  "packageManager": "pnpm@10.28.2",
+  "description": "Consumer DDR Song List",
   "scripts": {
     "prepare": "nuxi prepare",
     "dev": "nuxi dev",
@@ -11,10 +10,12 @@
     "preview": "nuxi preview",
     "fix": "pnpm run \"/^fix:.+/\"",
     "fix:eslint": "eslint . --fix",
-    "fix:prettier": "prettier --ignore-path .gitignore -l --write \"**/*.{js,cjs,mjs,ts,vue,json,yml}\" --experimental-cli",
+    "fix:oxfmt": "oxfmt",
+    "fix:oxlint": "oxlint --type-aware . --fix --fix-suggestions",
     "lint": "pnpm run \"/^lint:.+/\"",
     "lint:eslint": "eslint .",
-    "lint:prettier": "prettier --ignore-path .gitignore --check \"**/*.{js,cjs,mjs,ts,vue,json,yml}\" --experimental-cli",
+    "lint:oxfmt": "oxfmt --check",
+    "lint:oxlint": "oxlint --type-aware .",
     "lint:tsc": "nuxi typecheck"
   },
   "dependencies": {
@@ -32,11 +33,14 @@
     "@nuxt/eslint": "^1.15.2",
     "@types/node": "24.x",
     "eslint": "^9.29.3",
-    "eslint-config-prettier": "^10.1.8",
-    "prettier": "^3.8.1",
+    "eslint-plugin-oxlint": "^1.51.0",
+    "oxfmt": "^0.36.0",
+    "oxlint": "^1.51.0",
+    "oxlint-tsgolint": "^0.16.0",
     "typescript": "^5.9.3",
     "vue-tsc": "^3.2.5"
   },
+  "packageManager": "pnpm@10.28.2",
   "pnpm": {
     "ignoredBuiltDependencies": [
       "vue-demi"

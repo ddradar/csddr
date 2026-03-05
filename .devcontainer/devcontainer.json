@@ -6,10 +6,10 @@
       "extensions": [
         "DavidAnson.vscode-markdownlint",
         "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode",
         "EditorConfig.EditorConfig",
         "Jacano.vscode-pnpm",
         "Nuxt.mdc",
+        "oxc.oxc-vscode",
         "yzhang.markdown-all-in-one",
         "Vue.volar"
       ]
