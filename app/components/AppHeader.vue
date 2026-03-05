@@ -10,7 +10,7 @@ const { header } = useAppConfig()
   <UHeader :ui="{ center: 'flex-1' }">
     <UContentSearchButton label="Search..." variant="outline" class="w-full">
       <template #trailing>
-        <div class="flex items-center gap-0.5 ms-auto">
+        <div class="ms-auto flex items-center gap-0.5">
           <UKbd value="meta" />
           <UKbd value="k" />
         </div>

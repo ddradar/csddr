@@ -1,9 +1,8 @@
 {
   "name": "csddr",
-  "description": "Consumer DDR Song List",
   "version": "2.1.0",
   "private": true,
-  "packageManager": "pnpm@10.28.2",
+  "description": "Consumer DDR Song List",
   "scripts": {
     "prepare": "nuxi prepare",
     "dev": "nuxi dev",
@@ -11,9 +10,11 @@
     "preview": "nuxi preview",
     "fix": "pnpm run \"/^fix:.+/\"",
     "fix:eslint": "eslint . --fix",
-    "fix:prettier": "prettier --ignore-path .gitignore -l --write \"**/*.{js,cjs,mjs,ts,vue,json,yml}\" --experimental-cli",
+    "fix:oxfmt": "oxfmt",
+    "fix:prettier": "prettier --ignore-path .gitignore --write \"**/*.{js,cjs,mjs,ts,vue,json,yml}\" --experimental-cli",
     "lint": "pnpm run \"/^lint:.+/\"",
     "lint:eslint": "eslint .",
+    "lint:oxfmt": "oxfmt --check",
     "lint:prettier": "prettier --ignore-path .gitignore --check \"**/*.{js,cjs,mjs,ts,vue,json,yml}\" --experimental-cli",
     "lint:tsc": "nuxi typecheck"
   },
@@ -40,6 +41,7 @@
     "typescript": "^5.9.3",
     "vue-tsc": "^3.2.5"
   },
+  "packageManager": "pnpm@10.28.2",
   "pnpm": {
     "ignoredBuiltDependencies": [
       "vue-demi"
