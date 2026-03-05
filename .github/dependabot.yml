@@ -32,6 +32,14 @@ updates:
           - '@nuxt/*'
           - 'nuxt'
         update-types: [minor, patch]
+      oxc:
+        patterns:
+          - '@oxc-*'
+          - 'oxc-*'
+          - oxfmt
+          - oxlint
+          - oxlint-tsgolint
+        update-types: [minor, patch]
     ignore:
       - dependency-name: '@types/node'
         update-types:
