@@ -13,7 +13,10 @@
 <script lang="ts" setup generic="T extends number = number">
 import type { BadgeProps } from '#ui/types'
 
-type ChartColor = { name: string; color: BadgeProps['color'] }
+interface ChartColor {
+  name: string
+  color: BadgeProps['color']
+}
 
 interface ChartProps {
   /**
