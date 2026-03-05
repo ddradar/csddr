@@ -29,10 +29,12 @@ jobs:
       - name: Install Dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: OxLint
+        run: pnpm lint:oxlint
       - name: ESLint
         run: pnpm lint:eslint
-      - name: Prettier
-        run: pnpm lint:prettier
+      - name: Oxfmt
+        run: pnpm lint:oxfmt
       - name: Type Check
         run: pnpm lint:tsc
 
