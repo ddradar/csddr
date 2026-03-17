@@ -32,11 +32,11 @@
   "devDependencies": {
     "@nuxt/eslint": "^1.15.2",
     "@types/node": "24.x",
-    "eslint": "^9.29.3",
-    "eslint-plugin-oxlint": "^1.51.0",
-    "oxfmt": "^0.36.0",
-    "oxlint": "^1.51.0",
-    "oxlint-tsgolint": "^0.16.0",
+    "eslint": "^10.0.3",
+    "eslint-plugin-oxlint": "^1.56.0",
+    "oxfmt": "^0.40.0",
+    "oxlint": "^1.56.0",
+    "oxlint-tsgolint": "^0.17.0",
     "typescript": "^5.9.3",
     "vue-tsc": "^3.2.6"
   },
