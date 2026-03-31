@@ -33,7 +33,7 @@
     "@nuxt/eslint": "^1.15.2",
     "@types/node": "24.x",
     "eslint": "^10.1.0",
-    "eslint-plugin-oxlint": "^1.56.0",
+    "eslint-plugin-oxlint": "^1.57.0",
     "oxfmt": "^0.42.0",
     "oxlint": "^1.57.0",
     "oxlint-tsgolint": "^0.17.4",
