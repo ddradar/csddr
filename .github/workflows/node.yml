@@ -20,6 +20,8 @@ jobs:
         uses: actions/checkout@v6.0.2
       - name: Install pnpm
         uses: pnpm/action-setup@v5.0.0
+        with: &setup-pnpm
+          cache: true
       - name: Setup Node.js
         uses: actions/setup-node@v6.3.0
         with: &setup-node
@@ -49,6 +51,7 @@ jobs:
         uses: actions/checkout@v6.0.2
       - name: Install pnpm
         uses: pnpm/action-setup@v5.0.0
+        with: *setup-pnpm
       - name: Setup Node.js
         uses: actions/setup-node@v6.3.0
         with: *setup-node
