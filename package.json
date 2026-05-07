@@ -24,9 +24,9 @@
     "@iconify-json/simple-icons": "^1.2.80",
     "@nuxt/content": "^3.13.0",
     "@nuxt/image": "^2.0.0",
-    "@nuxt/ui": "^4.6.1",
+    "@nuxt/ui": "^4.7.1",
     "@nuxtjs/mdc": "^0.21.1",
-    "nuxt": "^4.4.2",
+    "nuxt": "^4.4.4",
     "tailwindcss": "^4.2.4"
   },
   "devDependencies": {
