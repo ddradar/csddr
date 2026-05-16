@@ -32,8 +32,8 @@
   "devDependencies": {
     "@nuxt/eslint": "^1.15.2",
     "@types/node": "24.x",
-    "eslint": "^10.2.1",
-    "eslint-plugin-oxlint": "^1.62.0",
+    "eslint": "^10.3.0",
+    "eslint-plugin-oxlint": "^1.63.0",
     "oxfmt": "^0.50.0",
     "oxlint": "^1.65.0",
     "oxlint-tsgolint": "^0.22.1",
