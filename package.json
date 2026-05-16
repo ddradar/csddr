@@ -27,7 +27,7 @@
     "@nuxt/ui": "^4.7.1",
     "@nuxtjs/mdc": "^0.21.1",
     "nuxt": "^4.4.5",
-    "tailwindcss": "^4.2.4"
+    "tailwindcss": "^4.3.0"
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.15.2",
