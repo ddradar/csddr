@@ -22,11 +22,11 @@
     "@iconify-json/flag": "^1.2.12",
     "@iconify-json/lucide": "^1.2.118",
     "@iconify-json/simple-icons": "^1.2.91",
-    "@nuxt/content": "^3.15.0",
+    "@nuxt/content": "^3.15.2",
     "@nuxt/image": "^2.0.0",
     "@nuxt/ui": "^4.10.0",
     "@nuxtjs/mdc": "^0.22.2",
-    "nuxt": "^4.4.8",
+    "nuxt": "^4.5.0",
     "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
