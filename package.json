@@ -38,7 +38,7 @@
     "oxlint": "^1.77.0",
     "oxlint-tsgolint": "^0.25.0",
     "typescript": "^5.9.3",
-    "vue-tsc": "^3.3.10"
+    "vue-tsc": "^3.3.11"
   },
   "devEngines": {
     "packageManager": {
