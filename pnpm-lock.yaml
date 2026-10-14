@@ -49,8 +49,8 @@ importers:
         specifier: ^10.12.0
         version: 10.12.0(jiti@2.7.0)
       eslint-plugin-oxlint:
-        specifier: ^1.86.0
-        version: 1.86.0(oxlint@1.86.0(oxlint-tsgolint@7.0.2003))
+        specifier: ^1.87.0
+        version: 1.87.0(oxlint@1.86.0(oxlint-tsgolint@7.0.2003))
       oxfmt:
         specifier: ^0.71.0
         version: 0.71.0
@@ -3900,10 +3900,10 @@ packages:
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
 
-  eslint-plugin-oxlint@1.86.0:
-    resolution: {integrity: sha512-AYBDGxR/a8kJmUeZBZ98TF5+Kihg8LvWU4EEYoIv5nsEml18kXCD9b4RsqxLz4BiXD7PcrvrCO0/t16NmaFR1A==}
+  eslint-plugin-oxlint@1.87.0:
+    resolution: {integrity: sha512-dk2R9AHh8Mczl/2pg/zunpISTqRL/8jpctQqUREmQOKBdUidJegOizyG3t96GYatEDN5sj2UfXjYVDN4kBj/Hg==}
     peerDependencies:
-      oxlint: ~1.86.0
+      oxlint: ~1.87.0
 
   eslint-plugin-regexp@3.2.0:
     resolution: {integrity: sha512-4yq47CnLxyfHFKJEo5kvNaiJ0aDtBxSJWk4M2LiamplUXdWxdlzDYqImb/ZVCp+2BqkQjBAmw4Xc07Q8SXVDZg==}
@@ -4268,6 +4268,19 @@ packages:
 
   h3@2.0.1:
     resolution: {integrity: sha512-trUtZ82iNkfYi8An9M2kIM/SPlomO59pTRMt4zMBffuVPdwv5v1Bxs7uShxi7bOIAuZne6zq6TsD9hVYdNgo+A==}
+    engines: {node: '>=20.19.0'}
+    hasBin: true
+    peerDependencies:
+      crossws: ^0.4.12
+      ocache: '>=0.3.0'
+    peerDependenciesMeta:
+      crossws:
+        optional: true
+      ocache:
+        optional: true
+
+  h3@2.0.2:
+    resolution: {integrity: sha512-+/zvHSNldYpNURuUUG+y1KzdASUhNnSd1VpqxYFVY40ov3YzuBnCETaUQaT+QbKkoxhh9LRa6AEQdB14LALwdA==}
     engines: {node: '>=20.19.0'}
     hasBin: true
     peerDependencies:
@@ -10886,7 +10899,7 @@ snapshots:
       birpc: 4.2.0
       crossws: 0.4.15(srvx@0.11.22)
       destr: 2.0.5
-      h3: 2.0.1(crossws@0.4.15(srvx@0.11.22))
+      h3: 2.0.2(crossws@0.4.15(srvx@0.11.22))
       mrmime: 2.0.1
       nostics: 1.3.0
       pathe: 2.0.3
@@ -11203,7 +11216,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-oxlint@1.86.0(oxlint@1.86.0(oxlint-tsgolint@7.0.2003)):
+  eslint-plugin-oxlint@1.87.0(oxlint@1.86.0(oxlint-tsgolint@7.0.2003)):
     dependencies:
       jsonc-parser: 3.3.1
       oxlint: 1.86.0(oxlint-tsgolint@7.0.2003)
@@ -11664,7 +11677,7 @@ snapshots:
     optionalDependencies:
       crossws: 0.4.12(srvx@0.11.22)
 
-  h3@2.0.1(crossws@0.4.15(srvx@0.11.22)):
+  h3@2.0.2(crossws@0.4.15(srvx@0.11.22)):
     dependencies:
       rou3: 1.0.0
       srvx: 1.0.5
