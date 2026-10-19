@@ -46,8 +46,8 @@ importers:
         specifier: ^10.12.0
         version: 10.12.0(jiti@2.7.0)
       eslint-plugin-oxlint:
-        specifier: ^1.86.0
-        version: 1.86.0(oxlint@1.87.0(oxlint-tsgolint@7.0.2004))
+        specifier: ^1.87.0
+        version: 1.87.0(oxlint@1.87.0(oxlint-tsgolint@7.0.2004))
       oxfmt:
         specifier: ^0.72.0
         version: 0.72.0
@@ -3785,10 +3785,10 @@ packages:
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
 
-  eslint-plugin-oxlint@1.86.0:
-    resolution: {integrity: sha512-AYBDGxR/a8kJmUeZBZ98TF5+Kihg8LvWU4EEYoIv5nsEml18kXCD9b4RsqxLz4BiXD7PcrvrCO0/t16NmaFR1A==}
+  eslint-plugin-oxlint@1.87.0:
+    resolution: {integrity: sha512-dk2R9AHh8Mczl/2pg/zunpISTqRL/8jpctQqUREmQOKBdUidJegOizyG3t96GYatEDN5sj2UfXjYVDN4kBj/Hg==}
     peerDependencies:
-      oxlint: ~1.86.0
+      oxlint: ~1.87.0
 
   eslint-plugin-regexp@3.2.0:
     resolution: {integrity: sha512-4yq47CnLxyfHFKJEo5kvNaiJ0aDtBxSJWk4M2LiamplUXdWxdlzDYqImb/ZVCp+2BqkQjBAmw4Xc07Q8SXVDZg==}
@@ -5601,8 +5601,8 @@ packages:
     resolution: {integrity: sha512-+Owyggi9IxT1ePKGafcI87ubSmxol6smwJ+RAHDQlx9+9cPwFWDiKFFCPuWhr9ignlGpZ9vDQLw67N4dcTVFEA==}
     engines: {node: '>=20'}
 
-  qs@6.16.0:
-    resolution: {integrity: sha512-h6fhOIaRrID2CbEY2fqs+7t+UXZo+MLAnU5gRIq85uFtdiUPCdsApMlHhXogKVM4HM2DVbIjGNTTYH2OcmP1vA==}
+  qs@6.16.1:
+    resolution: {integrity: sha512-5Px6J7rfHBAGUhNQ3es4YzcOdBBw0SDcVtThJml4RdnKw4tKs2epA0kPZ+K8X+WiHktT93RHVcQ/3ym5aTCgtg==}
     engines: {node: '>=0.6'}
 
   quansync@0.2.11:
@@ -10874,7 +10874,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-oxlint@1.86.0(oxlint@1.87.0(oxlint-tsgolint@7.0.2004)):
+  eslint-plugin-oxlint@1.87.0(oxlint@1.87.0(oxlint-tsgolint@7.0.2004)):
     dependencies:
       jsonc-parser: 3.3.1
       oxlint: 1.87.0(oxlint-tsgolint@7.0.2004)
@@ -12387,7 +12387,7 @@ snapshots:
       micro-api-client: 3.3.0
       node-fetch: 3.3.2
       p-wait-for: 5.0.2
-      qs: 6.16.0
+      qs: 6.16.1
     optional: true
 
   nitropack@2.13.4(@netlify/blobs@9.1.2)(@parcel/watcher@2.5.6)(oxc-parser@0.139.0)(rolldown@1.2.4)(srvx@0.11.22)(vite@8.2.1(@types/node@24.19.1)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.50.0)(yaml@2.9.1)):
@@ -13269,7 +13269,7 @@ snapshots:
     dependencies:
       hookified: 2.2.0
 
-  qs@6.16.0:
+  qs@6.16.1:
     dependencies:
       es-define-property: 1.0.1
       side-channel: 1.1.1
