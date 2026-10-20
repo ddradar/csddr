@@ -22,7 +22,7 @@
     "@iconify-json/flag": "^1.2.13",
     "@iconify-json/lucide": "^1.2.145",
     "@iconify-json/simple-icons": "^1.2.100",
-    "@nuxt/content": "^3.16.1",
+    "@nuxt/content": "^3.16.2",
     "@nuxt/image": "^2.1.0",
     "@nuxt/ui": "^4.11.3",
     "@nuxtjs/mdc": "^0.23.2",
