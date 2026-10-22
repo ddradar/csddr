@@ -12,8 +12,8 @@ importers:
         specifier: ^1.2.13
         version: 1.2.13
       '@iconify-json/lucide':
-        specifier: ^1.2.145
-        version: 1.2.145
+        specifier: ^1.2.146
+        version: 1.2.146
       '@iconify-json/simple-icons':
         specifier: ^1.2.100
         version: 1.2.100
@@ -719,8 +719,8 @@ packages:
   '@iconify-json/flag@1.2.13':
     resolution: {integrity: sha512-uw2v+aoZpM9HTeQcqPKPEvNoEHp7fDtBMfqoFQ++1BCS7xSNhfhaWpQy8JQcm3l3e/ex6eJkLi6Mc0aGaSXbuQ==}
 
-  '@iconify-json/lucide@1.2.145':
-    resolution: {integrity: sha512-eYBZipY6g4bbJNyKBAEq1wBy3mJ2jKtI4O2K30ArO2lMpVDOEuQfu5aDZhiimj1+Q/mIrn3ZxnDeX1BbILxkwQ==}
+  '@iconify-json/lucide@1.2.146':
+    resolution: {integrity: sha512-T7qetsZJ682CCVT2X8C5uYEF6G/mtSoPl8F87wvu1LbfeVt4RxdP03NtaAs4RrrAXbWHBLjKrb8cmMtDucoI5g==}
 
   '@iconify-json/simple-icons@1.2.100':
     resolution: {integrity: sha512-536pN2RCEQyy5bYwzayrs4e9egr8cmtVcbdSHLaQl/ULUsihzn1eZ0+Hhn50zgz9cbEotiynKsKQSEjFJ7qKmw==}
@@ -4188,6 +4188,19 @@ packages:
       ocache:
         optional: true
 
+  h3@2.0.5:
+    resolution: {integrity: sha512-AkTYaK8XhWlAAOhzEz8I6FAkhFPMrDYVq/PIV3GvJxtKiFmVyVDAAdGuNGMTHRrI3A6up3s1bND/dDPlQHlx6w==}
+    engines: {node: '>=20.19.0'}
+    hasBin: true
+    peerDependencies:
+      crossws: ^0.4.12
+      ocache: '>=0.3.0'
+    peerDependenciesMeta:
+      crossws:
+        optional: true
+      ocache:
+        optional: true
+
   has-property-descriptors@1.0.2:
     resolution: {integrity: sha512-55JNKuIW+vq4Ke1BjOTjM2YctQIvCT7GFzHwmfZPGo5wnrgkid0YQtnAleFSqumZm4az3n2BS+erby5ipJdgrg==}
 
@@ -6011,6 +6024,11 @@ packages:
     engines: {node: '>=20.16.0'}
     hasBin: true
 
+  srvx@1.0.6:
+    resolution: {integrity: sha512-QeTKgAhk8OSsfeq60bl3wuVs9PmBftzmk7owBInA/F1YQne+TRw0UcPymNpURldAmx8hfmM2PNNGH/zgo3GpLA==}
+    engines: {node: '>=20.16.0'}
+    hasBin: true
+
   stable-hash-x@0.2.0:
     resolution: {integrity: sha512-o3yWv49B/o4QZk5ZcsALc6t0+eCelPc44zZsLtCQnZPDwFpDYSWcDnrv2TtMmMbQ7uKo3J0HTURCqckw23czNQ==}
     engines: {node: '>=12.0.0'}
@@ -7467,7 +7485,7 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/lucide@1.2.145':
+  '@iconify-json/lucide@1.2.146':
     dependencies:
       '@iconify/types': 2.0.0
 
@@ -10646,7 +10664,7 @@ snapshots:
       birpc: 4.2.0
       crossws: 0.4.15(srvx@0.11.22)
       destr: 2.0.5
-      h3: 2.0.3(crossws@0.4.15(srvx@0.11.22))
+      h3: 2.0.5(crossws@0.4.15(srvx@0.11.22))
       mrmime: 2.0.1
       nostics: 1.3.0
       pathe: 2.0.3
@@ -11421,6 +11439,14 @@ snapshots:
       srvx: 1.0.5
     optionalDependencies:
       crossws: 0.4.15(srvx@0.11.22)
+
+  h3@2.0.5(crossws@0.4.15(srvx@0.11.22)):
+    dependencies:
+      rou3: 1.0.0
+      srvx: 1.0.6
+    optionalDependencies:
+      crossws: 0.4.15(srvx@0.11.22)
+    optional: true
 
   has-property-descriptors@1.0.2:
     dependencies:
@@ -13922,6 +13948,9 @@ snapshots:
     optional: true
 
   srvx@1.0.5: {}
+
+  srvx@1.0.6:
+    optional: true
 
   stable-hash-x@0.2.0: {}
 
