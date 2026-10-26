@@ -37,7 +37,7 @@
     "oxfmt": "^0.72.0",
     "oxlint": "^1.87.0",
     "oxlint-tsgolint": "^7.0.2004",
-    "typescript": "^5.9.3",
+    "typescript": "^7.0.2",
     "vue-tsc": "^3.3.13"
   },
   "devEngines": {
