@@ -20,10 +20,10 @@
   },
   "dependencies": {
     "@iconify-json/flag": "^1.2.13",
-    "@iconify-json/lucide": "^1.2.146",
-    "@iconify-json/simple-icons": "^1.2.100",
+    "@iconify-json/lucide": "^1.2.147",
+    "@iconify-json/simple-icons": "^1.2.101",
     "@nuxt/content": "^3.16.2",
-    "@nuxt/image": "^2.1.0",
+    "@nuxt/image": "^2.2.0",
     "@nuxt/ui": "^4.12.0",
     "@nuxtjs/mdc": "^0.23.2",
     "nuxt": "^4.6.2",
@@ -41,21 +41,11 @@
     "vue-tsc": "^3.3.13"
   },
   "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "^10.28.0",
-      "onFail": "warn"
-    },
     "runtime": {
       "name": "node",
       "version": "24.x",
       "onFail": "warn"
     }
   },
-  "packageManager": "pnpm@10.28.2",
-  "pnpm": {
-    "ignoredBuiltDependencies": [
-      "vue-demi"
-    ]
-  }
+  "packageManager": "pnpm@11.28.8"
 }
