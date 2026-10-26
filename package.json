@@ -24,7 +24,7 @@
     "@iconify-json/simple-icons": "^1.2.100",
     "@nuxt/content": "^3.16.2",
     "@nuxt/image": "^2.1.0",
-    "@nuxt/ui": "^4.11.3",
+    "@nuxt/ui": "^4.12.0",
     "@nuxtjs/mdc": "^0.23.2",
     "nuxt": "^4.6.2",
     "tailwindcss": "^4.3.3"
@@ -33,11 +33,11 @@
     "@nuxt/eslint": "^1.17.0",
     "@types/node": "24.x",
     "eslint": "^10.13.0",
-    "eslint-plugin-oxlint": "^1.88.0",
-    "oxfmt": "^0.72.0",
-    "oxlint": "^1.87.0",
-    "oxlint-tsgolint": "^7.0.2004",
-    "typescript": "^5.9.3",
+    "eslint-plugin-oxlint": "^1.89.0",
+    "oxfmt": "^0.74.0",
+    "oxlint": "^1.89.0",
+    "oxlint-tsgolint": "^7.0.2005",
+    "typescript": "^6.0.3",
     "vue-tsc": "^3.3.13"
   },
   "devEngines": {
