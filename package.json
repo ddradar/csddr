@@ -3,6 +3,7 @@
   "version": "2.1.0",
   "private": true,
   "description": "Consumer DDR Song List",
+  "type": "module",
   "scripts": {
     "prepare": "nuxi prepare",
     "dev": "nuxi dev",
