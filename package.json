@@ -35,9 +35,9 @@
     "@types/node": "24.x",
     "eslint": "^10.15.0",
     "eslint-plugin-oxlint": "^1.94.0",
-    "oxfmt": "^0.78.0",
-    "oxlint": "^1.93.0",
-    "oxlint-tsgolint": "^7.0.2007",
+    "oxfmt": "^0.79.0",
+    "oxlint": "^1.94.0",
+    "oxlint-tsgolint": "^7.0.2008",
     "typescript": "^6.0.3",
     "vue-tsc": "^3.3.14"
   },
